@@ -31,24 +31,23 @@
 ;; Utilities to aid the edit-load cycle of program writing.
 ;; Calls: (e) or (e a) ...
 ;; The argument is the first character of filename.
-;; [Improve: take cursor to given line.]
-;; Note: some Lisp's use "system" insted of "execute".
+;; [Improve: take cursor to a given line.]
 
-(defmacro e (&optional (name 'user::p)) 
+(defmacro e (&optional (name 'user::p))
  `(progn
     (case (quote ,name)
-      ('user::a (execute "/usr/bin/nano" "agents.lsp"))
-      ('user::d (execute "/usr/bin/nano" "log.dat"))
-      ('user::e (execute "/usr/bin/nano" "evaluate.lsp"))
-      ('user::g (execute "/usr/bin/nano" "genetic.lsp"))
-      ('user::i (execute "/usr/bin/nano" "interface.lsp"))
-      ('user::m (execute "/usr/bin/nano" "main.lsp"))
-      ('user::o (execute "/usr/bin/nano" "output.lsp"))
-      ('user::p (execute "/usr/bin/nano" "parameters.lsp"))
-      ('user::r (execute "/usr/bin/nano" "readme.txt"))
-      ('user::t (execute "/usr/bin/nano" "log.txt"))
-      ('user::u (execute "/usr/bin/nano" "utilities.lsp"))
-      ('user::w (execute "/usr/bin/nano" "world.lsp"))
+      ('user::a (run-shell-command "nano agents.lsp"))
+      ('user::d (run-shell-command "nano log.dat"))
+      ('user::e (run-shell-command "nano evaluate.lsp"))
+      ('user::g (run-shell-command "nano genetic.lsp"))
+      ('user::i (run-shell-command "nano interface.lsp"))
+      ('user::m (run-shell-command "nano main.lsp"))
+      ('user::o (run-shell-command "nano output.lsp"))
+      ('user::p (run-shell-command "nano parameters.lsp"))
+      ('user::r (run-shell-command "nano readme.txt"))
+      ('user::t (run-shell-command "nano log.txt"))
+      ('user::u (run-shell-command "nano utilities.lsp"))
+      ('user::w (run-shell-command "nano world.lsp"))
     )
     (l)
   )
