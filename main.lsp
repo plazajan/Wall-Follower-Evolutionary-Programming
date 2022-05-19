@@ -32,7 +32,7 @@
 (format t
 "
 
-  To change the evolutionary process parameters, edit parameters.lsp - type: (e)
+  To change evolutionary process parameters, edit parameters.lsp - type: (e p)
   To start the evolution, type: (start)
 
 "
