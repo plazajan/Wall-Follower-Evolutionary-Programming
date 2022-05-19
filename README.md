@@ -9,7 +9,6 @@
 
 -------------------------------------------------------------------------------
 
-
 Copy this entire directory to your account.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -43,26 +42,6 @@ and performs a step in one of the 4 cardinal directions.
 Goal: evolve an agent which finds a wall and continues moving
 following the wall.
 
--------------------------------------------------------------------------------
-
-Notice that different evaluation functions may disagree on what agent
-desrves the score of 100, so the meaning of "perfect" is relative.
-An agent that scores 100 in evaluate-c in one (simple) grid world
-may score much lower in another (more complex) grid world.
-
--------------------------------------------------------------------------------
-
-Below, we list possible configurations of agent's immediate surroundings.
-The x in the center represents an agent, # represents an obstacle/wall, 
-and . represents empty space. Every diagram, except the first one,
-represents 4 configurations which could be obtained through rotations.
-
-   ...   #..   ...   #..   ...   #..   ...   #..   ...   #..
-   .x.   .x.   #x.   #x.   #x.   #x.   #x.   #x.   #x.   #x.
-   ...   ...   ...   ...   #..   #..   ##.   ##.   ###   ###
-
-Only these configurations are allowed in grid worlds in our experiment.
-The grid world in file world1.dat contains all of these 37 configurations.
-This makes it a particularly difficult test for an agent.
+More informtion in README.md and in messages the program prints while runing.
 
 ===============================================================================
