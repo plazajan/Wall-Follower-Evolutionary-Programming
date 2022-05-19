@@ -1,0 +1,23 @@
+;; Evolutionary programming in LISP
+;; educational materials inspired by Nils. J. Nilsson
+;; March 16, 2000
+;; https://github.com/plazajan
+;; (c) 2000 Jan A. Plaza
+;; Use under Creative Commons Attribution Share-Alike International License 4.0
+
+===============================================================================
+
+To do (Developer's Notes):
+
+1. In *world*, mark places next to the wall by natural numbers.
+   Have an array indexed by these numbers, initialized to 0's.
+   Improve evaluate-c, so that whenever it visits a cell next to the wall
+   it writes a 1 to the array. After a complete tour, sum these 1's.
+
+2. Generate agents in cnf, simplified and not simplified.
+
+3. Replace *came-from* by *direction* (the opposite).
+
+4. *population-size* = 1 does not work. Correct this bug.
+
+===============================================================================

@@ -1,0 +1,6284 @@
+
+("2002-10-04 13:33:06" 12 100
+ (COND ((AND (AND *E* *E*) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND (OR (NOT *W*) (AND (OR (NOT *SW*) *NE*) (AND (NOT *SW*) *NE*)))
+    (AND *S* (OR (NOT *W*) *S*)))
+   #\s)
+  ((AND (OR *S* (NOT *NW*)) (OR (NOT *NW*) (NOT *N*))) #\w) (T #\n)))
+
+("2002-10-04 13:33:06" 13 100
+ (COND ((AND (AND *E* *E*) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND
+    (OR (NOT *W*) (AND (OR (NOT *SW*) *NE*) (AND (AND (NOT *SW*) *NE*) *NE*)))
+    (AND *S* (OR (NOT *W*) *S*)))
+   #\s)
+  ((AND (OR *S* (NOT *NW*)) (OR (NOT *NW*) (NOT *N*))) #\w) (T #\n)))
+
+("2002-11-21 15:12:21" 8 100
+ (COND
+  ((OR (AND *E* (NOT *SE*))
+    (AND (NOT *S*)
+     (AND (AND (AND *E* (NOT *S*)) (OR (OR (NOT *S*) (NOT *SE*)) *S*))
+      (OR (NOT *SW*) *N*))))
+   #\e)
+  ((AND *S*
+    (AND *S*
+     (AND (OR (NOT *S*) (OR (AND (NOT *NW*) (NOT *S*)) (OR *NE* (NOT *W*))))
+      (AND (OR (NOT *SW*) (NOT *W*)) *SE*))))
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*)) (NOT *N*)) #\w) (T #\n)))
+
+("2002-11-21 15:12:21" 9 100
+ (COND
+  ((OR (AND *E* (NOT *SE*))
+    (AND (NOT *S*)
+     (AND (AND (AND *E* (NOT *S*)) (OR (OR (NOT *S*) (NOT *SE*)) *S*))
+      (OR (NOT *SW*) *N*))))
+   #\e)
+  ((AND *S* (OR (NOT *W*) (AND (OR (NOT *S*) *NE*) (AND (NOT *SW*) *NE*))))
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*)) (NOT *N*)) #\w) (T #\n)))
+
+("2002-11-21 15:12:21" 10 100
+ (COND
+  ((OR (AND *E* (NOT *SE*))
+    (AND (NOT *S*)
+     (AND (AND (AND *E* (NOT *S*)) (OR (OR (NOT *S*) (NOT *SE*)) *S*))
+      (OR (NOT *SW*) *N*))))
+   #\e)
+  ((AND *S* (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*)) (NOT *N*)) #\w) (T #\n)))
+
+("2005-04-13 16:17:28" 9 100
+ (COND ((OR (AND (NOT *SE*) *E*) (AND (AND (NOT *S*) *E*) (NOT *S*))) #\e)
+  ((AND (OR (NOT *W*) *S*) (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR
+    (OR (NOT *NW*)
+     (AND (OR (NOT *W*) (OR (NOT *NW*) (NOT *N*))) (OR (NOT *NE*) *E*)))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2005-04-13 16:17:28" 10 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (AND *N* *E*)) #\e)
+  ((AND (OR (AND (NOT *W*) *E*) (AND (NOT *SW*) (AND *NW* *S*)))
+    (OR (NOT *SE*) *SE*))
+   #\s)
+  ((OR (NOT *N*) (NOT *NW*)) #\w) (T #\n)))
+
+("2005-04-13 16:17:28" 11 100
+ (COND
+  ((AND (OR (AND *N* (NOT *NW*)) (AND *E* *N*)) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((OR (AND (NOT *W*) *E*) (AND (NOT *SW*) (AND *NW* *S*))) #\s)
+  ((OR (NOT *N*) (NOT *NW*)) #\w) (T #\n)))
+
+("2005-04-13 16:17:28" 12 100
+ (COND ((OR (AND (NOT *SE*) *E*) (AND (AND (NOT *S*) *E*) (NOT *S*))) #\e)
+  ((AND (OR (NOT *W*) *S*) (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR (OR (NOT *NW*) (NOT *NW*)) (NOT *N*)) #\w) (T #\n)))
+
+("2005-04-13 16:17:28" 13 100
+ (COND ((AND (OR (AND (NOT *S*) (AND (NOT *S*) *E*)) (NOT *SE*)) *E*) #\e)
+  ((OR (AND (NOT *W*) *E*) (AND (NOT *SW*) (AND *NW* *S*))) #\s)
+  ((OR (NOT *N*) (OR (OR (NOT *NW*) (NOT *N*)) (AND (NOT *N*) *W*))) #\w)
+  (T #\n)))
+
+("2005-04-13 16:17:28" 14 100
+ (COND
+  ((AND
+    (OR (AND (NOT *SE*) *E*)
+     (AND *NE*
+      (AND (OR (AND (OR *SE* (NOT *S*)) (AND (NOT *S*) *E*)) (NOT *N*))
+       (AND *N* *E*))))
+    *E*)
+   #\e)
+  ((OR (AND (NOT *W*) *S*) (AND (NOT *SW*) (AND *NW* *S*))) #\s)
+  ((OR (NOT *NW*) (AND (NOT *N*) *W*)) #\w) (T #\n)))
+
+("2005-04-13 16:17:28" 15 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND
+     (OR (NOT *S*)
+      (AND
+       (AND (OR *SW* (NOT *S*))
+        (AND (NOT *S*) (AND (NOT *S*) (AND (NOT *S*) *NE*))))
+       *E*))
+     (AND
+      (AND (AND (OR *SW* *NE*) (AND (NOT *S*) *NE*))
+       (AND (AND (NOT *S*) *E*) (NOT *S*)))
+      (OR *NE* *E*))))
+   #\e)
+  ((AND (OR (NOT *W*) *S*) (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR (OR (OR (NOT *NW*) (NOT *N*)) (NOT *N*)) (NOT *N*)) #\w) (T #\n)))
+
+("2005-04-13 16:17:28" 16 100
+ (COND ((AND (AND *E* (OR (NOT *S*) (AND (NOT *SE*) *E*))) *E*) #\e)
+  ((OR (AND (NOT *W*) *E*) (AND (NOT *SW*) (AND *NW* *S*))) #\s)
+  ((OR (NOT *NW*) (OR (OR (NOT *NW*) (NOT *N*)) (NOT *NW*))) #\w) (T #\n)))
+
+("2005-04-13 16:17:28" 17 100
+ (COND
+  ((AND
+    (OR (AND (NOT *SE*) *E*)
+     (AND (NOT *S*) (AND (OR (NOT *S*) (AND *E* (NOT *S*))) (AND *N* *E*))))
+    *E*)
+   #\e)
+  ((OR (AND (NOT *W*) (NOT *W*)) (AND (NOT *SW*) (AND *NW* *S*))) #\s)
+  ((OR (NOT *NW*) (AND (NOT *N*) (NOT *N*))) #\w) (T #\n)))
+
+("2005-04-13 16:17:28" 18 100
+ (COND
+  ((OR (AND (NOT *SE*) (OR (AND *N* (AND (OR (NOT *S*) (NOT *SE*)) *E*)) *E*))
+    (AND (OR (NOT *N*) *E*) (NOT *S*)))
+   #\e)
+  ((AND *S*
+    (OR (AND (NOT *W*) (NOT *W*)) (AND (NOT *SW*) (OR *S* (NOT *SW*)))))
+   #\s)
+  ((OR (NOT *NW*)
+    (AND
+     (OR (AND *SW* (NOT *N*))
+      (OR (NOT *N*)
+       (OR
+        (OR (OR (NOT *NW*) (OR (NOT *NW*) (OR (NOT *NW*) (NOT *N*))))
+         (NOT *N*))
+        (NOT *N*))))
+     (OR (OR (NOT *NW*) (NOT *N*)) (AND *NE* *SE*))))
+   #\w)
+  (T #\n)))
+
+("2005-04-13 16:17:28" 19 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND
+     (AND *NE*
+      (OR (AND (OR (NOT *S*) *E*) *E*)
+       (AND (OR (NOT *S*) (NOT *N*))
+        (AND (OR (NOT *N*) *E*)
+         (OR (NOT *S*) (AND (AND *E* *E*) (NOT *S*)))))))
+     (AND (OR (NOT *S*) (NOT *N*)) (AND *N* *E*))))
+   #\e)
+  ((OR (AND (NOT *W*) *E*) (AND (NOT *SW*) (AND *NW* *S*))) #\s)
+  ((OR (NOT *NW*) (NOT *N*)) #\w) (T #\n)))
+
+("2005-04-18 14:59:02" 9 100
+ (COND
+  ((AND
+    (AND *NE*
+     (OR (AND (NOT *SE*) (OR (NOT *SW*) *E*)) (AND (AND *N* *E*) (NOT *S*))))
+    *E*)
+   #\e)
+  ((OR (AND (NOT *W*) *E*) (AND (NOT *SW*) (AND *NW* *S*))) #\s)
+  ((OR (NOT *NW*) (OR (NOT *NW*) (NOT *N*))) #\w) (T #\n)))
+
+("2005-04-18 14:59:02" 10 100
+ (COND
+  ((AND
+    (AND *NE*
+     (OR (AND (NOT *SE*) (OR (NOT *SW*) *E*)) (AND (AND *N* *E*) (NOT *S*))))
+    *E*)
+   #\e)
+  ((OR (AND (NOT *W*) *E*) (AND (NOT *SW*) (AND *NW* *S*))) #\s)
+  ((OR (NOT *N*) (OR (OR (NOT *N*) (NOT *NW*)) (AND *S* (NOT *N*)))) #\w)
+  (T #\n)))
+
+("2005-04-18 14:59:02" 11 100
+ (COND
+  ((AND (OR (OR (AND (NOT *SE*) *E*) (AND *NE* (NOT *S*))) (NOT *S*))
+    (AND *N* *E*))
+   #\e)
+  ((AND *S*
+    (AND
+     (OR (AND (AND *E* *S*) (OR (AND (NOT *NW*) (NOT *W*)) (NOT *SW*)))
+      (NOT *W*))
+     *SE*))
+   #\s)
+  ((OR (OR (NOT *NW*) (NOT *N*)) (AND (NOT *W*) (OR *E* (NOT *N*)))) #\w)
+  (T #\n)))
+
+("2005-04-18 14:59:02" 12 100
+ (COND
+  ((AND
+    (AND *NE*
+     (OR
+      (AND (NOT *SE*) (OR (OR (NOT *S*) (AND (NOT *SE*) (OR *NE* *E*))) *E*))
+      (AND (AND *N* *E*) (NOT *S*))))
+    *E*)
+   #\e)
+  ((OR (AND (NOT *W*) *E*) (AND (NOT *SW*) (AND *NW* *S*))) #\s)
+  ((OR (NOT *NW*) (OR (NOT *NW*) (NOT *N*))) #\w) (T #\n)))
+
+("2005-04-18 14:59:02" 13 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND *NE* (AND (OR (NOT *S*) (NOT *N*)) (AND (NOT *S*) *E*))))
+   #\e)
+  ((OR
+    (AND
+     (AND
+      (OR (AND (AND *E* *S*) (OR (AND (NOT *NW*) (NOT *W*)) (NOT *SW*)))
+       (NOT *W*))
+      *SE*)
+     *E*)
+    (AND (NOT *SW*) (AND *NW* *S*)))
+   #\s)
+  ((OR (NOT *NW*) (AND (OR (NOT *N*) (NOT *NW*)) (OR *SW* *E*))) #\w)
+  (T #\n)))
+
+("2005-04-25 15:14:02" 8 100
+ (COND ((OR (AND (NOT *SE*) *E*) (AND (AND *N* *E*) (NOT *S*))) #\e)
+  ((AND (OR (NOT *W*) *S*) (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR (NOT *NW*) (NOT *N*)) #\w) (T #\n)))
+
+("2005-04-25 15:14:02" 9 100
+ (COND ((OR (AND (NOT *SE*) *E*) (AND (AND *N* *E*) (NOT *S*))) #\e)
+  ((AND (OR (NOT *W*) *S*) (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR (NOT *NW*) (NOT *N*)) #\w) (T #\n)))
+
+("2005-04-25 15:14:02" 10 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND
+     (AND (OR *SW* (OR (AND *NE* (NOT *S*)) (AND (NOT *E*) *SW*)))
+      (AND (NOT *S*) *NE*))
+     *E*))
+   #\e)
+  ((AND (OR *S* *S*) (OR (AND (NOT *W*) *E*) (AND (NOT *SW*) (AND *NW* *S*))))
+   #\s)
+  ((OR (NOT *NW*) (OR (OR (NOT *NW*) (NOT *N*)) (AND (NOT *N*) (NOT *NW*))))
+   #\w)
+  (T #\n)))
+
+("2005-04-25 15:14:02" 11 100
+ (COND
+  ((AND
+    (AND *NE*
+     (AND (OR (NOT *N*) *E*)
+      (OR (OR (AND *NE* (NOT *SE*)) (AND (NOT *S*) (NOT *S*))) (NOT *S*))))
+    *E*)
+   #\e)
+  ((OR (AND (NOT *W*) *SE*) (AND (NOT *SW*) (AND *NW* *S*))) #\s)
+  ((OR (OR (NOT *NW*) (AND *S* (NOT *N*))) (NOT *N*)) #\w) (T #\n)))
+
+("2005-04-25 15:14:02" 12 100
+ (COND
+  ((AND
+    (OR (AND (NOT *SE*) (OR (AND (NOT *SE*) *E*) (AND *NE* *E*)))
+     (AND (OR *SW* (OR (AND *NE* (NOT *S*)) (OR (NOT *S*) (NOT *S*))))
+      (AND (NOT *S*) *NE*)))
+    *E*)
+   #\e)
+  ((OR (AND (AND *S* (NOT *W*)) *E*) (AND (NOT *SW*) (AND *NW* *S*))) #\s)
+  ((OR (NOT *NW*) (NOT *N*)) #\w) (T #\n)))
+
+("2005-04-25 15:14:02" 13 100
+ (COND ((AND (AND *NE* (OR (NOT *S*) (NOT *SE*))) *E*) #\e)
+  ((OR (OR (AND (NOT *W*) *E*) (NOT *W*)) (AND (NOT *SW*) (AND *NW* *S*))) #\s)
+  ((OR
+    (OR
+     (OR (AND (AND (OR *SW* (NOT *W*)) (OR (NOT *N*) (NOT *NW*))) (NOT *NW*))
+      (NOT *N*))
+     (NOT *N*))
+    (AND (NOT *N*) *W*))
+   #\w)
+  (T #\n)))
+
+("2005-04-25 15:14:02" 14 100
+ (COND ((OR (AND (NOT *SE*) *E*) (AND *E* (NOT *S*))) #\e)
+  ((AND (OR (AND (AND *E* (NOT *SE*)) (AND *E* *E*)) *S*)
+    (OR (NOT *W*) (NOT *SW*)))
+   #\s)
+  ((OR (OR (OR (NOT *NW*) (NOT *N*)) (AND (NOT *N*) *W*))
+    (OR (NOT *NW*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2005-04-25 15:14:02" 15 100
+ (COND ((AND (AND *NE* (OR (NOT *S*) (NOT *SE*))) *E*) #\e)
+  ((OR
+    (OR (AND (AND *SE* (NOT *W*)) *E*)
+     (AND (NOT *SW*) (AND (OR (NOT *N*) (NOT *W*)) *S*)))
+    (AND (NOT *SW*) (AND *NW* *S*)))
+   #\s)
+  ((OR (OR (NOT *NW*) (NOT *N*))
+    (AND (AND *W* (OR (NOT *NW*) (NOT *N*)))
+     (OR (OR (NOT *NW*) (NOT *N*)) (NOT *NW*))))
+   #\w)
+  (T #\n)))
+
+("2007-04-27 16:03:02" 10 100
+ (COND ((AND (AND *E* (AND *NE* (AND *E* *N*))) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND *E* (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR (AND (NOT *N*) (NOT *SW*))
+    (AND *S*
+     (OR (AND (NOT *N*) *W*) (OR (NOT *NW*) (AND (NOT *N*) (OR *W* *E*))))))
+   #\w)
+  (T #\n)))
+
+("2007-04-27 16:03:02" 11 100
+ (COND
+  ((AND (AND *E* (AND *NE* (AND *E* *N*)))
+    (OR (AND (AND (OR *E* (NOT *N*)) *NE*) (OR (NOT *NE*) (NOT *S*)))
+     (NOT *SE*)))
+   #\e)
+  ((AND *E* (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR (AND (NOT *N*) (NOT *SW*))
+    (AND *S*
+     (OR (AND (NOT *N*) *W*) (OR (NOT *NW*) (AND (NOT *N*) (OR *W* *E*))))))
+   #\w)
+  (T #\n)))
+
+("2007-04-27 16:03:02" 12 100
+ (COND ((AND (AND *E* (AND *NE* (AND *E* *N*))) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND (OR (NOT *W*) (NOT *SW*)) *E*) #\s)
+  ((OR (NOT *NW*)
+    (AND (NOT *N*)
+     (AND *SW* (OR (AND (NOT *N*) *W*) (AND *NW* (AND *W* (NOT *SW*)))))))
+   #\w)
+  (T #\n)))
+
+("2007-04-27 16:03:02" 13 100
+ (COND ((AND (AND *E* (AND *NE* (AND *E* *N*))) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND *E* (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR (AND *W* (AND (NOT *N*) *W*))
+    (AND *S*
+     (OR (AND (NOT *N*) *W*) (OR (NOT *NW*) (AND (NOT *N*) (OR *W* *W*))))))
+   #\w)
+  (T #\n)))
+
+("2007-04-27 16:03:02" 14 100
+ (COND ((AND (AND *E* (AND *NE* (AND *E* *N*))) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND (OR (NOT *W*) (NOT *SW*)) *E*) #\s)
+  ((OR (AND (NOT *N*) (NOT *SW*)) (AND (OR (NOT *NW*) (NOT *N*)) *S*)) #\w)
+  (T #\n)))
+
+("2007-04-27 16:03:02" 15 100
+ (COND ((AND *E* (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND *E* (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR (AND (OR (NOT *NW*) (AND *W* (NOT *N*))) (NOT *SW*))
+    (AND *S*
+     (OR (AND (NOT *N*) *W*) (OR (NOT *NW*) (AND (NOT *N*) (OR *W* *E*))))))
+   #\w)
+  (T #\n)))
+
+("2007-04-27 16:03:02" 16 100
+ (COND
+  ((AND (AND *E* (AND *NE* (AND *E* *N*)))
+    (OR (AND (AND (OR *E* (NOT *N*)) *NE*) (OR (NOT *NE*) (NOT *S*)))
+     (NOT *SE*)))
+   #\e)
+  ((AND *E* (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR (OR (AND (NOT *N*) *W*) (OR (NOT *NW*) (AND (NOT *N*) (OR *E* *E*))))
+    (AND *S*
+     (OR (AND (NOT *N*) *W*)
+      (OR (NOT *NW*)
+       (AND (NOT *N*) (OR (AND *S* *S*) (AND (NOT *S*) (NOT *N*))))))))
+   #\w)
+  (T #\n)))
+
+("2007-04-27 16:03:02" 17 100
+ (COND ((AND (AND *E* (AND *NE* *E*)) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND
+    (OR (NOT *W*)
+     (AND (AND (OR (NOT *W*) (NOT *SW*)) *E*)
+      (OR (NOT *W*) (OR (NOT *W*) (NOT *SW*)))))
+    (AND (OR (NOT *W*) (NOT *SW*)) *E*))
+   #\s)
+  ((OR (AND (NOT *N*) (NOT *SW*))
+    (AND *S*
+     (OR (AND (NOT *N*) *W*) (OR (NOT *NW*) (AND (NOT *N*) (OR *W* *E*))))))
+   #\w)
+  (T #\n)))
+
+("2007-10-19 11:33:11" 11 100
+ (COND ((AND *E* (OR (AND (NOT *SE*) (NOT *SE*)) (AND *NE* (NOT *S*)))) #\e)
+  ((AND (OR *SE* *S*) (OR (NOT *W*) (OR (NOT *SW*) (NOT *W*)))) #\s)
+  ((OR (AND (OR (OR (NOT *N*) *E*) (NOT *NW*)) (NOT *NW*)) (OR (NOT *N*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2007-10-19 11:33:11" 12 100
+ (COND ((AND *E* (AND (OR *NE* (AND (NOT *S*) *E*)) (OR (NOT *S*) (NOT *SE*)))) #\e)
+  ((AND (OR (NOT *W*) (OR (AND *S* *N*) (NOT *W*)))
+    (OR (OR (NOT *SW*) (NOT *W*)) (AND (NOT *E*) (NOT *W*))))
+   #\s)
+  ((OR (AND (NOT *N*) *SW*) (AND *W* (NOT *NW*))) #\w) (T #\n)))
+
+("2007-10-19 11:33:11" 13 100
+ (COND
+  ((AND (AND (AND (OR *SE* *NE*) (OR (NOT *S*) (NOT *SE*))) *E*) (OR *N* *NW*)) #\e)
+  ((OR (AND (OR (AND (NOT *SW*) *E*) (NOT *W*)) (AND *SE* (NOT *W*)))
+    (AND *S* (NOT *SW*)))
+   #\s)
+  ((OR (NOT *N*) (OR (NOT *NW*) (NOT *N*))) #\w) (T #\n)))
+
+("2007-10-19 11:33:11" 14 100
+ (COND
+  ((AND (AND (AND (OR *SE* *NE*) (OR (NOT *S*) (NOT *SE*))) *E*) (OR *N* *NW*)) #\e)
+  ((OR (AND (AND (NOT *W*) (NOT *W*)) (AND *SE* (NOT *W*))) (AND *S* (NOT *SW*)))
+   #\s)
+  ((OR (NOT *N*) (OR (NOT *NW*) (AND (NOT *SW*) *SW*))) #\w) (T #\n)))
+
+("2007-10-19 11:33:11" 15 100
+ (COND
+  ((OR (AND (AND (OR *SE* *E*) (AND (OR *E* *NE*) (OR (NOT *S*) (NOT *SE*)))) *E*)
+    (AND (OR (AND (NOT *S*) *E*) *NW*) (NOT *NW*)))
+   #\e)
+  ((AND (OR *S* *S*) (OR (NOT *W*) (OR (OR (NOT *SW*) (NOT *W*)) (NOT *W*)))) #\s)
+  ((OR (AND (OR (NOT *NW*) (NOT *N*)) (NOT *N*)) (NOT *NW*)) #\w) (T #\n)))
+
+("2007-10-19 11:33:11" 16 100
+ (COND ((AND *E* (OR (AND (NOT *SE*) (NOT *SE*)) (AND *NE* (NOT *S*)))) #\e)
+  ((AND (OR (NOT *W*) *S*)
+    (AND (OR *S* *S*) (OR (NOT *W*) (OR (OR (NOT *SW*) (NOT *W*)) (NOT *W*)))))
+   #\s)
+  ((OR
+    (AND
+     (OR (NOT *N*)
+      (OR (OR (NOT *N*) (OR (AND (NOT *SW*) *SW*) (AND (NOT *NW*) *SE*))) (NOT *N*)))
+     (NOT *NW*))
+    (OR (NOT *N*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2007-10-19 11:33:11" 17 100
+ (COND
+  ((AND (OR (AND (NOT *SE*) (NOT *SE*)) (AND (AND (NOT *S*) *E*) (NOT *S*))) *E*)
+   #\e)
+  ((OR
+    (AND (OR *SE* (OR (AND (NOT *SW*) *E*) (NOT *W*)))
+     (OR (NOT *W*)
+      (OR (OR (OR (NOT *W*) (NOT *W*)) (AND *E* (NOT *SW*)))
+       (AND (OR *N* (NOT *N*)) (NOT *SW*)))))
+    (AND (NOT *W*) (NOT *W*)))
+   #\s)
+  ((OR (OR (NOT *N*) (OR (NOT *NW*) (NOT *N*)))
+    (OR (AND *NE* (NOT *NW*))
+     (OR
+      (AND (OR (OR (NOT *NW*) *E*) (OR (AND (NOT *NW*) (NOT *N*)) (NOT *N*)))
+       (NOT *NW*))
+      (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-05 11:49:36" 10 100
+ (COND
+  ((AND (OR *NE* (NOT *E*)) (AND (OR (AND (NOT *SE*) *E*) (NOT *S*)) *E*)) #\e)
+  ((AND (AND (OR (NOT *SW*) (NOT *W*)) (OR *E* (NOT *W*))) (OR *N* (NOT *N*)))
+   #\s)
+  ((OR (AND (NOT *NW*) *S*) (AND *W* (NOT *N*))) #\w) (T #\n)))
+
+("2008-03-10 15:07:08" 9 100
+ (COND ((AND (OR (AND (NOT *S*) *N*) (AND *E* (NOT *SE*))) *E*) #\e)
+  ((OR (AND *SE* (NOT *W*)) (AND (NOT *SW*) *S*)) #\s)
+  ((OR (NOT *N*) (AND *W* (NOT *NW*))) #\w) (T #\n)))
+
+("2008-03-10 15:07:08" 10 100
+ (COND
+  ((OR (OR (AND (NOT *W*) (NOT *S*)) (AND *E* (NOT *S*))) (AND *E* (NOT *SE*)))
+   #\e)
+  ((AND (AND (OR (AND *SE* (NOT *W*)) (AND (NOT *SW*) *S*)) *S*)
+    (OR *E* (NOT *E*)))
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*))
+    (AND (AND *E* (NOT *W*)) (OR (NOT *S*) (NOT *SE*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:07:08" 11 100
+ (COND ((AND (OR (AND (NOT *S*) *N*) (AND *E* (NOT *SE*))) *E*) #\e)
+  ((OR (AND *SE* (NOT *W*)) (AND (NOT *SW*) *S*)) #\s)
+  ((OR (NOT *N*) (OR (NOT *N*) (NOT *NW*))) #\w) (T #\n)))
+
+("2008-03-10 15:07:08" 12 100
+ (COND
+  ((AND *E*
+    (OR (AND (NOT *S*) (NOT *S*))
+     (AND *E* (OR (AND (NOT *S*) (NOT *S*)) (AND *E* (NOT *SE*))))))
+   #\e)
+  ((AND (OR (NOT *W*) (NOT *SW*)) *SE*) #\s)
+  ((OR (OR (NOT *NW*) (NOT *N*)) (AND (NOT *NW*) *SE*)) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 9 100
+ (COND ((OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) #\e)
+  ((OR (AND (NOT *W*) (NOT *W*)) (AND *E* (NOT *SW*))) #\s)
+  ((OR (AND (NOT *NW*) *N*) (NOT *N*)) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 10 100
+ (COND ((OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) #\e)
+  ((OR (AND (NOT *W*) (NOT *W*)) (OR (AND (NOT *SW*) *SE*) (NOT *W*))) #\s)
+  ((OR (AND (OR (AND (NOT *NW*) *E*) (NOT *N*)) *N*) (NOT *N*)) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 11 100
+ (COND
+  ((AND (OR (NOT *W*) *E*) (AND (OR (AND (NOT *SE*) *E*) (NOT *S*)) *NE*)) #\e)
+  ((OR (NOT *W*) (AND *S* (NOT *SW*))) #\s)
+  ((OR (AND (AND (NOT *NW*) *N*) *N*) (AND *W* (NOT *N*))) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 12 100
+ (COND ((OR (AND (NOT *SE*) *E*) (AND (AND *E* (NOT *S*)) *E*)) #\e)
+  ((OR (AND (NOT *W*) (NOT *W*)) (OR (AND (NOT *SW*) *SE*) (NOT *W*))) #\s)
+  ((OR (AND (OR (AND (NOT *NW*) *E*) (NOT *N*)) *N*) (NOT *N*)) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 13 100
+ (COND ((OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) #\e)
+  ((OR (AND (AND *N* (AND *E* (NOT *SW*))) *SE*)
+    (AND (OR (AND (AND (NOT *SW*) (NOT *SW*)) (AND (NOT *SE*) *E*)) (NOT *W*))
+     (NOT *W*)))
+   #\s)
+  ((OR (AND *W* (NOT *N*)) (AND (NOT *NW*) *E*)) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 14 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND (NOT *S*) (OR (AND *NE* (NOT *N*)) (OR *SE* *SE*))))
+   #\e)
+  ((OR
+    (AND
+     (OR *E*
+      (OR
+       (AND (AND (NOT *W*) (NOT *W*))
+        (AND (AND *S* (AND *NE* (OR (NOT *W*) *E*))) (OR *SE* *E*)))
+       (NOT *W*)))
+     (OR (NOT *W*) (NOT *SW*)))
+    (NOT *W*))
+   #\s)
+  ((OR (NOT *N*) (NOT *NW*)) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 15 100
+ (COND ((AND (AND (OR *SE* *NE*) (OR (NOT *S*) (NOT *SE*))) *E*) #\e)
+  ((OR (OR (NOT *W*) (AND (OR *E* *E*) (NOT *SW*))) (AND *SE* (NOT *W*))) #\s)
+  ((AND
+    (OR (AND (NOT *NW*) *N*)
+     (AND (OR (AND (AND (NOT *NW*) (AND (NOT *NW*) *N*)) (NOT *NW*)) (NOT *N*))
+      (NOT *N*)))
+    (OR *E* (AND *W* (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 16 100
+ (COND ((AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) *E*) #\e)
+  ((AND (OR (AND (NOT *W*) (AND *S* (NOT *W*))) (AND *N* (NOT *SW*)))
+    (AND
+     (AND *SE* (OR (AND (AND *SE* (NOT *W*)) (NOT *W*)) (AND *S* (NOT *SW*))))
+     *SE*))
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*)) (OR (NOT *NW*) (NOT *NW*))) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 17 100
+ (COND
+  ((OR (AND (AND (AND *NE* (NOT *SE*)) (OR (NOT *S*) *SW*)) *E*)
+    (AND *SE* (NOT *S*)))
+   #\e)
+  ((AND *S*
+    (OR (NOT *SW*)
+     (OR
+      (OR (OR (NOT *W*) (AND (OR *E* *E*) (NOT *SW*)))
+       (AND (OR (AND (OR (NOT *SW*) (NOT *W*)) *SE*) (NOT *W*))
+        (AND (NOT *W*) (NOT *W*))))
+      (AND (NOT *E*) (NOT *W*)))))
+   #\s)
+  ((OR (OR (NOT *N*) (OR (NOT *NW*) (AND (NOT *NW*) (NOT *NW*))))
+    (AND *S* (OR (AND (NOT *NW*) (NOT *NW*)) (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 18 100
+ (COND
+  ((OR
+    (AND
+     (AND (OR *NE* (AND (AND (OR *NE* *N*) (OR (NOT *S*) (NOT *SE*))) *E*))
+      (OR (NOT *S*) (NOT *SE*)))
+     *E*)
+    (AND (NOT *S*) (AND (AND (NOT *SE*) *E*) *E*)))
+   #\e)
+  ((OR (AND (NOT *W*) *E*) (OR (AND (NOT *SW*) *SE*) (NOT *W*))) #\s)
+  ((OR (AND (NOT *NW*) (OR (AND (NOT *NW*) *N*) (NOT *N*))) (NOT *N*)) #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 19 100
+ (COND ((OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) #\e)
+  ((OR (AND (NOT *W*) (AND (NOT *SW*) *SE*))
+    (OR (OR (AND (OR (NOT *SW*) (NOT *W*)) *SE*) (AND *S* (NOT *SW*)))
+     (NOT *W*)))
+   #\s)
+  ((OR (AND (NOT *NW*) (OR (OR (AND (NOT *N*) *E*) (NOT *NW*)) (NOT *N*)))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 20 100
+ (COND ((OR (AND (AND *NE* (NOT *SE*)) *E*) (AND (NOT *S*) *E*)) #\e)
+  ((OR (AND (NOT *W*) (NOT *W*)) (OR (AND (NOT *SW*) *SE*) (NOT *W*))) #\s)
+  ((OR
+    (AND
+     (OR (AND (NOT *NW*) (OR (AND (NOT *NW*) *N*) (OR (NOT *N*) (NOT *NW*))))
+      (NOT *N*))
+     (NOT *NW*))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 21 100
+ (COND
+  ((AND (OR (NOT *W*) *E*)
+    (AND (OR (AND (NOT *SE*) *E*) (NOT *S*))
+     (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*))))
+   #\e)
+  ((OR (AND (OR (AND (NOT *SW*) *SE*) (NOT *W*)) *E*)
+    (AND (OR (NOT *SW*) (NOT *W*)) *SE*))
+   #\s)
+  ((OR (AND (AND (OR (AND (NOT *NW*) *N*) (NOT *N*)) *N*) *N*)
+    (AND (AND *W* (NOT *N*))
+     (OR (OR (NOT *N*) (OR (NOT *NW*) (NOT *N*)))
+      (AND (OR (AND (OR (NOT *N*) *E*) (NOT *NW*)) (NOT *N*)) (NOT *N*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 22 100
+ (COND
+  ((AND
+    (OR (AND (AND *NE* (NOT *SE*)) *E*)
+     (AND
+      (AND
+       (AND (AND *E* (OR (AND *E* *E*) (NOT *S*)))
+        (OR (AND (AND (OR *NE* *N*) (OR (NOT *S*) (NOT *SE*))) *E*)
+         (NOT *SE*)))
+       *E*)
+      (AND *N* *NE*)))
+    *E*)
+   #\e)
+  ((AND
+    (OR (AND (OR (NOT *SW*) (NOT *SW*)) *SE*)
+     (OR (OR (NOT *W*) (NOT *W*)) (NOT *W*)))
+    (OR (NOT *W*) *E*))
+   #\s)
+  ((AND (OR (AND (NOT *NW*) (NOT *NW*)) (NOT *N*))
+    (OR (OR (NOT *SW*) (OR (NOT *N*) (OR (NOT *NW*) (NOT *N*))))
+     (AND (NOT *SE*) *S*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 23 100
+ (COND
+  ((AND
+    (OR
+     (AND
+      (AND *NE*
+       (OR (AND (NOT *SE*) *E*) (AND (AND (NOT *S*) (AND (NOT *S*) *E*)) *E*)))
+      *E*)
+     (AND (AND (AND (NOT *S*) (OR *N* *E*)) *E*) (AND *N* *NE*)))
+    *E*)
+   #\e)
+  ((AND
+    (OR (AND (OR (OR (AND (NOT *SW*) *SE*) (NOT *W*)) (NOT *W*)) *SE*)
+     (OR (OR (NOT *W*) (NOT *W*)) (AND (NOT *E*) (NOT *W*))))
+    (OR (NOT *W*) *E*))
+   #\s)
+  ((AND (OR (AND (NOT *NW*) *E*) (NOT *N*))
+    (OR (AND (NOT *NW*) (AND (NOT *NW*) (NOT *NW*)))
+     (OR *W* (OR (OR (NOT *N*) (AND (AND (NOT *NW*) *N*) *N*)) (NOT *NW*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 24 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND (NOT *S*) (OR (AND *E* *E*) (AND (NOT *S*) *E*))))
+   #\e)
+  ((OR (AND (OR (NOT *SW*) (NOT *W*)) (NOT *W*))
+    (AND
+     (OR *E*
+      (OR
+       (AND (AND (NOT *W*) (NOT *W*))
+        (AND (NOT *W*) (OR *E* (AND (NOT *W*) (NOT *W*)))))
+       (NOT *W*)))
+     (NOT *SW*)))
+   #\s)
+  ((OR (NOT *NW*)
+    (OR (NOT *N*)
+     (OR (AND (NOT *N*) (AND (OR (NOT *NW*) (NOT *N*)) (NOT *NW*)))
+      (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 25 100
+ (COND
+  ((OR (AND (AND (AND *NE* (NOT *SE*)) *NE*) *E*) (AND (NOT *S*) *E*)) #\e)
+  ((OR
+    (AND (NOT *W*)
+     (OR (AND (AND (NOT *W*) (NOT *W*)) (AND (NOT *SW*) *SE*))
+      (OR (AND (NOT *SW*) *SE*)
+       (OR (NOT *W*)
+        (AND (OR (NOT *SW*) (NOT *W*))
+         (OR (AND (AND *SE* (NOT *W*)) (NOT *W*))
+          (AND (AND *S* (OR (NOT *W*) (AND (OR (NOT *SW*) (NOT *W*)) *E*)))
+           *E*)))))))
+    (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+   #\s)
+  ((OR (OR (OR (OR (NOT *NW*) (NOT *N*)) (NOT *NW*)) (NOT *NW*)) (NOT *NW*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 26 100
+ (COND
+  ((OR
+    (AND
+     (AND (AND (NOT *SE*) (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)))
+      (OR (NOT *S*) *SW*))
+     (NOT *SE*))
+    (AND *SE* (NOT *S*)))
+   #\e)
+  ((AND (OR (AND (NOT *SW*) *SE*) (NOT *W*))
+    (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+   #\s)
+  ((OR (OR (NOT *NW*) (NOT *N*))
+    (OR (OR (OR (NOT *NW*) (NOT *N*)) (NOT *N*)) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 27 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND (AND (AND (NOT *S*) *E*) *E*)
+     (AND
+      (AND (AND (OR *NE* *N*) (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)))
+       *E*)
+      *E*)))
+   #\e)
+  ((OR (AND *E* (NOT *SW*)) (OR (AND (NOT *SW*) *E*) (NOT *W*))) #\s)
+  ((OR (OR (AND (NOT *NW*) *N*) (OR (AND (NOT *NW*) (NOT *N*)) (NOT *NW*)))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 28 100
+ (COND
+  ((AND
+    (OR (AND (AND *NE* (NOT *SE*)) *E*)
+     (AND
+      (AND
+       (AND (NOT *S*)
+        (AND (AND (OR *NE* *N*) (OR (NOT *S*) (NOT *SE*)))
+         (OR (NOT *S*) (NOT *SE*))))
+       *E*)
+      (AND *E* *E*)))
+    *E*)
+   #\e)
+  ((AND (OR (NOT *SW*) (AND (NOT *W*) (NOT *W*))) (OR *S* *E*)) #\s)
+  ((AND (OR (NOT *NW*) (NOT *N*))
+    (OR (OR (NOT *N*) *SW*)
+     (AND (NOT *SE*) (OR (OR (NOT *N*) (NOT *NW*)) (AND (NOT *N*) *N*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 29 100
+ (COND
+  ((OR
+    (AND
+     (AND
+      (OR
+       (OR (AND (AND *NE* (NOT *SE*)) *E*)
+        (AND
+         (AND
+          (AND
+           (AND (OR (AND (AND (NOT *SE*) *E*) (AND (NOT *SE*) *E*)) *N*)
+            (OR (NOT *S*) (NOT *SE*)))
+           (OR *N* *E*))
+          *E*)
+         (AND *N* *NE*)))
+       *N*)
+      (OR (NOT *S*) (NOT *SE*)))
+     *E*)
+    (AND (NOT *S*) (AND (NOT *S*) *E*)))
+   #\e)
+  ((OR
+    (AND (NOT *W*)
+     (AND (OR (NOT *W*) (NOT *S*))
+      (AND (OR *SE* (NOT *NW*)) (AND (AND *E* (NOT *SW*)) (NOT *W*)))))
+    (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+   #\s)
+  ((OR
+    (AND (NOT *NW*)
+     (AND (OR (AND (NOT *NW*) *E*) (OR (NOT *NW*) (NOT *NW*))) *N*))
+    (OR (NOT *N*) (OR (AND (NOT *NW*) *S*) (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 30 100
+ (COND ((AND (AND (OR *N* (NOT *SE*)) (OR (NOT *S*) (NOT *SE*))) *E*) #\e)
+  ((OR (AND (NOT *W*) (NOT *W*))
+    (AND (AND (NOT *SW*) *SE*)
+     (AND
+      (OR (NOT *SW*) (OR (AND (AND *E* (NOT *W*)) *SE*) (AND *S* (NOT *SW*))))
+      *SE*)))
+   #\s)
+  ((OR (NOT *N*) (AND (AND (NOT *NW*) (NOT *NW*)) *N*)) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 31 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND (OR *NE* (AND (AND (OR (AND (NOT *SE*) *E*) *E*) *E*) *N*))
+     (AND (AND (NOT *S*) (AND (NOT *S*) (AND *E* (OR (NOT *S*) (NOT *SE*)))))
+      *E*)))
+   #\e)
+  ((OR (AND (NOT *W*) (NOT *W*))
+    (AND *S*
+     (AND
+      (OR (NOT *SW*)
+       (OR (OR (AND (NOT *W*) *SE*) (AND *N* (NOT *W*)))
+        (OR (NOT *W*) (OR (AND (NOT *SW*) *SE*) (NOT *W*)))))
+      *SE*)))
+   #\s)
+  ((OR (AND *W* (NOT *N*)) (OR (AND (NOT *NW*) *N*) (AND (NOT *N*) (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 32 100
+ (COND
+  ((OR (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) (AND *E* (NOT *S*)))) *E*)
+    (AND
+     (OR
+      (AND (NOT *SE*)
+       (OR (AND (NOT *SE*) *E*)
+        (AND (NOT *S*)
+         (AND
+          (OR (AND *NE* *E*)
+           (AND (NOT *S*) (AND (OR *NE* *N*) (OR (NOT *S*) (NOT *SE*)))))
+          (AND (NOT *S*) *E*)))))
+      (AND (NOT *S*) *E*))
+     *E*))
+   #\e)
+  ((OR (NOT *W*)
+    (AND
+     (OR
+      (AND (NOT *W*)
+       (OR
+        (AND (AND (NOT *SW*) *SE*) (AND (NOT *W*) (OR (NOT *W*) (NOT *SW*))))
+        (NOT *W*)))
+      (AND *S* (AND (OR (NOT *SW*) (NOT *W*)) (AND *S* (NOT *SW*)))))
+     (NOT *SW*)))
+   #\s)
+  ((OR
+    (OR (OR (NOT *N*) (NOT *NW*))
+     (OR
+      (AND
+       (AND (NOT *NW*)
+        (OR
+         (OR (AND (AND *W* (NOT *N*)) (NOT *NW*))
+          (OR
+           (AND
+            (OR
+             (AND (NOT *NW*)
+              (OR (NOT *N*) (OR (NOT *NW*) (AND *SE* (NOT *S*)))))
+             (NOT *NW*))
+            *N*)
+           (NOT *N*)))
+         (NOT *N*)))
+       *N*)
+      (NOT *N*)))
+    (OR (NOT *N*) (NOT *NW*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 33 100
+ (COND
+  ((OR
+    (AND *E*
+     (AND
+      (OR
+       (AND
+        (OR (AND (NOT *S*) (NOT *N*))
+         (OR *SE*
+          (AND (OR (NOT *S*) (NOT *SE*))
+           (AND (NOT *S*) (OR (NOT *S*) (NOT *SE*))))))
+        (NOT *SE*))
+       *E*)
+      (AND (OR *NE* *N*) (OR (NOT *S*) (NOT *SE*)))))
+    (AND (NOT *S*) (AND *NE* *E*)))
+   #\e)
+  ((OR (NOT *W*)
+    (AND
+     (OR (AND (AND (NOT *W*) *SE*) (NOT *SE*))
+      (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+     (NOT *SW*)))
+   #\s)
+  ((OR (OR (AND (NOT *NW*) (NOT *NW*)) (AND (NOT *NW*) *N*))
+    (OR (AND (NOT *S*) (NOT *NW*))
+     (OR
+      (AND (OR (NOT *N*) (NOT *NW*))
+       (OR (AND (NOT *NW*) *N*)
+        (AND
+         (AND (OR (AND (NOT *NW*) (OR (NOT *SW*) *SW*)) (NOT *NW*)) (NOT *NW*))
+         (NOT *N*))))
+      (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 34 100
+ (COND
+  ((OR
+    (AND
+     (AND (OR *NE* *N*)
+      (OR (NOT *SE*) (AND (NOT *SE*) (AND *E* (AND (NOT *SE*) *E*)))))
+     *E*)
+    (AND
+     (AND *E* (OR (AND (NOT *SE*) (AND (NOT *S*) *E*)) (AND (NOT *S*) *E*)))
+     *E*))
+   #\e)
+  ((OR (AND (NOT *W*) (NOT *W*)) (OR (AND (NOT *SW*) *SE*) (NOT *W*))) #\s)
+  ((OR
+    (AND
+     (AND
+      (OR (AND *N* (AND (NOT *NW*) (AND (NOT *NW*) *SW*)))
+       (OR (NOT *NW*) (NOT *N*)))
+      *N*)
+     (OR (NOT *NW*)
+      (OR
+       (AND
+        (OR
+         (OR (NOT *N*)
+          (AND (AND (OR (AND (NOT *NW*) *E*) (NOT *NW*)) (NOT *NW*)) *N*))
+         (AND (NOT *NW*) (NOT *NW*)))
+        (NOT *NW*))
+       (NOT *NW*))))
+    (AND *W* (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 35 100
+ (COND
+  ((OR
+    (OR (AND (AND (OR (NOT *SE*) *N*) (OR (NOT *S*) (NOT *SE*))) *E*)
+     (AND (OR (AND (NOT *SE*) (NOT *SE*)) (AND (NOT *S*) *E*)) *E*))
+    (AND (NOT *S*) (OR (AND *E* (NOT *N*)) (OR (AND (NOT *SE*) *E*) *SE*))))
+   #\e)
+  ((OR
+    (OR
+     (AND (AND *SE* (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+      (AND
+       (OR
+        (OR (AND (OR (NOT *W*) (OR (AND (NOT *SW*) *SE*) (NOT *W*))) (NOT *W*))
+         (OR
+          (AND (OR (AND (NOT *SW*) *SE*) (AND *E* *SE*))
+           (OR (NOT *SW*) (NOT *W*)))
+          (OR (AND (AND (AND (NOT *E*) *SW*) (AND (NOT *SW*) (NOT *W*))) *SE*)
+           (NOT *W*))))
+        (AND (NOT *W*) (AND (OR (NOT *SW*) (NOT *W*)) *SE*)))
+       (NOT *W*)))
+     (AND *S* (NOT *SW*)))
+    (NOT *W*))
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*))
+    (OR (NOT *N*) (OR (OR (AND (NOT *NW*) *N*) (NOT *N*)) (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 36 100
+ (COND
+  ((OR (AND (AND (NOT *SE*) *E*) *E*)
+    (AND
+     (AND
+      (OR (AND (OR (NOT *SE*) (AND (NOT *S*) *E*)) *E*) (AND (NOT *SE*) *E*))
+      (AND (OR (OR *NE* *SW*) *N*) (OR (NOT *S*) (NOT *SE*))))
+     (OR *N* *NW*)))
+   #\e)
+  ((OR (AND (NOT *W*) (NOT *W*))
+    (OR (NOT *W*)
+     (OR (AND (AND *S* (NOT *SW*)) *SE*)
+      (AND (OR (AND (NOT *W*) *E*) (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+       (OR (AND (AND (NOT *W*) (NOT *W*)) (AND (NOT *W*) (OR (NOT *SE*) *E*)))
+        (NOT *SW*))))))
+   #\s)
+  ((OR
+    (AND
+     (OR (AND (NOT *NW*) (OR (NOT *W*) (NOT *N*)))
+      (OR (OR (NOT *NW*) (NOT *N*))
+       (OR
+        (AND
+         (AND
+          (AND
+           (AND
+            (OR (OR (NOT *N*) (NOT *NW*))
+             (AND
+              (OR
+               (AND (AND (AND (NOT *NW*) *E*) (NOT *NW*)) (AND *N* (NOT *N*)))
+               (NOT *N*))
+              (NOT *N*)))
+            (OR *E* (AND *W* (NOT *N*))))
+           (NOT *NW*))
+          (NOT *NW*))
+         *NE*)
+        (NOT *N*))))
+     *N*)
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 37 100
+ (COND
+  ((AND *E*
+    (AND
+     (OR *NE*
+      (AND
+       (AND
+        (OR (AND (AND (AND (NOT *S*) (OR *E* *NW*)) *NE*) *E*)
+         (AND (NOT *SE*) *E*))
+        (AND *E*
+         (OR (NOT *S*)
+          (AND
+           (OR (AND *NE* (NOT *SE*))
+            (AND (NOT *S*)
+             (AND (AND *E* (AND (AND (NOT *S*) (AND (NOT *S*) *E*)) *E*))
+              *E*)))
+           *E*))))
+       *E*))
+     (OR (NOT *S*) (NOT *SE*))))
+   #\e)
+  ((OR
+    (AND (AND (OR *E* (OR (NOT *SW*) (NOT *W*))) (OR (NOT *W*) (NOT *SW*)))
+     *S*)
+    (NOT *W*))
+   #\s)
+  ((OR (OR (NOT *NW*) (NOT *N*)) (NOT *N*)) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 38 100
+ (COND
+  ((OR (AND (AND (NOT *E*) *E*) (AND (AND (NOT *S*) *E*) *E*))
+    (OR
+     (AND
+      (OR (AND (NOT *SE*) (NOT *S*))
+       (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)))
+      *E*)
+     (AND *NE* (AND (AND (NOT *SE*) *E*) (NOT *S*)))))
+   #\e)
+  ((OR (AND (NOT *W*) (NOT *W*))
+    (OR
+     (AND
+      (OR
+       (OR
+        (OR (AND (AND (NOT *SW*) (NOT *SW*)) (AND (NOT *SE*) *E*)) (NOT *W*))
+        (OR (NOT *W*) (NOT *SW*)))
+       (NOT *W*))
+      *SE*)
+     (NOT *W*)))
+   #\s)
+  ((OR (AND (NOT *NW*) (NOT *N*))
+    (OR (AND *W* (AND (NOT *NW*) (NOT *N*)))
+     (OR (AND (NOT *NW*) *N*) (OR (NOT *N*) (NOT *NW*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 39 100
+ (COND
+  ((OR (AND (AND (AND (NOT *SE*) *E*) (AND (NOT *S*) (NOT *S*))) *E*)
+    (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)))
+   #\e)
+  ((OR
+    (AND (NOT *W*)
+     (OR
+      (AND (AND (NOT *W*) (NOT *W*))
+       (AND (NOT *W*)
+        (AND (AND (NOT *W*) (AND *S* (AND (AND *S* *S*) (OR *SW* (NOT *NE*)))))
+         (AND (NOT *W*) (OR (OR (NOT *SW*) (NOT *W*)) *E*)))))
+      (NOT *W*)))
+    (OR (AND (NOT *SW*) (OR (AND (NOT *SW*) *SE*) (NOT *W*))) (NOT *W*)))
+   #\s)
+  ((OR (OR (AND (NOT *NW*) *E*) (AND (NOT *NW*) *N*))
+    (OR (AND *N* (NOT *NW*)) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 40 100
+ (COND
+  ((AND
+    (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*))
+     (OR *E* (AND (AND (OR *NE* *SE*) (AND *N* *NE*)) *E*)))
+    (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)))
+   #\e)
+  ((OR
+    (OR (NOT *W*)
+     (AND
+      (OR *E*
+       (OR (AND *SE* (NOT *W*))
+        (OR (AND (NOT *W*) *SE*) (AND *E* (NOT *SW*)))))
+      (NOT *SW*)))
+    (AND (AND (NOT *W*) (NOT *W*)) (NOT *SW*)))
+   #\s)
+  ((AND (OR (OR (AND (NOT *NW*) (NOT *NW*)) (NOT *NW*)) (AND *W* (NOT *N*)))
+    (OR (OR (OR (AND (NOT *NW*) (NOT *NW*)) (NOT *NW*)) (NOT *NW*))
+     (AND *W* (OR (AND (NOT *NW*) (NOT *NW*)) (NOT *N*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 41 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND (OR *NE* (AND (AND (NOT *S*) *E*) (NOT *SE*)))
+     (AND
+      (AND (NOT *S*)
+       (AND (NOT *S*)
+        (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*))
+         (OR (NOT *S*) (NOT *SE*)))))
+      *NE*)))
+   #\e)
+  ((OR (AND (OR (NOT *W*) (NOT *W*)) *S*) (AND *SE* (NOT *SW*))) #\s)
+  ((OR
+    (OR
+     (AND
+      (OR
+       (AND (AND *E* (NOT *SE*))
+        (AND (OR (NOT *N*) (OR (NOT *NW*) (NOT *N*))) (NOT *S*)))
+       (AND (NOT *S*) (NOT *NW*)))
+      *N*)
+     (OR (NOT *N*) (NOT *NW*)))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 42 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND (NOT *S*)
+     (OR (AND (AND (NOT *SE*) *E*) *E*) (AND (NOT *S*) (AND (NOT *S*) *E*)))))
+   #\e)
+  ((OR
+    (AND (NOT *W*)
+     (AND (AND (NOT *W*) (OR (AND (NOT *W*) (NOT *W*)) (AND *E* (NOT *SW*))))
+      (OR (NOT *SW*)
+       (AND
+        (OR
+         (OR
+          (AND
+           (OR
+            (AND (AND (NOT *W*) (NOT *W*))
+             (AND
+              (AND *S*
+               (AND *NE*
+                (OR (NOT *W*)
+                 (AND (OR (NOT *SW*) (NOT *W*)) (OR (NOT *W*) (NOT *W*))))))
+              (NOT *W*)))
+            (NOT *W*))
+           (AND *S* (OR (NOT *W*) (NOT *SW*))))
+          (AND *E* (AND (AND *SE* (NOT *SW*)) (NOT *SW*))))
+         (NOT *W*))
+        (NOT *W*)))))
+    (AND *E* (NOT *SW*)))
+   #\s)
+  ((OR (NOT *NW*)
+    (OR (AND (NOT *NW*) (OR *N* (NOT *N*)))
+     (OR
+      (AND (NOT *NW*)
+       (OR (AND (OR (AND (NOT *NW*) *E*) (NOT *N*)) (NOT *NW*))
+        (OR
+         (AND
+          (OR
+           (OR (AND (NOT *NW*) (OR (OR (NOT *NW*) (NOT *N*)) (NOT *N*)))
+            (NOT *NW*))
+           (OR (NOT *N*) (OR (AND (NOT *NW*) *W*) (NOT *N*))))
+          (AND (OR (AND (NOT *NW*) *E*) (NOT *N*))
+           (OR
+            (OR (AND (NOT *NW*) *N*) (OR (AND (AND *S* *NE*) *N*) (NOT *NW*)))
+            (AND (NOT *N*) *S*))))
+         (NOT *N*))))
+      (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 43 100
+ (COND
+  ((OR (AND (AND (NOT *S*) *NE*) (AND *E* (AND (NOT *SE*) *E*)))
+    (AND (AND *E* (OR (AND (NOT *SE*) *NE*) (AND (NOT *S*) *E*))) *E*))
+   #\e)
+  ((OR (AND (NOT *W*) (OR (AND (NOT *W*) (AND (NOT *W*) *SE*)) (NOT *W*)))
+    (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+   #\s)
+  ((OR
+    (AND
+     (AND (OR (AND *N* (AND (NOT *NW*) (NOT *NW*))) (OR (NOT *NW*) (NOT *N*)))
+      *N*)
+     (NOT *NW*))
+    (AND *W* (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 44 100
+ (COND
+  ((OR
+    (AND
+     (OR
+      (AND
+       (AND
+        (AND
+         (AND
+          (AND *E*
+           (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) (NOT *SE*))) *NE*))
+          *E*)
+         *E*)
+        (OR (AND (AND *E* *E*) (NOT *N*)) (NOT *SE*)))
+       (OR *NE* *N*))
+      (AND (OR (NOT *S*) (NOT *S*)) (OR (NOT *S*) (NOT *SE*))))
+     *E*)
+    (AND (NOT *S*) *E*))
+   #\e)
+  ((OR
+    (AND (OR (NOT *W*) (AND (AND *E* *SE*) (NOT *SW*)))
+     (OR
+      (AND (AND *S* (OR (NOT *SW*) (AND *SE* (OR (NOT *W*) (NOT *SW*))))) *E*)
+      (NOT *W*)))
+    (NOT *W*))
+   #\s)
+  ((OR
+    (AND
+     (OR (AND (NOT *N*) *N*)
+      (AND
+       (OR (AND (OR (AND (NOT *NW*) *S*) (NOT *N*)) (NOT *NW*))
+        (OR (NOT *N*) (NOT *NW*)))
+       (NOT *N*)))
+     *NE*)
+    (OR (NOT *NW*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 45 100
+ (COND ((OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) #\e)
+  ((OR (AND *E* (OR (AND (NOT *W*) (NOT *W*)) (AND *S* (NOT *SW*))))
+    (OR
+     (AND (NOT *SW*)
+      (AND
+       (OR (NOT *SW*)
+        (OR
+         (OR
+          (AND (NOT *W*)
+           (OR
+            (AND
+             (AND
+              (AND (OR *E* (NOT *W*))
+               (OR (NOT *W*)
+                (OR (NOT *SW*)
+                 (OR (AND (OR (NOT *SW*) (NOT *W*)) *E*)
+                  (OR
+                   (OR
+                    (AND (NOT *W*)
+                     (OR
+                      (AND (AND (NOT *W*) (NOT *W*))
+                       (AND (NOT *W*)
+                        (OR
+                         (OR (AND *S* (OR (NOT *SW*) (NOT *W*)))
+                          (AND *NE* (NOT *W*)))
+                         *E*)))
+                      (AND (NOT *SW*) *N*)))
+                    (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+                   (NOT *W*))))))
+              (NOT *W*))
+             (AND
+              (OR (NOT *W*)
+               (OR (AND *E* (AND (NOT *SW*) *SE*)) (AND *E* (NOT *SW*))))
+              (AND (NOT *W*) (OR (NOT *SE*) (AND (NOT *SW*) *SE*)))))
+            (NOT *W*)))
+          (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+         (NOT *W*)))
+       *SE*))
+     (NOT *W*)))
+   #\s)
+  ((OR
+    (OR
+     (OR
+      (AND (AND (NOT *NW*) (OR (AND (NOT *NW*) *N*) (AND (NOT *NW*) *N*))) *N*)
+      (NOT *N*))
+     (NOT *NW*))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 46 100
+ (COND
+  ((OR
+    (AND
+     (OR (AND (NOT *SE*) (AND (OR *E* (AND (NOT *S*) *E*)) *E*))
+      (AND
+       (AND
+        (OR
+         (AND *E*
+          (AND (AND (OR *NE* *N*) (OR (NOT *S*) (NOT *SE*)))
+           (OR *E* (NOT *SE*))))
+         (AND (NOT *SE*) (AND (AND *E* (OR *NE* *E*)) *NE*)))
+        (NOT *SE*))
+       *E*))
+     (OR (AND (AND (NOT *SE*) *E*) (AND (NOT *SE*) *E*)) (AND (NOT *S*) *E*)))
+    (AND (NOT *S*) *E*))
+   #\e)
+  ((OR (AND (NOT *W*) *SE*)
+    (AND *E*
+     (OR
+      (OR (AND *E* (NOT *W*))
+       (AND
+        (OR
+         (AND
+          (OR (AND (NOT *W*) (NOT *W*))
+           (AND
+            (OR *E*
+             (OR
+              (AND (AND *S* (NOT *W*)) (AND (NOT *W*) (AND (NOT *SW*) *SE*)))
+              (AND (NOT *W*) (NOT *W*))))
+            (NOT *SW*)))
+          *SE*)
+         (NOT *W*))
+        (NOT *SW*)))
+      (OR
+       (AND
+        (AND
+         (OR
+          (AND (NOT *W*)
+           (OR
+            (AND (AND (NOT *W*) (NOT *S*))
+             (AND (NOT *W*)
+              (OR (OR (OR (NOT *W*) (NOT *W*)) (AND *E* (NOT *SW*)))
+               (NOT *SW*))))
+            (NOT *W*)))
+          *S*)
+         (NOT *SW*))
+        (NOT *SW*))
+       (NOT *W*)))))
+   #\s)
+  ((OR (NOT *N*)
+    (OR (NOT *NW*)
+     (AND
+      (AND
+       (OR
+        (OR
+         (AND
+          (OR
+           (AND
+            (OR (AND (OR (NOT *N*) *E*) (NOT *NW*))
+             (OR (AND (NOT *NW*) (NOT *N*))
+              (OR (AND (OR (NOT *N*) (NOT *N*)) *E*)
+               (OR (AND (OR (AND (NOT *NW*) (NOT *NW*)) (NOT *N*)) *E*)
+                (OR (NOT *N*) (OR (AND (NOT *NW*) *E*) (NOT *N*)))))))
+            *N*)
+           (NOT *NW*))
+          (NOT *N*))
+         (OR (AND (OR (NOT *N*) (NOT *N*)) *E*) (NOT *N*)))
+        (NOT *N*))
+       (NOT *N*))
+      (NOT *NW*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 47 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND
+     (OR
+      (AND
+       (AND
+        (AND
+         (OR (NOT *S*)
+          (OR
+           (AND
+            (AND
+             (AND
+              (AND
+               (OR
+                (AND
+                 (OR (AND (AND (AND (NOT *SE*) *E*) *E*) (NOT *N*))
+                  (OR *SE* (AND *E* (OR (NOT *S*) (AND (NOT *S*) *E*)))))
+                 (NOT *SE*))
+                (OR (NOT *S*) *N*))
+               *E*)
+              *E*)
+             *SE*)
+            *E*)
+           (NOT *SE*)))
+         (OR (NOT *S*) *N*))
+        *NE*)
+       *E*)
+      *E*)
+     (AND (OR *NE* *E*) (OR (NOT *S*) (NOT *SE*)))))
+   #\e)
+  ((OR
+    (OR (OR (AND (AND (NOT *W*) (NOT *W*)) *SE*) (AND *E* (NOT *SW*)))
+     (OR (NOT *W*) (OR (AND (NOT *SW*) *SE*) (NOT *W*))))
+    (OR
+     (AND
+      (AND (AND (NOT *W*) *SE*)
+       (AND (OR (NOT *SW*) (NOT *W*)) (OR (NOT *W*) (NOT *W*))))
+      (NOT *W*))
+     (AND *E* (NOT *SW*))))
+   #\s)
+  ((OR
+    (AND
+     (OR
+      (AND (NOT *NW*)
+       (OR
+        (AND
+         (OR
+          (AND
+           (OR
+            (AND (NOT *NW*)
+             (OR *N*
+              (AND
+               (OR
+                (OR
+                 (AND (NOT *N*)
+                  (OR *SW*
+                   (OR (AND (NOT *N*) (OR (AND (NOT *NW*) *N*) (NOT *N*)))
+                    (AND *W*
+                     (OR (AND (OR (NOT *NW*) (NOT *N*)) *N*) (NOT *N*))))))
+                 (NOT *N*))
+                (OR (NOT *SW*) (OR (OR (NOT *N*) (NOT *NW*)) (NOT *N*))))
+               (NOT *N*))))
+            (NOT *N*))
+           *N*)
+          (NOT *N*))
+         (NOT *NW*))
+        (NOT *N*)))
+      (NOT *NW*))
+     (OR (NOT *N*) (NOT *NW*)))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 48 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND (NOT *S*)
+     (AND
+      (OR (AND (AND (NOT *SE*) *E*) (AND (NOT *SE*) *E*)) (AND (NOT *S*) *E*))
+      (AND (NOT *S*)
+       (AND (AND (OR (AND *E* (NOT *S*)) *N*) (OR (NOT *S*) (NOT *SE*)))
+        *E*)))))
+   #\e)
+  ((OR (AND (NOT *W*) (NOT *W*))
+    (OR
+     (AND (NOT *SW*)
+      (AND (AND (NOT *W*) (OR (NOT *W*) (AND (NOT *W*) (NOT *W*))))
+       (AND (NOT *W*)
+        (OR (AND (NOT *W*) (NOT *SW*))
+         (AND
+          (OR (OR (NOT *S*) (OR (AND (NOT *SW*) (OR (NOT *W*) *E*)) (NOT *W*)))
+           *E*)
+          (OR
+           (AND
+            (OR (NOT *SW*)
+             (AND (NOT *W*)
+              (OR (OR (NOT *NW*) (NOT *S*)) (AND *NW* (NOT *E*)))))
+            (NOT *W*))
+           (AND *E*
+            (OR
+             (AND (NOT *W*)
+              (AND
+               (OR (AND *E* (AND (NOT *W*) (NOT *W*))) (AND *E* (NOT *SW*)))
+               (OR (NOT *SW*) (AND (NOT *SW*) (AND *E* *S*)))))
+             (AND (OR (AND (OR (NOT *SW*) (NOT *W*)) *SE*) (NOT *W*))
+              (OR (AND (NOT *SW*) *SE*) *E*))))))))))
+     (OR
+      (AND (OR (NOT *W*) (AND (NOT *W*) (NOT *SW*)))
+       (OR
+        (OR (NOT *SW*)
+         (AND (NOT *W*)
+          (OR
+           (AND
+            (AND
+             (OR (OR (NOT *SW*) *SE*)
+              (OR (AND (NOT *SW*) *SE*)
+               (AND (OR (OR *E* (NOT *W*)) (NOT *W*)) (NOT *SW*))))
+             (NOT *W*))
+            (AND *E* (NOT *W*)))
+           (NOT *W*))))
+        (NOT *W*)))
+      (OR (AND (NOT *W*) *SE*) (AND *E* (NOT *SW*))))))
+   #\s)
+  ((OR (AND *W* (OR (NOT *N*) (OR (AND (NOT *NW*) *W*) (NOT *N*)))) (NOT *NW*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 49 100
+ (COND
+  ((OR (OR (AND (NOT *SE*) (AND (OR (NOT *W*) *E*) *E*)) (AND (NOT *S*) *E*))
+    (AND (AND (NOT *SE*) *E*)
+     (OR
+      (OR (AND (NOT *SE*) *E*)
+       (AND
+        (OR (AND (NOT *SE*) *E*)
+         (AND (NOT *S*)
+          (AND
+           (AND (AND *E* *E*)
+            (OR (AND *E* *E*) (AND (NOT *S*) (AND (NOT *SE*) *E*))))
+           *E*)))
+        *E*))
+      (AND (NOT *S*) (AND *E* *E*)))))
+   #\e)
+  ((OR (AND (OR *E* *E*) (NOT *W*))
+    (OR
+     (OR
+      (AND
+       (OR
+        (AND
+         (OR (NOT *W*)
+          (OR (AND (OR (NOT *SW*) (NOT *W*)) *E*) (AND *S* (NOT *SW*))))
+         (OR
+          (AND
+           (OR
+            (AND
+             (OR (AND (NOT *W*) (OR (AND (OR *E* *E*) (NOT *SW*)) *E*))
+              (AND (NOT *W*)
+               (OR (AND (OR (OR (NOT *E*) *W*) (NOT *SE*)) *SE*)
+                (AND (OR (NOT *SW*) (NOT *W*)) (NOT *W*)))))
+             *SE*)
+            (NOT *W*))
+           (AND (NOT *W*)
+            (OR (AND (OR *E* *E*) (AND (NOT *W*) (NOT *W*))) *E*)))
+          (NOT *W*)))
+        (NOT *W*))
+       (NOT *W*))
+      (AND *E* (NOT *SW*)))
+     (NOT *W*)))
+   #\s)
+  ((OR
+    (AND
+     (OR
+      (AND (NOT *NW*)
+       (OR *N*
+        (AND
+         (OR (NOT *NW*)
+          (OR (OR (OR (OR (NOT *NW*) (NOT *NW*)) (NOT *N*)) (NOT *NW*))
+           (AND *W* (NOT *N*))))
+         (NOT *N*))))
+      (NOT *N*))
+     *N*)
+    (AND (NOT *N*) *S*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 50 100
+ (COND
+  ((OR
+    (OR (AND (NOT *SE*) *E*)
+     (AND (AND *E* *E*)
+      (AND (AND (NOT *SE*) *E*)
+       (OR (NOT *S*)
+        (AND (NOT *S*)
+         (OR (AND (NOT *SE*) (NOT *NE*)) (OR (NOT *W*) (NOT *S*))))))))
+    (AND (OR (NOT *S*) (AND (AND (OR *NE* *N*) (AND (NOT *SE*) *E*)) *E*))
+     (AND (NOT *S*) *E*)))
+   #\e)
+  ((OR
+    (OR (AND (NOT *W*) *SE*)
+     (AND (OR (AND (NOT *NW*) *S*) (OR (NOT *SE*) *E*)) (NOT *W*)))
+    (AND
+     (OR
+      (AND (OR (NOT *SW*) (NOT *W*))
+       (AND *SE* (AND *SE* (AND *S* (OR (NOT *SW*) *S*)))))
+      (OR
+       (AND
+        (AND
+         (OR (NOT *SE*)
+          (OR
+           (AND
+            (OR (AND (AND (NOT *W*) *S*) (OR (NOT *SW*) (NOT *W*))) (NOT *W*))
+            (NOT *W*))
+           (NOT *SW*)))
+         (NOT *W*))
+        (AND (NOT *W*) *S*))
+       (OR
+        (AND (OR (AND (NOT *W*) (NOT *W*)) (NOT *W*))
+         (OR (AND (NOT *SW*) (AND *E* (NOT *SW*))) (NOT *W*)))
+        (NOT *W*))))
+     (NOT *SW*)))
+   #\s)
+  ((OR
+    (AND
+     (OR
+      (AND (NOT *N*) (OR (OR (NOT *W*) (NOT *NW*)) (OR (NOT *N*) (NOT *NW*))))
+      (OR (NOT *N*) (NOT *NW*)))
+     *W*)
+    (OR
+     (AND (AND (NOT *NW*) (OR (NOT *NW*) (NOT *N*)))
+      (OR
+       (AND
+        (AND
+         (OR
+          (AND (OR (NOT *NW*) (OR (NOT *N*) (NOT *NW*))) (AND (NOT *NW*) *NE*))
+          (OR
+           (AND (NOT *NW*)
+            (OR *N*
+             (AND
+              (OR (AND (AND (NOT *NW*) (NOT *NW*)) *N*)
+               (OR (AND (NOT *NW*) *N*) (NOT *NW*)))
+              (AND (NOT *NW*) (AND *N* (NOT *N*))))))
+           (NOT *NW*)))
+         *N*)
+        (OR
+         (OR (AND (NOT *NW*) (OR (AND (NOT *NW*) *N*) (NOT *N*)))
+          (AND (NOT *NW*) (NOT *N*)))
+         (AND (NOT *NW*) (NOT *NW*))))
+       (NOT *N*)))
+     (AND *W* (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 51 100
+ (COND
+  ((AND (OR (NOT *W*) *E*)
+    (AND
+     (OR
+      (AND *E*
+       (AND
+        (AND (OR (AND *NE* (NOT *SE*)) (AND (NOT *S*) (NOT *S*)))
+         (OR *E* (NOT *SE*)))
+        (OR (NOT *S*) (NOT *SE*))))
+      (NOT *S*))
+     *NE*))
+   #\e)
+  ((OR
+    (AND
+     (OR
+      (AND (AND *SE* (NOT *SW*))
+       (OR (NOT *SE*)
+        (AND
+         (AND (AND (NOT *W*) (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+          (OR
+           (OR (AND (AND *N* (NOT *SW*)) *SE*)
+            (AND (OR (AND (AND (NOT *SW*) *N*) (AND *E* *E*)) *E*) (NOT *W*)))
+           (NOT *W*)))
+         (NOT *W*))))
+      (NOT *W*))
+     *E*)
+    (AND (OR (NOT *SW*) (NOT *W*)) *SE*))
+   #\s)
+  ((OR
+    (AND *N*
+     (OR
+      (AND (OR (AND (NOT *NW*) *N*) (NOT *N*))
+       (OR (AND (NOT *NW*) *N*)
+        (OR
+         (OR
+          (AND
+           (OR
+            (OR (NOT *NW*) (OR (OR (AND (NOT *NW*) *E*) (NOT *N*)) (NOT *NW*)))
+            (NOT *N*))
+           (AND *E* (NOT *NW*)))
+          (NOT *NW*))
+         (AND *W* (NOT *N*)))))
+      (NOT *N*)))
+    (AND (AND *W* (NOT *N*))
+     (OR (OR (NOT *N*) (OR (NOT *NW*) (NOT *N*)))
+      (AND (OR (AND (NOT *NW*) (NOT *NW*)) (NOT *N*)) (NOT *N*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 52 100
+ (COND
+  ((OR
+    (AND
+     (AND
+      (OR
+       (AND (AND (NOT *S*) *NE*)
+        (AND (NOT *SE*)
+         (AND (NOT *S*)
+          (AND
+           (AND
+            (OR (AND *E* (OR (NOT *S*) (AND (NOT *S*) *E*)))
+             (AND (NOT *S*) *E*))
+            (AND (NOT *S*) *E*))
+           *E*))))
+       *N*)
+      (OR
+       (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) (OR *E* (NOT *SE*)))
+       (AND (NOT *SE*) *E*)))
+     *E*)
+    (AND
+     (AND
+      (AND (OR (NOT *W*) (AND *NE* (OR (AND *NE* (NOT *SE*)) *E*)))
+       (AND
+        (OR
+         (OR (AND (NOT *SE*) *E*)
+          (AND
+           (AND
+            (AND *NE* (OR (AND (NOT *SE*) *E*) (AND (AND (NOT *SE*) *E*) *E*)))
+            (OR (AND *E* (AND (AND (NOT *S*) *NE*) *NE*)) (NOT *S*)))
+           *E*))
+         (NOT *S*))
+        *NE*))
+      *E*)
+     (AND (NOT *S*) (AND (AND *SE* (NOT *S*)) (NOT *S*)))))
+   #\e)
+  ((OR
+    (AND (NOT *W*)
+     (OR
+      (AND
+       (AND
+        (OR (AND *E* (AND (NOT *W*) (OR (NOT *SE*) *E*)))
+         (AND *E*
+          (OR (NOT *W*)
+           (AND
+            (OR
+             (AND (NOT *W*)
+              (AND (OR (AND (NOT *W*) (NOT *W*)) (NOT *W*)) (NOT *W*)))
+             (OR (AND *S* (AND *E* (NOT *SW*))) (NOT *W*)))
+            (NOT *SW*)))))
+        (OR (NOT *SW*) (NOT *SW*)))
+       (AND (AND *S* (OR (NOT *SW*) (AND (NOT *W*) (AND *S* (NOT *W*))))) *E*))
+      (NOT *W*)))
+    (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+   #\s)
+  ((OR
+    (AND (NOT *NW*)
+     (OR (AND (OR (OR (NOT *N*) (NOT *NW*)) (NOT *N*)) *W*)
+      (AND (AND (NOT *NW*) (OR (AND (NOT *NW*) *N*) (NOT *N*))) *E*)))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 53 100
+ (COND
+  ((OR
+    (AND
+     (AND (OR *NE* *E*)
+      (OR
+       (AND
+        (AND *NE*
+         (OR (AND (AND *NE* (NOT *S*)) *E*)
+          (OR
+           (OR (AND (NOT *SE*) *E*)
+            (AND (AND *E* *E*)
+             (AND (AND (NOT *SE*) *E*)
+              (OR (OR (NOT *SE*) (AND *E* (NOT *S*))) (NOT *SE*)))))
+           (AND
+            (OR (NOT *S*)
+             (AND
+              (AND (OR *NE* *N*) (OR (AND (NOT *S*) (OR *N* *E*)) (NOT *SE*)))
+              *E*))
+            *N*))))
+        *E*)
+       (AND (AND *E* *E*) (NOT *S*))))
+     *E*)
+    (AND (NOT *S*) *E*))
+   #\e)
+  ((OR
+    (AND
+     (AND
+      (OR *E*
+       (OR
+        (AND (OR (NOT *SE*) (AND (OR *E* (OR (NOT *SE*) *E*)) *SE*))
+         (AND (NOT *SW*) *SE*))
+        (NOT *W*)))
+      (OR (OR (AND (NOT *W*) (NOT *W*)) (AND (NOT *SW*) *SE*))
+       (AND (AND (NOT *W*) *SE*) (NOT *SW*))))
+     (NOT *SW*))
+    (OR (NOT *W*) (NOT *W*)))
+   #\s)
+  ((OR (AND (NOT *N*) (NOT *NW*))
+    (OR (AND (AND (NOT *NW*) *N*) *N*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 54 100
+ (COND
+  ((OR (AND (AND *E* (OR (NOT *S*) (AND (NOT *SE*) *E*))) *E*)
+    (AND
+     (AND
+      (AND (OR (NOT *W*) (AND *NE* (OR (AND *NE* (NOT *SE*)) *E*)))
+       (AND (OR *SE* *E*) (OR (NOT *S*) (NOT *SE*))))
+      *E*)
+     (NOT *SE*)))
+   #\e)
+  ((OR
+    (AND (NOT *W*)
+     (OR
+      (AND
+       (AND (AND (NOT *SW*) (OR (NOT *W*) (AND (NOT *W*) (NOT *W*))))
+        (OR (NOT *SW*) (NOT *SW*)))
+       (AND (NOT *SW*) (NOT *SW*)))
+      (NOT *W*)))
+    (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+   #\s)
+  ((OR (AND (AND (NOT *NW*) *N*) *NE*) (NOT *N*)) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 55 100
+ (COND
+  ((OR
+    (OR
+     (AND (NOT *SE*)
+      (AND (AND (OR *NE* (OR *SE* *NE*)) (OR (OR (NOT *S*) *SE*) (NOT *SE*)))
+       *E*))
+     (AND (NOT *S*) *E*))
+    (AND *E*
+     (AND
+      (OR
+       (OR
+        (AND (NOT *SE*)
+         (OR (AND (NOT *SE*) *E*)
+          (AND *E*
+           (AND
+            (AND (OR *NE* (NOT *SE*))
+             (OR
+              (AND *E*
+               (AND
+                (AND (OR *E* *E*)
+                 (OR (NOT *S*) (OR (AND *E* *E*) (AND (NOT *SE*) *E*))))
+                *E*))
+              (NOT *SE*)))
+            (AND (NOT *SE*) *E*)))))
+        (AND (NOT *S*) *E*))
+       *E*)
+      (NOT *SE*))))
+   #\e)
+  ((OR (AND (AND (AND (NOT *W*) (NOT *W*)) *SE*) *E*)
+    (OR
+     (OR
+      (AND
+       (AND *N*
+        (AND
+         (OR (NOT *W*)
+          (AND (AND *E* (OR (OR (NOT *SW*) *SE*) (NOT *W*))) (NOT *SW*)))
+         (OR (AND (AND *S* (OR (NOT *SW*) (NOT *W*))) *E*) (NOT *W*))))
+       (AND *SE* (NOT *SW*)))
+      (AND *E*
+       (AND (OR *E* (OR (AND *E* (OR (NOT *SW*) (NOT *W*))) (NOT *W*)))
+        (NOT *SW*))))
+     (NOT *W*)))
+   #\s)
+  ((OR
+    (AND
+     (OR
+      (AND (NOT *NW*)
+       (OR *N*
+        (AND
+         (OR (OR (NOT *NW*) (OR (NOT *N*) (NOT *NW*)))
+          (OR (AND (NOT *NW*) *N*) (AND *W* (NOT *N*))))
+         (NOT *N*))))
+      (NOT *N*))
+     *N*)
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 56 100
+ (COND
+  ((OR
+    (AND
+     (OR
+      (AND
+       (AND *NE*
+        (OR (AND (NOT *SE*) (OR (AND (NOT *SE*) *E*) (NOT *S*)))
+         (AND (NOT *S*) *E*)))
+       *NE*)
+      (AND
+       (AND *E*
+        (AND (NOT *S*)
+         (OR
+          (AND
+           (OR (AND *E* *E*)
+            (AND (NOT *SE*)
+             (AND
+              (AND
+               (AND
+                (OR (AND (NOT *S*) *E*)
+                 (OR (AND (NOT *SE*) *E*)
+                  (AND (NOT *S*)
+                   (AND *E*
+                    (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) *E*)))))
+                (AND (AND (AND (AND (NOT *S*) (AND (NOT *S*) *E*)) *E*) *E*)
+                 *E*))
+               *NE*)
+              *NE*)))
+           (AND (OR *NE* *N*) (OR (NOT *S*) (AND (NOT *S*) *E*))))
+          *E*)))
+       *E*))
+     (AND (AND (NOT *SE*) (NOT *SE*)) (AND *E* *E*)))
+    (AND (NOT *S*) *E*))
+   #\e)
+  ((OR
+    (AND *E*
+     (OR
+      (AND (NOT *W*)
+       (AND (NOT *W*)
+        (OR
+         (OR
+          (AND
+           (AND *S*
+            (OR (NOT *SW*)
+             (OR
+              (OR (OR (NOT *W*) (AND (OR (NOT *W*) *E*) (NOT *SW*)))
+               (AND (AND (NOT *W*) (NOT *W*)) (AND (NOT *W*) (NOT *W*))))
+              (AND (NOT *E*) (NOT *W*)))))
+           (AND (NOT *W*) (NOT *W*)))
+          (AND (NOT *SW*) (AND (AND (NOT *W*) (NOT *W*)) *SE*)))
+         (NOT *W*))))
+      (NOT *W*)))
+    (OR (AND (NOT *W*) (NOT *W*))
+     (OR (AND (NOT *SW*) *SE*) (OR (NOT *W*) (AND (NOT *SW*) *SE*)))))
+   #\s)
+  ((OR (OR (AND (NOT *NW*) *N*) (AND (NOT *NW*) (OR (NOT *N*) *E*))) (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 57 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND
+     (AND
+      (AND
+       (OR (OR (NOT *S*) (NOT *SE*))
+        (AND
+         (AND (NOT *SE*)
+          (AND *E*
+           (OR
+            (AND
+             (OR
+              (AND
+               (AND
+                (AND (NOT *S*)
+                 (OR
+                  (AND (NOT *SE*) (AND (NOT *S*) (AND (OR (NOT *W*) *E*) *E*)))
+                  (AND (OR (NOT *W*) *E*) *E*)))
+                (AND (NOT *S*) *E*))
+               *E*)
+              (AND
+               (AND *E*
+                (AND (OR (AND (NOT *S*) *E*) (AND (NOT *SE*) (NOT *SE*))) *E*))
+               *E*))
+             *E*)
+            *E*)))
+         *E*))
+       (AND (NOT *S*) *E*))
+      *NE*)
+     *E*))
+   #\e)
+  ((OR
+    (OR (AND (NOT *W*) (AND (NOT *SW*) *SE*))
+     (AND *S*
+      (OR (NOT *SW*) (AND (OR *E* (NOT *W*)) (OR (NOT *W*) (NOT *SW*))))))
+    (AND (NOT *W*)
+     (AND (NOT *W*)
+      (AND *S*
+       (AND (AND (AND (NOT *SW*) *SE*) *S*)
+        (OR
+         (OR *E*
+          (OR (AND (NOT *SW*) *SE*)
+           (OR
+            (AND
+             (AND *S*
+              (OR
+               (OR (AND *E* (NOT *W*))
+                (AND
+                 (OR
+                  (AND (NOT *SW*)
+                   (AND (OR (AND (AND (NOT *W*) (NOT *W*)) *E*) (NOT *W*))
+                    (NOT *W*)))
+                  *S*)
+                 (NOT *SW*)))
+               (AND *S* (NOT *SW*))))
+             (AND *E* (OR (NOT *SE*) *E*)))
+            (NOT *W*))))
+         (NOT *W*)))))))
+   #\s)
+  ((OR
+    (OR
+     (AND (NOT *NW*)
+      (OR (OR (NOT *N*) (NOT *NW*))
+       (OR (NOT *N*)
+        (OR (OR (NOT *N*) (OR (NOT *N*) (AND (NOT *NW*) *E*)))
+         (AND *N* (NOT *S*))))))
+     (NOT *N*))
+    (OR (OR (NOT *N*) (AND (AND (NOT *NW*) (NOT *NW*)) (NOT *NW*)))
+     (AND *S*
+      (OR (AND (NOT *NW*) (AND (OR (NOT *NW*) (NOT *N*)) *N*)) (NOT *N*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 58 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND
+     (OR (AND *E* (AND (NOT *S*) (OR *SE* *SE*)))
+      (AND (NOT *S*) (OR (NOT *SE*) (AND *E* *E*))))
+     *E*))
+   #\e)
+  ((OR (AND (OR (NOT *SW*) (NOT *W*)) (NOT *W*))
+    (AND
+     (OR (NOT *W*)
+      (OR
+       (AND (AND *SE* (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+        (AND
+         (OR *SE*
+          (AND (AND *N* (NOT *NE*))
+           (AND
+            (AND (AND (NOT *SW*) (NOT *W*))
+             (AND (NOT *W*) (OR (NOT *SE*) *S*)))
+            (NOT *SW*))))
+         (NOT *W*)))
+       (AND (AND (OR (NOT *SW*) (NOT *W*)) *SE*) (NOT *SW*))))
+     (NOT *SW*)))
+   #\s)
+  ((OR (NOT *NW*) (OR (AND *W* (NOT *N*)) (NOT *N*))) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 59 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND (NOT *S*)
+     (OR
+      (AND
+       (AND *NE*
+        (OR (AND (NOT *SE*) (OR (AND (NOT *SE*) *E*) *N*))
+         (AND (NOT *S*) *E*)))
+       *E*)
+      (AND
+       (AND *E*
+        (AND
+         (AND
+          (OR
+           (AND
+            (AND
+             (AND
+              (AND (OR *NE* (AND *NE* (NOT *SE*)))
+               (OR (AND (NOT *SE*) *E*) (NOT *SE*)))
+              (OR *NE* (NOT *SE*)))
+             (OR (NOT *S*) (NOT *SE*)))
+            (NOT *SE*))
+           (NOT *SE*))
+          (OR (NOT *S*) (NOT *SE*)))
+         (AND
+          (OR *E*
+           (OR (AND (NOT *SE*) *E*)
+            (AND
+             (AND *E*
+              (AND
+               (AND
+                (OR (AND (AND (AND *E* *E*) (OR *W* (NOT *NE*))) (NOT *SE*))
+                 (NOT *SE*))
+                (OR (OR (AND (NOT *SE*) *E*) *E*) (NOT *SE*)))
+               (OR (NOT *S*) (NOT *SE*))))
+             (OR (AND *E* (OR (NOT *S*) *E*)) (NOT *SE*)))))
+          *E*)))
+       *E*))))
+   #\e)
+  ((OR (OR (AND (OR (NOT *W*) (NOT *W*)) (NOT *W*)) (AND *S* (NOT *SW*)))
+    (AND *S* (AND *E* (NOT *W*))))
+   #\s)
+  ((OR
+    (AND (OR (NOT *W*) (NOT *NW*))
+     (OR (OR (AND (NOT *NW*) *E*) (OR (NOT *N*) (NOT *NW*))) (NOT *NW*)))
+    (OR
+     (AND (NOT *NW*)
+      (OR
+       (AND (AND (AND (OR (OR (NOT *W*) *N*) (NOT *N*)) (NOT *N*)) (NOT *N*))
+        (NOT *NW*))
+       (AND *W* (NOT *N*))))
+     (AND (NOT *N*) (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 60 100
+ (COND
+  ((OR
+    (AND (NOT *SE*)
+     (OR (AND (AND (NOT *SE*) *E*) *E*)
+      (AND (NOT *S*) (OR (AND (NOT *SE*) *E*) *SE*))))
+    (AND
+     (AND
+      (AND (AND (OR *NE* *N*) (OR (NOT *S*) (NOT *SE*)))
+       (OR
+        (OR
+         (AND *E*
+          (OR (AND (NOT *SE*) *E*)
+           (AND (NOT *S*)
+            (OR *E*
+             (AND (NOT *SE*)
+              (OR (AND (NOT *N*) *SW*) (AND (NOT *NW*) (NOT *NW*))))))))
+         (AND (NOT *S*)
+          (AND (NOT *S*)
+           (OR (AND (NOT *SE*) *E*)
+            (AND (NOT *S*)
+             (OR *SE* (AND (AND *E* (NOT *S*)) (AND (NOT *S*) *E*))))))))
+        (OR (NOT *W*) *NE*)))
+      *E*)
+     *E*))
+   #\e)
+  ((OR
+    (AND
+     (AND (OR *E* (OR *E* (NOT *W*)))
+      (OR (OR (NOT *W*) (AND *E* (NOT *SW*))) (NOT *SW*)))
+     (NOT *SW*))
+    (AND (NOT *W*) (OR (AND (NOT *SW*) *SE*) (NOT *W*))))
+   #\s)
+  ((OR
+    (AND
+     (OR
+      (OR
+       (OR
+        (AND (NOT *NW*)
+         (OR (AND (NOT *NW*) (NOT *NW*))
+          (OR (NOT *NW*) (OR (OR (NOT *N*) (NOT *NW*)) (NOT *NW*)))))
+        (AND (NOT *N*)
+         (OR
+          (AND (OR (NOT *NW*) (NOT *N*))
+           (AND
+            (OR (NOT *NW*)
+             (OR (AND *N* *N*)
+              (OR (AND (AND (NOT *NW*) *E*) *N*) (AND *W* (NOT *N*)))))
+            *N*))
+          (NOT *N*))))
+       (AND (OR (OR (AND (OR (NOT *NW*) (NOT *N*)) *S*) (NOT *N*)) (NOT *N*))
+        (NOT *N*)))
+      (NOT *N*))
+     (NOT *NW*))
+    (OR (NOT *N*)
+     (AND *N* (AND (OR (NOT *N*) (AND (NOT *NW*) *E*)) (NOT *NW*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 61 100
+ (COND
+  ((OR
+    (AND
+     (AND
+      (OR (AND (NOT *SE*) *E*)
+       (OR
+        (AND (NOT *SE*)
+         (AND (NOT *S*)
+          (AND
+           (AND
+            (OR
+             (AND *E*
+              (OR (OR (OR (NOT *SE*) (AND (NOT *SE*) (NOT *SE*))) (NOT *S*))
+               (AND (AND (NOT *SE*) *E*) *E*)))
+             (AND (NOT *S*) (AND (NOT *SE*) *E*)))
+            (AND (NOT *S*) (AND (AND (NOT *S*) *E*) *NE*)))
+           *E*)))
+        (AND (AND (OR (AND *E* (NOT *S*)) *N*) (OR (NOT *S*) (NOT *SE*)))
+         *E*)))
+      (OR (NOT *S*) (NOT *SE*)))
+     *E*)
+    (AND
+     (AND
+      (AND
+       (OR
+        (AND (NOT *S*)
+         (AND
+          (OR
+           (AND (NOT *SE*)
+            (AND
+             (OR (AND (NOT *SE*) *E*)
+              (AND (NOT *SE*)
+               (OR (AND (AND *E* *E*) (NOT *N*))
+                (OR *SE*
+                 (OR (AND (NOT *SE*) *E*)
+                  (AND (NOT *S*)
+                   (AND (AND (AND (NOT *S*) (AND (NOT *S*) *E*)) *E*)
+                    (OR *E*
+                     (AND (AND (NOT *S*) (AND (NOT *S*) (OR (NOT *S*) *N*)))
+                      *E*)))))))))
+             *E*))
+           (AND
+            (OR (AND (NOT *SE*) *E*)
+             (AND
+              (OR (OR *E* (AND (NOT *S*) *E*))
+               (AND *E*
+                (AND
+                 (AND (NOT *S*)
+                  (AND (OR (OR (AND (AND *E* (NOT *S*)) *E*) *N*) *N*)
+                   (OR (NOT *S*) (NOT *SE*))))
+                 *N*)))
+              *E*))
+            *E*))
+          *E*))
+        *SE*)
+       (AND (AND (AND (AND (NOT *S*) (AND (NOT *S*) *E*)) *E*) *E*) *E*))
+      *NE*)
+     *NE*))
+   #\e)
+  ((OR (NOT *W*)
+    (AND (AND (OR (OR (NOT *S*) (NOT *SW*)) (AND (NOT *SW*) *SE*)) (NOT *SW*))
+     *S*))
+   #\s)
+  ((OR
+    (AND
+     (OR (OR (NOT *N*) (AND *W* *N*))
+      (OR
+       (AND (AND (AND (NOT *N*) *N*) (NOT *NW*))
+        (AND (NOT *NW*) (OR (NOT *N*) (NOT *NW*))))
+       (AND (OR (NOT *N*) (AND (AND (NOT *NW*) *N*) (OR (NOT *N*) *N*)))
+        (NOT *NW*))))
+     (OR (OR (NOT *NW*) (NOT *N*))
+      (AND (OR (AND (NOT *NW*) *E*) (NOT *N*))
+       (OR (AND (NOT *N*) *N*) (NOT *N*)))))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 62 100
+ (COND
+  ((OR (AND (NOT *SE*) *E*)
+    (AND (NOT *S*)
+     (AND
+      (AND
+       (AND
+        (AND (NOT *S*)
+         (AND (AND (NOT *S*) *NE*)
+          (OR *SE*
+           (AND *NE*
+            (OR (AND (NOT *SE*) (OR (NOT *SE*) *N*))
+             (AND (AND (NOT *S*) *E*) *E*))))))
+        *NE*)
+       (OR (AND (AND (NOT *SE*) (OR *E* (NOT *SE*))) *E*) (AND (NOT *S*) *E*)))
+      (AND *E* *E*))))
+   #\e)
+  ((OR
+    (AND
+     (OR (NOT *W*)
+      (AND
+       (AND
+        (OR
+         (AND (AND (NOT *W*) (NOT *W*)) (AND (NOT *SW*) (OR *NE* (NOT *W*))))
+         (AND (AND *S* (NOT *SW*)) (AND (AND (NOT *W*) (NOT *W*)) (NOT *W*))))
+        (AND (AND (OR *SE* (AND *E* (NOT *SW*))) *SE*) *S*))
+       (NOT *W*)))
+     (NOT *W*))
+    (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+   #\s)
+  ((OR
+    (AND
+     (OR
+      (AND (AND (NOT *NW*) *N*)
+       (OR *N*
+        (AND
+         (OR (AND (NOT *N*) (OR (OR (NOT *W*) (NOT *NW*)) (NOT *NW*)))
+          (OR (NOT *N*) (NOT *NW*)))
+         (OR (OR (NOT *N*) (NOT *NW*)) (AND *E* (NOT *E*))))))
+      (AND (OR (NOT *E*) (NOT *NW*)) (NOT *NW*)))
+     (OR (NOT *N*) (OR (NOT *N*) (NOT *NW*))))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 63 100
+ (COND
+  ((OR
+    (AND
+     (AND (OR *NE* (AND (NOT *S*) (AND (OR (NOT *W*) *E*) *E*))) (NOT *SE*))
+     *E*)
+    (AND (AND (AND (OR *NE* *N*) (AND (NOT *S*) *E*)) *NE*) *E*))
+   #\e)
+  ((OR
+    (OR (AND (AND (NOT *SW*) *SE*) *SE*)
+     (OR
+      (OR (AND (OR *SE* (NOT *W*)) (NOT *W*))
+       (AND *E* (AND (OR (NOT *SW*) *SE*) (NOT *SW*))))
+      (AND
+       (AND
+        (OR (AND (NOT *SW*) *SE*)
+         (AND (AND (AND (NOT *E*) *E*) (AND (NOT *SW*) (NOT *W*))) *SE*))
+        *E*)
+       (AND (AND (NOT *W*) (OR *SE* *SE*)) (OR *S* *E*)))))
+    (AND (NOT *W*)
+     (AND (NOT *W*)
+      (OR
+       (AND *E*
+        (AND
+         (OR
+          (AND (NOT *SW*)
+           (OR (AND (OR *N* *E*) (NOT *W*))
+            (OR
+             (OR
+              (AND
+               (OR
+                (AND (NOT *SW*)
+                 (AND
+                  (AND
+                   (OR (NOT *W*) (AND (AND (NOT *SW*) (NOT *W*)) (NOT *SW*)))
+                   (NOT *W*))
+                  (AND
+                   (OR (AND (OR (NOT *SW*) (NOT *W*)) *SE*)
+                    (AND
+                     (OR
+                      (OR (AND (NOT *SW*) *SE*)
+                       (OR (AND (NOT *W*) *SE*) (NOT *W*)))
+                      (NOT *W*))
+                     *SE*))
+                   (NOT *W*))))
+                (NOT *W*))
+               (NOT *W*))
+              (AND *E*
+               (AND (OR (OR (AND (NOT *SW*) *SE*) (NOT *W*)) *SE*)
+                (NOT *SW*))))
+             (NOT *W*))))
+          (NOT *W*))
+         (AND (AND (NOT *W*) *SE*) (NOT *W*))))
+       (AND (OR (NOT *W*) *E*) (NOT *W*))))))
+   #\s)
+  ((OR (NOT *NW*)
+    (OR
+     (OR (OR (OR (NOT *NW*) (NOT *NW*)) (NOT *NW*))
+      (AND (OR (NOT *N*) *E*) (NOT *NW*)))
+     (AND (NOT *N*)
+      (OR
+       (AND (NOT *NW*)
+        (AND (OR (NOT *NW*) (OR (NOT *NW*) (OR (NOT *NW*) (NOT *N*)))) *N*))
+       (NOT *N*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 64 100
+ (COND
+  ((OR (AND (AND (OR (NOT *S*) *N*) (OR (NOT *SE*) (NOT *SE*))) *E*)
+    (AND
+     (OR (OR (AND (NOT *S*) *E*) (AND (NOT *S*) *E*))
+      (AND (NOT *S*)
+       (OR (AND *E* *E*)
+        (AND (NOT *S*)
+         (OR (AND *NE* (NOT *N*))
+          (OR *SE*
+           (AND
+            (OR
+             (AND
+              (AND (NOT *S*)
+               (OR (NOT *S*) (AND (OR *NE* *N*) (AND (NOT *SE*) *E*))))
+              *E*)
+             (AND *E* (AND *N* (OR (NOT *S*) (NOT *SE*)))))
+            *E*)))))))
+     (NOT *S*)))
+   #\e)
+  ((OR (AND *E* (OR (NOT *W*) (NOT *W*)))
+    (OR
+     (OR
+      (OR
+       (AND *S*
+        (AND (OR (NOT *NE*) (AND (NOT *W*) (NOT *W*)))
+         (AND
+          (OR (OR (AND (NOT *SW*) *SE*) (OR (NOT *SW*) (NOT *W*)))
+           (AND *S* (NOT *SW*)))
+          (AND (NOT *W*)
+           (OR (AND (AND (NOT *E*) (NOT *SW*)) (NOT *SW*))
+            (AND (AND *SE* (NOT *W*))
+             (AND
+              (AND
+               (AND
+                (AND (OR (OR *N* *SE*) (NOT *SW*)) (OR (NOT *W*) (NOT *SW*)))
+                *SE*)
+               (AND *NE* (OR (OR (NOT *W*) *E*) *E*)))
+              (OR *SE* (AND (NOT *W*) (NOT *W*))))))))))
+       (AND *S* (NOT *SW*)))
+      (AND *S* (AND *E* (NOT *W*))))
+     (NOT *W*)))
+   #\s)
+  ((OR
+    (AND (OR (NOT *N*) (NOT *NW*))
+     (OR (NOT *N*)
+      (OR (NOT *N*)
+       (OR
+        (AND
+         (OR
+          (AND (OR (NOT *N*) *E*)
+           (AND (OR (NOT *NW*) (NOT *N*))
+            (OR
+             (OR
+              (OR
+               (AND
+                (OR
+                 (OR (OR (NOT *NW*) (AND (NOT *NW*) (NOT *NW*)))
+                  (OR (NOT *N*) (NOT *NW*)))
+                 (NOT *N*))
+                (OR (NOT *NW*)
+                 (AND
+                  (OR
+                   (AND
+                    (AND
+                     (OR
+                      (AND (NOT *NW*)
+                       (AND *W*
+                        (OR (OR (NOT *N*) (OR (AND (NOT *NW*) *N*) (NOT *N*)))
+                         (AND
+                          (OR
+                           (AND
+                            (OR (OR (NOT *N*) (AND (NOT *NW*) (NOT *NW*)))
+                             (NOT *N*))
+                            (AND (NOT *N*)
+                             (OR (AND (NOT *NW*) *NE*) (NOT *N*))))
+                           (NOT *NW*))
+                          (NOT *N*)))))
+                      (NOT *N*))
+                     *NE*)
+                    *N*)
+                   (AND (NOT *NW*) *N*))
+                  (NOT *N*))))
+               (NOT *N*))
+              (AND *W* (NOT *N*)))
+             (NOT *N*))))
+          (NOT *N*))
+         (NOT *NW*))
+        (NOT *N*)))))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 65 100
+ (COND
+  ((OR
+    (AND (AND (NOT *SE*) (OR (NOT *S*) (NOT *SE*)))
+     (AND
+      (AND (OR (AND (AND (NOT *SE*) *E*) *E*) (AND (NOT *S*) *E*))
+       (AND (OR (NOT *S*) (NOT *SE*)) *E*))
+      (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*))))
+    (AND (NOT *S*)
+     (AND *E*
+      (OR
+       (OR
+        (AND
+         (OR (OR *E* *SE*)
+          (AND
+           (OR (AND (NOT *SE*) *E*)
+            (AND
+             (OR (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*))
+              (AND (OR (NOT *S*) *E*)
+               (AND
+                (AND (NOT *S*)
+                 (AND (OR (OR (AND (AND *E* (NOT *S*)) *E*) *N*) *N*)
+                  (OR (NOT *S*) (NOT *SE*))))
+                *N*)))
+             *E*))
+           *E*))
+         *E*)
+        (AND
+         (OR (AND (NOT *S*) (NOT *N*))
+          (OR
+           (AND (OR (NOT *S*) (NOT *SE*))
+            (AND (OR (OR (NOT *SE*) *SW*) (AND *E* *E*)) *E*))
+           *SE*))
+         (AND
+          (OR (AND (NOT *SE*) *E*)
+           (AND (NOT *S*)
+            (OR (OR (AND (NOT *SE*) *E*) (NOT *SE*)) (AND (NOT *S*) *E*))))
+          *E*)))
+       (NOT *S*)))))
+   #\e)
+  ((OR (OR (AND (NOT *W*) (NOT *W*)) (AND (OR (NOT *SW*) (NOT *W*)) *SE*))
+    (OR (AND *S* (OR (NOT *SW*) (NOT *W*)))
+     (AND
+      (AND (OR (AND (AND *S* (NOT *SW*)) (NOT *W*)) (NOT *SW*))
+       (OR (NOT *W*) (NOT *SW*)))
+      (OR
+       (AND (NOT *W*) (AND (OR (AND (NOT *SW*) *SE*) (NOT *W*)) (OR *S* *E*)))
+       (NOT *W*)))))
+   #\s)
+  ((OR
+    (AND (NOT *NW*)
+     (AND
+      (OR *NE*
+       (OR
+        (OR (AND (AND (AND (NOT *NW*) (NOT *NW*)) *N*) (NOT *N*)) (NOT *NW*))
+        (NOT *NW*)))
+      (NOT *NW*)))
+    (OR (NOT *NW*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 66 100
+ (COND
+  ((OR
+    (AND
+     (AND
+      (AND
+       (OR
+        (AND (NOT *S*)
+         (AND (OR (AND (NOT *S*) (NOT *SE*)) (NOT *SE*))
+          (OR
+           (AND (AND (NOT *S*) *E*)
+            (AND *E*
+             (AND (AND *N* (NOT *S*))
+              (OR
+               (AND
+                (AND
+                 (OR *NE*
+                  (AND (AND (NOT *SE*) *E*)
+                   (AND (AND (NOT *S*) *NE*)
+                    (AND (AND (NOT *SE*) (AND (NOT *S*) *E*)) *E*))))
+                 (OR (NOT *S*) (NOT *SE*)))
+                *E*)
+               (AND *E*
+                (AND (OR *NE* *N*)
+                 (OR
+                  (OR
+                   (AND
+                    (AND (AND *E* (NOT *S*))
+                     (OR (AND (NOT *SW*) (NOT *NW*))
+                      (AND (NOT *NE*) (NOT *N*))))
+                    *E*)
+                   (OR
+                    (AND
+                     (AND (NOT *SE*)
+                      (OR
+                       (AND (AND (AND (OR *SE* (NOT *SE*)) (NOT *SE*)) *E*)
+                        *E*)
+                       (AND (AND *E* (NOT *S*)) (AND (NOT *SE*) *E*))))
+                     *E*)
+                    (AND (NOT *SE*) *E*)))
+                  (NOT *SE*))))))))
+           *E*)))
+        *N*)
+       (NOT *SE*))
+      (OR *E* (NOT *SE*)))
+     *E*)
+    (AND
+     (AND
+      (OR (AND (NOT *SE*) *E*)
+       (AND (OR (NOT *SE*) (NOT *S*)) (AND *E* (NOT *S*))))
+      *E*)
+     *E*))
+   #\e)
+  ((AND
+    (OR
+     (OR
+      (AND (AND (NOT *W*) (OR (AND (OR (NOT *SW*) (NOT *W*)) *SE*) (NOT *W*)))
+       (NOT *W*))
+      (AND *S* (NOT *SW*)))
+     (OR (AND (AND (NOT *W*) (NOT *W*)) (NOT *W*))
+      (AND (AND (NOT *SW*) *SE*)
+       (OR
+        (AND
+         (AND
+          (OR (AND (OR (OR (NOT *W*) *SE*) *SE*) (NOT *W*))
+           (OR
+            (AND
+             (OR
+              (AND
+               (AND (NOT *W*)
+                (AND
+                 (OR
+                  (AND (AND *SE* (NOT *W*))
+                   (AND (NOT *W*) (OR (OR (NOT *SW*) (NOT *SW*)) (NOT *SW*))))
+                  (OR
+                   (AND
+                    (AND (AND *E* *SE*)
+                     (OR (NOT *NW*)
+                      (AND
+                       (OR (OR (NOT *W*) *NE*)
+                        (OR (OR (NOT *SW*) (AND *E* (NOT *SW*))) (NOT *W*)))
+                       (NOT *W*))))
+                    (OR
+                     (AND *N*
+                      (AND (NOT *W*) (OR (OR *S* (AND *S* (NOT *SW*))) *E*)))
+                     (NOT *W*)))
+                   (NOT *W*)))
+                 *SE*))
+               (NOT *W*))
+              (AND (NOT *W*) (AND *E* (OR *E* *SE*))))
+             (NOT *W*))
+            *SE*))
+          (NOT *SW*))
+         (NOT *W*))
+        (OR (AND (NOT *SW*) (OR (NOT *SE*) *E*)) (AND *SE* (NOT *SW*)))))))
+    *SE*)
+   #\s)
+  ((OR
+    (AND (AND (AND (OR (NOT *NW*) (NOT *N*)) *N*) (NOT *NW*))
+     (OR
+      (AND (NOT *NW*)
+       (OR (NOT *N*)
+        (OR
+         (AND
+          (OR (OR *N* (NOT *NW*))
+           (AND (AND (NOT *NW*) *N*) (AND (NOT *NW*) *NE*)))
+          (NOT *NW*))
+         (NOT *N*))))
+      (OR (OR (AND (NOT *NW*) (NOT *N*)) (NOT *N*)) (AND *N* (NOT *N*)))))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 67 100
+ (COND
+  ((OR
+    (AND (NOT *SE*)
+     (OR *E*
+      (AND (NOT *SE*)
+       (AND (NOT *S*)
+        (OR (AND (AND *E* (NOT *SE*)) (NOT *N*))
+         (AND
+          (OR *SE*
+           (AND *E*
+            (AND
+             (AND
+              (OR
+               (AND
+                (AND
+                 (AND
+                  (AND (OR *NE* (AND *NE* (NOT *SE*))) (AND (NOT *SE*) *E*))
+                  (OR *NE* (NOT *SE*)))
+                 (OR (NOT *S*) (NOT *SE*)))
+                (NOT *SE*))
+               (NOT *SE*))
+              (OR (NOT *S*) (NOT *SE*)))
+             (AND
+              (OR *E*
+               (OR (AND (NOT *SE*) *E*)
+                (AND
+                 (AND *E*
+                  (AND
+                   (AND
+                    (AND *E*
+                     (AND (OR *NE* *N*)
+                      (OR
+                       (AND (NOT *S*)
+                        (AND *E*
+                         (AND
+                          (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*))
+                           *E*)
+                          *E*)))
+                       (NOT *SE*))))
+                    (OR (NOT *S*)
+                     (OR *E*
+                      (OR (AND (AND (AND *NE* (NOT *SE*)) *E*) *E*)
+                       (OR
+                        (AND (OR *E* (AND (OR (NOT *S*) *SE*) (NOT *SE*)))
+                         (AND
+                          (OR (AND (NOT *SE*) *E*)
+                           (AND (NOT *S*) (AND *E* (OR *N* *SE*))))
+                          *E*))
+                        (AND (NOT *S*) *E*))))))
+                   (OR (NOT *S*) (NOT *SE*))))
+                 (OR (AND *E* (OR (NOT *S*) *E*)) (NOT *SE*)))))
+              *E*))))
+          (OR (NOT *S*) (NOT *SE*))))))))
+    (AND (NOT *S*) *E*))
+   #\e)
+  ((OR
+    (OR (AND (AND (NOT *SW*) *SE*) *SE*)
+     (OR
+      (OR (AND (OR *SE* (NOT *W*)) (NOT *W*))
+       (AND *E* (AND (OR (NOT *SW*) *SE*) (NOT *SW*))))
+      (AND
+       (AND
+        (OR (AND (NOT *SW*) *SE*)
+         (AND (AND (AND (NOT *E*) *E*) (AND (NOT *SW*) (NOT *W*))) *SE*))
+        *E*)
+       (AND (AND (NOT *W*) (OR *SE* *SE*)) (OR *S* *E*)))))
+    (OR (NOT *W*) (AND *E* (NOT *SW*))))
+   #\s)
+  ((OR (NOT *NW*)
+    (OR (OR (NOT *NW*) (NOT *NW*))
+     (OR (AND (NOT *NW*) (AND *W* (OR (NOT *N*) (NOT *NW*)))) (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 68 100
+ (COND
+  ((OR
+    (OR (AND (AND (NOT *SE*) *NE*) *E*)
+     (AND
+      (AND (AND (NOT *S*) *E*)
+       (AND
+        (AND (OR *N* *SW*)
+         (OR (NOT *S*) (AND (OR (NOT *SE*) (AND (NOT *S*) *NE*)) *E*)))
+        *E*))
+      *E*))
+    (AND
+     (AND (AND (OR *SE* *E*) (OR (NOT *S*) (NOT *SE*)))
+      (OR *E* (AND (NOT *S*) *E*)))
+     *E*))
+   #\e)
+  ((OR (OR (AND (NOT *W*) (NOT *W*)) (OR (OR (NOT *W*) (NOT *W*)) (NOT *W*)))
+    (AND
+     (OR
+      (OR
+       (AND (NOT *W*)
+        (OR (OR (NOT *W*) (AND *S* (OR (NOT *SW*) (AND (NOT *W*) (NOT *W*)))))
+         (NOT *W*)))
+       (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+      (AND *SE*
+       (AND
+        (AND
+         (AND (OR (NOT *SW*) (OR (NOT *W*) (OR (OR *SE* *S*) (NOT *W*)))) *SE*)
+         (AND (NOT *SW*) *SE*))
+        (OR
+         (AND (OR (NOT *SW*) (NOT *SW*)) (OR (NOT *W*) (AND *E* (NOT *SW*))))
+         (AND (NOT *W*) (OR (NOT *SW*) (NOT *W*)))))))
+     (OR (AND (NOT *W*) (NOT *W*))
+      (OR
+       (AND
+        (OR
+         (AND
+          (AND
+           (AND (OR (NOT *SW*) *SE*)
+            (OR
+             (OR
+              (AND (OR (OR (AND *SE* (NOT *W*)) (NOT *W*)) (NOT *W*))
+               (NOT *SE*))
+              (AND *S* (OR (AND (NOT *SW*) *SE*) *E*)))
+             (AND (NOT *W*) (AND (NOT *SW*) (AND (NOT *SW*) *SE*)))))
+           (NOT *SW*))
+          (NOT *W*))
+         (OR (NOT *SW*) (NOT *W*)))
+        *SE*)
+       (NOT *W*)))))
+   #\s)
+  ((OR
+    (OR
+     (AND *S*
+      (OR (NOT *N*)
+       (AND
+        (OR
+         (AND
+          (OR (AND (AND (NOT *NW*) *E*) *N*)
+           (AND (OR (NOT *N*) (AND *S* (NOT *NW*))) (NOT *NW*)))
+          (NOT *NW*))
+         (NOT *NW*))
+        (NOT *NW*))))
+     (NOT *NW*))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 69 100
+ (COND
+  ((OR (AND (NOT *SE*) (OR (NOT *W*) *E*))
+    (AND
+     (AND (OR (AND (NOT *E*) *E*) (AND (AND (NOT *S*) *E*) *E*))
+      (AND
+       (OR
+        (AND *E*
+         (AND (AND (NOT *S*) *NE*)
+          (AND *SE*
+           (AND (OR *NE* *N*)
+            (OR (NOT *S*)
+             (AND
+              (OR (AND (NOT *SE*) *E*)
+               (AND
+                (AND
+                 (AND
+                  (AND (OR (NOT *W*) (AND *NE* (OR (AND *NE* (NOT *SE*)) *E*)))
+                   (AND
+                    (OR
+                     (OR (AND (NOT *SE*) *E*)
+                      (AND
+                       (AND (AND *NE* *E*)
+                        (OR
+                         (AND *E*
+                          (AND
+                           (AND (NOT *S*)
+                            (OR (AND (NOT *SE*) *E*)
+                             (AND
+                              (AND
+                               (AND
+                                (AND
+                                 (AND (NOT *S*)
+                                  (OR
+                                   (AND (AND *E* (AND (NOT *S*) *E*))
+                                    (NOT *N*))
+                                   (OR *SE* *SE*)))
+                                 (AND (NOT *S*) *E*))
+                                *E*)
+                               *E*)
+                              *E*)))
+                           *NE*))
+                         (AND (AND (NOT *SE*) *E*)
+                          (OR (NOT *SE*) (AND (NOT *S*) (AND *E* *E*))))))
+                       *E*))
+                     (NOT *S*))
+                    *NE*))
+                  *E*)
+                 *E*)
+                (AND (NOT *S*) *N*)))
+              *E*))))))
+        *SW*)
+       (OR (AND *E* *E*)
+        (AND (NOT *S*) (AND *E* (OR (NOT *S*) (AND (NOT *S*) *E*)))))))
+     *E*))
+   #\e)
+  ((OR
+    (OR
+     (AND
+      (AND *S*
+       (OR
+        (OR
+         (AND (AND (NOT *W*) (NOT *W*))
+          (AND
+           (AND (AND *E* (NOT *SW*))
+            (AND *NE*
+             (OR
+              (OR
+               (AND (NOT *W*)
+                (OR (OR *SW* (NOT *NW*)) (AND (NOT *NW*) (NOT *W*))))
+               (AND *E*
+                (AND
+                 (OR
+                  (AND (OR (NOT *SW*) (AND (NOT *W*) (NOT *W*)))
+                   (OR
+                    (AND *E*
+                     (AND
+                      (AND *S*
+                       (OR (NOT *SW*)
+                        (AND
+                         (AND
+                          (AND (NOT *W*)
+                           (AND (NOT *W*) (OR (NOT *SW*) (OR *SE* (NOT *W*)))))
+                          (NOT *W*))
+                         *E*)))
+                      *E*))
+                    (NOT *W*)))
+                  (OR (AND (NOT *S*) (NOT *W*)) (NOT *W*)))
+                 (NOT *W*))))
+              (NOT *W*))))
+           (AND (NOT *W*) (NOT *W*))))
+         (NOT *W*))
+        (OR (NOT *W*) (AND (NOT *E*) (NOT *SE*)))))
+      *SE*)
+     (AND *E* (AND (NOT *W*) (NOT *W*))))
+    (AND *E* (NOT *SW*)))
+   #\s)
+  ((OR
+    (AND (NOT *NW*)
+     (OR (AND (NOT *NW*) *N*)
+      (OR (AND (NOT *N*) (OR *SW* (NOT *N*)))
+       (OR
+        (AND
+         (OR
+          (OR (OR (OR (NOT *N*) (NOT *NW*)) (OR (AND *N* (NOT *N*)) (NOT *N*)))
+           (NOT *N*))
+          (NOT *NW*))
+         *N*)
+        (OR (OR (AND (AND (NOT *NW*) *N*) *N*) (AND (NOT *NW*) *S*))
+         (NOT *NW*))))))
+    (OR (NOT *N*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 70 100
+ (COND
+  ((OR
+    (AND
+     (OR (AND *NE* (NOT *SE*))
+      (AND (NOT *S*)
+       (AND
+        (AND
+         (OR
+          (OR (AND (AND (AND *E* (NOT *SE*)) *E*) *E*)
+           (OR *E*
+            (AND
+             (OR (AND (NOT *SE*) *E*)
+              (AND (OR (NOT *SE*) (AND (OR (NOT *S*) (NOT *S*)) (NOT *S*)))
+               (OR
+                (OR
+                 (AND
+                  (OR
+                   (AND (AND (NOT *SE*) (OR (NOT *S*) (NOT *SE*)))
+                    (AND
+                     (AND
+                      (OR (AND (AND (NOT *SE*) (AND (NOT *SE*) *NE*)) *E*)
+                       (AND (NOT *S*) *E*))
+                      (AND (OR (NOT *S*) (NOT *SE*)) *E*))
+                     (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*))))
+                   (AND *E*
+                    (AND *E*
+                     (OR
+                      (OR
+                       (AND
+                        (OR (AND (NOT *SE*) *E*)
+                         (AND
+                          (OR (AND (NOT *SE*) *E*)
+                           (AND
+                            (OR (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*))
+                             (AND *E*
+                              (AND
+                               (AND (NOT *S*)
+                                (OR (AND (NOT *E*) (NOT *S*)) (OR *N* *N*)))
+                               *N*)))
+                            *E*))
+                          *E*))
+                        *E*)
+                       (AND
+                        (OR (AND (NOT *S*) (NOT *N*))
+                         (OR (AND (NOT *SE*) *E*) *SE*))
+                        (AND
+                         (OR (AND (NOT *SE*) *E*)
+                          (AND *E*
+                           (OR (OR (AND (NOT *SE*) *E*) (NOT *SE*)) *E*)))
+                         *E*)))
+                      (NOT *S*)))))
+                  (OR (AND (AND *E* *E*) *E*) *SE*))
+                 *N*)
+                *N*)))
+             *E*)))
+          *N*)
+         (OR *E* (NOT *SE*)))
+        *E*)))
+     *E*)
+    (AND (AND (OR (AND (NOT *S*) *E*) *NE*) (OR (NOT *S*) (NOT *SE*)))
+     (OR (AND (NOT *S*) (AND *E* *E*))
+      (AND (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) *E*) *E*))))
+   #\e)
+  ((OR
+    (OR
+     (AND (AND *S* (AND *S* (NOT *SW*)))
+      (AND
+       (AND
+        (OR
+         (AND
+          (AND (NOT *W*)
+           (OR
+            (AND
+             (OR
+              (AND
+               (AND
+                (AND (AND (NOT *W*) (NOT *SW*))
+                 (AND (AND (NOT *NW*) (NOT *S*)) (AND (NOT *NE*) (NOT *W*))))
+                (OR (AND *S* (NOT *SW*)) (NOT *SW*)))
+               *SE*)
+              (AND (OR (NOT *SW*) (NOT *W*)) *E*))
+             (AND (NOT *W*)
+              (OR (AND (NOT *SW*) *SE*)
+               (OR (AND (NOT *SW*) (NOT *SW*)) (NOT *W*)))))
+            (AND (NOT *W*) (AND *E* (OR *E* *SE*)))))
+          (NOT *SW*))
+         (AND
+          (OR
+           (OR
+            (AND (OR (AND (NOT *W*) (NOT *W*)) (AND (NOT *SW*) *SE*))
+             (NOT *W*))
+            (AND *E* (NOT *SW*)))
+           (NOT *W*))
+          *SE*))
+        (NOT *W*))
+       (AND (NOT *SW*) (OR *E* *E*))))
+     (AND *S* (NOT *SW*)))
+    (NOT *W*))
+   #\s)
+  ((OR (NOT *N*) (NOT *NW*)) #\w) (T #\n)))
+
+("2008-03-10 15:15:05" 71 100
+ (COND
+  ((OR
+    (AND
+     (AND
+      (OR
+       (OR (AND (NOT *E*) *E*)
+        (OR
+         (AND
+          (AND (OR *SE* *NE*)
+           (OR (AND (NOT *S*) *E*)
+            (OR
+             (AND *E*
+              (OR (AND (NOT *SE*) *NE*)
+               (AND (NOT *S*) (OR *E* (AND (NOT *SE*) (OR (NOT *S*) *SW*))))))
+             (AND (NOT *S*) (AND (NOT *S*) *E*)))))
+          *E*)
+         (AND (AND (NOT *S*) (AND (NOT *S*) *E*))
+          (AND (AND (NOT *S*) *E*)
+           (AND
+            (OR
+             (OR (AND (NOT *SE*) *E*)
+              (AND (NOT *S*)
+               (OR (NOT *S*)
+                (OR
+                 (AND (NOT *SE*)
+                  (AND (OR (AND (NOT *S*) (NOT *SE*)) (NOT *S*)) *E*))
+                 *E*))))
+             (NOT *S*))
+            *NE*)))))
+       *N*)
+      (AND (AND (NOT *S*) *E*) *E*))
+     *E*)
+    (AND
+     (OR
+      (AND
+       (AND
+        (OR
+         (OR (AND *E* *E*)
+          (AND (AND (OR (NOT *SE*) *SE*) *E*)
+           (AND (NOT *SE*) (AND (AND (NOT *S*) *E*) *E*))))
+         *N*)
+        (OR (NOT *S*) (OR (NOT *S*) (AND (NOT *S*) *E*))))
+       *E*)
+      (AND
+       (AND *E*
+        (OR
+         (AND (AND (NOT *SE*) *E*)
+          (OR (AND *E* *E*) (AND (OR (NOT *S*) (NOT *SE*)) *E*)))
+         (AND (NOT *S*) *E*)))
+       *E*))
+     *E*))
+   #\e)
+  ((AND
+    (OR (AND (OR (NOT *W*) (NOT *SW*)) (NOT *W*))
+     (OR (AND (NOT *W*) (NOT *W*)) (AND *S* (NOT *SW*))))
+    *E*)
+   #\s)
+  ((OR
+    (OR (AND (AND *W* (NOT *SW*)) (NOT *N*))
+     (AND (OR (OR (NOT *N*) (NOT *NW*)) (NOT *N*)) *W*))
+    (OR (NOT *W*)
+     (OR (NOT *N*)
+      (OR
+       (AND (NOT *NW*)
+        (OR (NOT *N*)
+         (AND (NOT *NW*)
+          (AND
+           (AND (AND (NOT *NW*) *N*)
+            (AND (NOT *NW*)
+             (OR
+              (OR (OR (AND (NOT *N*) *E*) (AND (NOT *NW*) (NOT *NW*)))
+               (NOT *NW*))
+              (NOT *NW*))))
+           (OR (OR (AND (AND (NOT *NW*) (NOT *NW*)) *E*) (NOT *N*))
+            (AND (NOT *NW*) (NOT *N*)))))))
+       (NOT *N*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 72 100
+ (COND
+  ((OR
+    (AND (NOT *SE*)
+     (OR (AND (AND (AND *E* (AND (NOT *SE*) *E*)) (NOT *SE*)) *E*)
+      (AND (AND (AND *NE* (OR *NE* *NE*)) (NOT *S*)) *E*)))
+    (AND
+     (AND
+      (OR
+       (AND (OR (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) (NOT *SE*))
+        (NOT *S*))
+       (AND (AND (NOT *S*) (AND (NOT *S*) *E*)) *E*))
+      *E*)
+     (NOT *S*)))
+   #\e)
+  ((OR
+    (OR (AND (NOT *SW*) *SE*)
+     (AND
+      (AND
+       (AND
+        (OR
+         (AND
+          (OR (OR (AND (NOT *SW*) *SE*) (NOT *W*))
+           (OR (NOT *W*)
+            (AND
+             (OR (AND (AND (NOT *W*) (NOT *W*)) (NOT *SW*))
+              (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+             *S*)))
+          *SE*)
+         (OR
+          (AND
+           (AND
+            (AND (NOT *SW*)
+             (AND *S*
+              (AND (NOT *SW*)
+               (OR *E* (OR (AND (AND *E* (NOT *SW*)) *E*) (NOT *W*))))))
+            (NOT *W*))
+           (NOT *SW*))
+          (AND *E* (NOT *SW*))))
+        (OR (NOT *W*) *E*))
+       (NOT *W*))
+      (AND (NOT *W*) (NOT *W*))))
+    (AND
+     (AND *E*
+      (AND
+       (OR
+        (OR *E*
+         (OR (AND (OR (AND (NOT *SW*) (NOT *SE*)) (NOT *W*)) (NOT *W*))
+          (AND *E*
+           (AND (OR (OR (AND (NOT *SW*) *SE*) (NOT *W*)) (NOT *W*))
+            (NOT *SW*)))))
+        (NOT *W*))
+       (OR (AND (AND (NOT *SW*) *SE*) (OR (NOT *W*) (AND *E* *SE*)))
+        (NOT *SW*))))
+     (NOT *SW*)))
+   #\s)
+  ((OR (NOT *N*)
+    (AND (NOT *NW*)
+     (OR
+      (AND
+       (OR (AND (OR (OR *N* (NOT *S*)) (AND (NOT *E*) (NOT *NE*))) *N*)
+        (NOT *N*))
+       (AND (AND (NOT *NW*) *S*) *NE*))
+      (OR (AND (NOT *NW*) (AND (NOT *N*) (NOT *NW*))) (NOT *NW*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 73 100
+ (COND
+  ((OR
+    (AND
+     (AND
+      (OR
+       (AND
+        (AND (AND *E* (NOT *S*))
+         (OR
+          (AND
+           (OR
+            (AND (AND (NOT *S*) *E*)
+             (AND
+              (AND (OR (AND *E* *NE*) (NOT *SE*)) (OR (NOT *S*) (NOT *SE*)))
+              (OR
+               (AND (NOT *SE*)
+                (OR
+                 (AND
+                  (OR
+                   (AND (AND (AND (NOT *SE*) *E*) *E*)
+                    (OR (NOT *S*)
+                     (OR (AND (NOT *SE*) (AND (NOT *SE*) (AND (NOT *SE*) *E*)))
+                      (AND
+                       (AND
+                        (AND (AND (NOT *SE*) *E*)
+                         (OR (AND (NOT *S*) *E*) *NE*))
+                        (AND (NOT *S*) *SE*))
+                       *E*))))
+                   (AND (NOT *S*)
+                    (AND (NOT *S*)
+                     (AND
+                      (AND
+                       (AND
+                        (AND *E*
+                         (OR (OR (AND (NOT *SE*) *E*) (NOT *S*))
+                          (AND (NOT *S*) *E*)))
+                        (AND (NOT *SE*) (AND (NOT *S*) *E*)))
+                       *E*)
+                      (NOT *SE*)))))
+                  *E*)
+                 (AND (AND *E* (NOT *S*)) *E*)))
+               (AND (NOT *S*) *E*))))
+            (NOT *S*))
+           *E*)
+          (AND (NOT *S*) (AND (NOT *SE*) *E*))))
+        (NOT *S*))
+       (NOT *SE*))
+      (AND (NOT *SE*) *E*))
+     (AND (NOT *SE*) *E*))
+    (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) (AND *E* *N*))) *E*))
+   #\e)
+  ((OR
+    (OR (AND (NOT *W*) (NOT *W*))
+     (AND
+      (AND (NOT *SW*)
+       (OR (NOT *SW*)
+        (AND
+         (OR
+          (AND
+           (OR
+            (AND (NOT *W*)
+             (OR
+              (AND
+               (AND
+                (OR (NOT *W*)
+                 (OR (AND (AND *E* (NOT *W*)) (NOT *W*)) (AND *S* (NOT *SW*))))
+                (AND (AND *S* (NOT *SW*))
+                 (AND (OR (OR (AND (NOT *SW*) *SE*) (NOT *W*)) (AND *S* *S*))
+                  (OR (NOT *SW*) (AND (OR (NOT *W*) *E*) *N*)))))
+               (NOT *SW*))
+              (NOT *W*)))
+            (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+           (OR
+            (AND
+             (OR
+              (AND
+               (AND (NOT *SW*)
+                (AND (OR (NOT *SW*) (AND *S* (AND *NE* (NOT *W*)))) (NOT *W*)))
+               (AND (NOT *W*) (OR (NOT *SE*) *E*)))
+              (OR
+               (OR
+                (AND (NOT *NW*)
+                 (OR (AND (AND (NOT *W*) (NOT *W*)) (AND (NOT *W*) (NOT *W*)))
+                  (AND (NOT *SW*) *N*)))
+                (OR (AND (AND (NOT *SW*) *SE*) *SE*) (NOT *W*)))
+               (NOT *W*)))
+             (AND (NOT *W*)
+              (OR *SE*
+               (AND
+                (AND (OR *E* (NOT *W*))
+                 (OR (NOT *W*) (OR (NOT *SW*) (NOT *W*))))
+                (NOT *W*)))))
+            (NOT *W*)))
+          (AND (OR (NOT *SW*) (NOT *W*)) (NOT *SW*)))
+         *E*)))
+      (OR
+       (AND
+        (OR
+         (OR
+          (AND
+           (OR (AND (AND (NOT *SW*) *S*) (NOT *W*))
+            (OR (OR (AND (NOT *SW*) *SE*) (NOT *W*)) (NOT *W*)))
+           (NOT *W*))
+          (AND *E* (NOT *SW*)))
+         *E*)
+        (NOT *SW*))
+       (NOT *W*))))
+    (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+   #\s)
+  ((OR
+    (AND (AND *S* (OR (NOT *NW*) *W*))
+     (OR (OR (AND (NOT *NW*) (AND (NOT *N*) (NOT *NW*))) (NOT *NW*))
+      (NOT *N*)))
+    (OR
+     (OR (NOT *N*)
+      (OR (NOT *NW*)
+       (AND (NOT *NW*)
+        (AND
+         (OR
+          (AND
+           (OR (NOT *N*)
+            (AND
+             (OR (AND (OR (NOT *N*) *N*) (NOT *NW*))
+              (OR (AND (NOT *NW*) (NOT *NW*))
+               (OR (NOT *N*)
+                (AND (AND (OR (AND (NOT *NW*) *N*) (NOT *N*)) *NE*) *N*))))
+             (NOT *N*)))
+           (NOT *NW*))
+          (NOT *N*))
+         (NOT *N*)))))
+     (AND
+      (OR
+       (OR (NOT *NW*)
+        (AND *S* (OR (AND (AND (NOT *NW*) *N*) *E*) (AND (NOT *NW*) *SW*))))
+       (NOT *N*))
+      (OR (NOT *N*) (NOT *NW*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 74 100
+ (COND
+  ((OR
+    (AND
+     (AND
+      (AND
+       (OR
+        (AND (NOT *S*)
+         (AND (OR (AND (NOT *S*) (NOT *SE*)) (NOT *SE*))
+          (OR (OR (NOT *S*) (AND (OR (AND (AND (NOT *SE*) *E*) *E*) *SE*) *E*))
+           (AND (NOT *S*) *E*))))
+        *N*)
+       (NOT *SE*))
+      (OR *E* (NOT *SE*)))
+     *E*)
+    (AND
+     (AND
+      (OR (AND (AND *NE* (AND (NOT *SE*) (NOT *S*))) (NOT *S*))
+       (AND *SE* (NOT *S*)))
+      *E*)
+     *E*))
+   #\e)
+  ((AND
+    (OR
+     (OR
+      (AND (AND (NOT *W*) (OR (AND (OR (NOT *SW*) (NOT *W*)) *SE*) (NOT *W*)))
+       (NOT *W*))
+      (AND *S* (NOT *SW*)))
+     (AND (OR *N* *E*) (NOT *W*)))
+    *SE*)
+   #\s)
+  ((OR
+    (AND (AND (AND (OR (NOT *NW*) (NOT *N*)) (NOT *NW*)) (NOT *NW*))
+     (OR
+      (AND (NOT *NW*)
+       (OR (NOT *N*)
+        (OR
+         (AND
+          (OR (OR (NOT *N*) (NOT *N*)) (AND (NOT *NW*) (AND (NOT *NW*) *NE*)))
+          (NOT *NW*))
+         (NOT *N*))))
+      *W*))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 75 100
+ (COND
+  ((OR (AND (AND (AND (NOT *S*) *E*) *E*) *E*)
+    (OR (AND (NOT *S*) *E*)
+     (AND
+      (AND
+       (AND
+        (OR (AND (NOT *SE*) *E*)
+         (AND (NOT *S*)
+          (OR
+           (AND
+            (OR (AND *SW* (NOT *NW*))
+             (OR (AND (AND (NOT *SE*) *E*) (NOT *S*))
+              (AND (NOT *S*)
+               (AND (NOT *S*) (OR (AND (NOT *S*) *E*) (AND (NOT *S*) *E*))))))
+            *E*)
+           (NOT *SE*))))
+        (OR *E* (NOT *SE*)))
+       *E*)
+      *E*)))
+   #\e)
+  ((OR
+    (AND (AND (OR *E* (OR (NOT *W*) (NOT *W*))) (OR (NOT *W*) (NOT *SW*))) *E*)
+    (AND
+     (AND
+      (OR *E*
+       (OR
+        (AND (AND (OR (AND *S* *N*) (NOT *W*)) (NOT *SW*))
+         (AND (OR (NOT *NE*) (OR *E* (OR (NOT *SW*) (NOT *W*))))
+          (OR (NOT *SE*) *E*)))
+        (NOT *W*)))
+      (OR (NOT *W*) (NOT *SW*)))
+     (OR (OR (OR (NOT *W*) *NE*) (NOT *W*)) (NOT *W*))))
+   #\s)
+  ((AND
+    (OR (AND (OR (AND (NOT *NW*) *E*) (NOT *N*)) (OR (NOT *N*) (NOT *NW*)))
+     (OR (NOT *N*) (OR (NOT *N*) (NOT *N*))))
+    (OR (OR (AND (NOT *NW*) (NOT *N*)) (NOT *NW*)) (OR (NOT *N*) (NOT *NW*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 76 100
+ (COND
+  ((OR
+    (AND
+     (AND
+      (OR *NE*
+       (OR (AND (AND (NOT *SE*) *NE*) *E*)
+        (AND (AND (NOT *S*) (NOT *S*)) *E*)))
+      (AND
+       (AND
+        (OR (AND (NOT *SE*) (AND (AND *E* (NOT *S*)) *E*)) (OR (NOT *W*) *E*))
+        *E*)
+       (NOT *S*)))
+     (OR (NOT *S*) (NOT *S*)))
+    (AND (AND *E* (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)))
+     (AND
+      (OR
+       (AND
+        (OR
+         (OR
+          (AND
+           (AND
+            (AND (AND (NOT *S*) (AND (NOT *S*) *E*))
+             (OR (NOT *S*)
+              (AND *E* (AND (OR *NE* *N*) (OR (NOT *S*) (NOT *SE*))))))
+            (NOT *S*))
+           *E*)
+          *N*)
+         (OR
+          (AND (NOT *SE*)
+           (AND (NOT *S*)
+            (AND
+             (AND
+              (OR
+               (AND
+                (AND (NOT *SE*)
+                 (OR (AND (AND (NOT *SE*) (NOT *SE*)) *E*)
+                  (AND (AND (NOT *S*) (NOT *SE*)) *E*)))
+                *E*)
+               *N*)
+              (OR (NOT *S*) (NOT *SE*)))
+             *E*)))
+          (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*))))
+        (OR (AND (NOT *SE*) *E*) *E*))
+       (AND (NOT *S*) *E*))
+      *E*)))
+   #\e)
+  ((OR
+    (AND *S*
+     (OR
+      (OR (OR (OR (NOT *W*) (AND *S* (NOT *SW*))) (NOT *W*))
+       (AND *S*
+        (AND
+         (AND *SE*
+          (OR (NOT *SW*)
+           (AND
+            (OR
+             (OR (AND (OR (NOT *SW*) (NOT *S*)) (OR (NOT *SW*) (NOT *W*)))
+              (AND
+               (OR
+                (AND (AND (NOT *W*) *N*)
+                 (AND
+                  (AND (OR (AND (NOT *W*) (NOT *SW*)) (NOT *SW*))
+                   (OR (AND *SE* (NOT *W*)) (NOT *W*)))
+                  *E*))
+                (NOT *SW*))
+               (NOT *W*)))
+             (NOT *W*))
+            *S*)))
+         *E*)))
+      (NOT *W*)))
+    (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+   #\s)
+  ((OR (OR (AND (NOT *NW*) (NOT *NW*)) (OR (NOT *NW*) (NOT *N*)))
+    (OR (AND (OR (AND *W* (NOT *NW*)) (NOT *N*)) (NOT *N*))
+     (OR (NOT *N*)
+      (OR
+       (AND (NOT *NW*)
+        (AND (AND (OR (AND (NOT *N*) (NOT *NW*)) (NOT *N*)) (NOT *N*))
+         (NOT *NW*)))
+       (AND
+        (OR (NOT *NW*)
+         (OR (AND (NOT *NW*) *N*)
+          (OR
+           (AND
+            (AND
+             (OR
+              (AND (NOT *NW*)
+               (OR
+                (OR (AND (NOT *NW*) (OR (AND *W* (NOT *N*)) (NOT *NW*)))
+                 (OR (OR (NOT *N*) (AND (NOT *NW*) *N*))
+                  (OR (OR (NOT *N*) (AND (OR (NOT *N*) *E*) (NOT *NW*)))
+                   (AND (NOT *NW*)
+                    (OR (AND (NOT *NW*) (OR (NOT *N*) (AND *SE* *N*)))
+                     (AND
+                      (OR
+                       (OR
+                        (OR (NOT *NW*)
+                         (OR (AND (NOT *N*) (NOT *N*))
+                          (AND
+                           (OR (OR (AND (NOT *NW*) (NOT *NW*)) (NOT *NW*))
+                            (AND (NOT *NW*) (NOT *N*)))
+                           (OR (AND (NOT *NW*) *N*)
+                            (AND *W*
+                             (OR
+                              (OR
+                               (OR
+                                (OR (AND *W* (NOT *NW*))
+                                 (OR
+                                  (OR (AND (NOT *N*) (NOT *NW*))
+                                   (OR (AND (NOT *NW*) (NOT *NW*))
+                                    (OR (NOT *N*) (AND (AND *N* *NE*) *N*))))
+                                  (NOT *N*)))
+                                (NOT *NW*))
+                               (NOT *NW*))
+                              (NOT *N*)))))))
+                        (NOT *N*))
+                       (AND (OR (OR (NOT *N*) (NOT *NW*)) (NOT *NW*))
+                        (OR (NOT *NW*)
+                         (AND (OR (NOT *NW*) (NOT *N*)) (NOT *N*)))))
+                      *N*))))))
+                (OR (AND *SW* (NOT *NW*))
+                 (OR (AND (NOT *S*) (NOT *NW*))
+                  (OR (AND (NOT *N*) *N*) (NOT *N*))))))
+              (NOT *N*))
+             *N*)
+            (NOT *NW*))
+           (NOT *N*))))
+        *N*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 77 100
+ (COND
+  ((OR (OR (AND (NOT *SE*) *E*) (AND (NOT *SE*) *E*))
+    (AND *E*
+     (AND
+      (OR
+       (AND (AND (OR (NOT *S*) (NOT *SE*)) (AND (OR *W* *N*) *E*)) (NOT *S*))
+       (AND (OR *E* (AND (AND (NOT *S*) *E*) *E*)) *E*))
+      (NOT *S*))))
+   #\e)
+  ((OR (AND (AND *E* (NOT *SW*)) *E*)
+    (OR
+     (AND
+      (OR (AND (OR (NOT *SW*) (NOT *W*)) (NOT *W*))
+       (AND *E*
+        (OR (AND *E* (AND (NOT *SW*) (OR (NOT *SE*) *E*)))
+         (AND
+          (OR
+           (AND
+            (OR (NOT *SW*)
+             (OR
+              (AND (NOT *W*)
+               (AND (NOT *W*)
+                (OR (OR (AND *S* (OR (NOT *SW*) (NOT *W*))) (AND *NE* *E*))
+                 (AND
+                  (OR *S*
+                   (OR
+                    (AND (AND *S* (AND (AND (NOT *SE*) (NOT *W*)) (NOT *W*)))
+                     *E*)
+                    (NOT *W*)))
+                  (NOT *SW*)))))
+              (AND *SE* (NOT *SW*))))
+            *SE*)
+           (NOT *W*))
+          (OR (AND (NOT *SW*) *E*) *E*)))))
+      (NOT *W*))
+     (NOT *W*)))
+   #\s)
+  ((OR
+    (AND
+     (OR
+      (AND
+       (AND
+        (OR (OR (AND (AND (NOT *NW*) (OR (NOT *N*) *E*)) (NOT *NW*)) (NOT *N*))
+         (OR
+          (AND (OR (AND (NOT *NW*) (NOT *N*)) (AND (NOT *NW*) (NOT *N*)))
+           (OR (NOT *N*) *N*))
+          (OR (NOT *N*) (NOT *NW*))))
+        (NOT *N*))
+       (AND (NOT *NW*) (NOT *NW*)))
+      (OR (NOT *N*) (NOT *N*)))
+     (AND
+      (AND (NOT *N*)
+       (OR *N* (AND (OR (AND (NOT *NW*) *N*) (NOT *NW*)) (NOT *N*))))
+      (NOT *NW*)))
+    (OR (NOT *N*)
+     (OR
+      (AND
+       (OR (NOT *N*)
+        (AND (NOT *NW*)
+         (OR (AND (NOT *NW*) (OR (NOT *N*) (NOT *NW*))) (NOT *N*))))
+       *N*)
+      (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 78 100
+ (COND
+  ((OR (AND (AND (NOT *SE*) *E*) *E*)
+    (AND
+     (AND
+      (OR (AND (NOT *S*) *E*)
+       (OR (AND (NOT *SE*) (AND (NOT *SE*) *E*))
+        (AND (AND *E* (OR (AND (NOT *SE*) *E*) *E*))
+         (OR
+          (AND
+           (AND (NOT *S*)
+            (OR
+             (AND (OR *NE* *N*)
+              (OR (NOT *S*)
+               (AND
+                (OR (NOT *SE*)
+                 (AND (NOT *S*) (AND (AND *E* (OR (NOT *S*) (NOT *SE*))) *E*)))
+                (OR
+                 (AND *NE*
+                  (OR
+                   (AND
+                    (OR
+                     (AND
+                      (OR (AND (NOT *SE*) *E*)
+                       (AND
+                        (AND
+                         (OR (AND *N* *E*)
+                          (AND (AND (NOT *S*) (OR (NOT *SE*) (NOT *SE*))) *E*))
+                         *E*)
+                        *E*))
+                      (NOT *SE*))
+                     *SE*)
+                    (NOT *S*))
+                   (NOT *SE*)))
+                 *E*))))
+             (OR (AND (OR *E* (AND (OR (NOT *S*) *SE*) (NOT *SE*))) *E*)
+              (AND (NOT *S*) *E*))))
+           (AND (AND (OR *SE* *NE*) (OR (AND *N* (AND (NOT *SE*) *E*)) *N*))
+            *E*))
+          (AND (NOT *S*) *E*)))))
+      (AND (AND *E* (OR (AND (NOT *SE*) *E*) *NE*)) (OR *NE* *E*)))
+     (AND (NOT *S*) *E*)))
+   #\e)
+  ((AND *S*
+    (OR (NOT *SW*)
+     (AND
+      (OR
+       (AND
+        (OR
+         (OR
+          (AND
+           (AND
+            (OR *E*
+             (AND
+              (AND
+               (AND
+                (OR (NOT *W*)
+                 (AND (OR (OR (NOT *S*) *N*) (OR (NOT *NW*) (NOT *N*)))
+                  (NOT *SW*)))
+                *S*)
+               (OR *S* (OR (NOT *SW*) (NOT *W*))))
+              (AND *E* *S*)))
+            (OR (AND *S* (NOT *SW*)) (NOT *SW*)))
+           (AND (NOT *SW*)
+            (OR *E*
+             (OR (AND (NOT *W*) (NOT *SW*))
+              (OR (AND (NOT *W*) *E*)
+               (OR
+                (AND
+                 (AND
+                  (AND *S*
+                   (OR (OR (NOT *S*) (AND (NOT *SW*) *SE*))
+                    (AND (OR (NOT *SW*) (NOT *W*)) (NOT *SW*))))
+                  (NOT *W*))
+                 (AND (NOT *W*) (NOT *SW*)))
+                (AND (NOT *SW*) (AND *E* *S*))))))))
+          (AND *E* (NOT *SW*)))
+         *E*)
+        (NOT *SW*))
+       (NOT *W*))
+      (OR (NOT *W*) (OR (NOT *W*) *S*)))))
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*))
+    (AND *N*
+     (OR (AND (NOT *NW*) *N*)
+      (OR
+       (AND
+        (AND
+         (OR
+          (AND (NOT *NW*)
+           (OR
+            (OR (AND (NOT *NW*) (OR (AND *W* (NOT *N*)) (NOT *NW*)))
+             (OR (OR (NOT *N*) (AND (NOT *NW*) *N*))
+              (OR (OR (NOT *N*) (AND (OR (NOT *N*) *E*) (NOT *NW*)))
+               (AND (NOT *NW*)
+                (OR (AND (NOT *NW*) (OR (NOT *N*) (AND *SE* *N*)))
+                 (AND
+                  (OR
+                   (OR
+                    (OR (NOT *NW*)
+                     (OR
+                      (AND
+                       (OR (NOT *NW*)
+                        (OR
+                         (AND (AND (AND (NOT *N*) *N*) (NOT *NW*))
+                          (AND (NOT *NW*) *N*))
+                         (AND
+                          (AND (OR (NOT *NW*) (NOT *N*))
+                           (OR (AND (OR (NOT *N*) *E*) (NOT *NW*))
+                            (OR (AND (NOT *NW*) *N*)
+                             (AND
+                              (OR (AND (NOT *NW*) *E*)
+                               (AND (OR (NOT *N*) (NOT *N*)) (NOT *N*)))
+                              (OR (NOT *NW*) *N*)))))
+                          (OR (AND (NOT *NW*) (NOT *NW*))
+                           (AND (NOT *NW*)
+                            (OR (AND *N* *N*) (AND *W* (NOT *N*))))))))
+                       (NOT *N*))
+                      (NOT *NW*)))
+                    (NOT *N*))
+                   (AND *W*
+                    (OR
+                     (OR (NOT *N*)
+                      (OR
+                       (OR
+                        (AND (AND (NOT *NW*) (AND (NOT *NW*) *N*)) (NOT *NW*))
+                        (AND
+                         (OR
+                          (AND (OR (AND (NOT *NW*) *S*) (NOT *N*)) (NOT *NW*))
+                          (NOT *N*))
+                         (NOT *N*)))
+                       (OR (NOT *N*) (AND *W* (NOT *N*)))))
+                     (AND (OR (NOT *NW*) (NOT *N*)) (NOT *N*)))))
+                  (OR (AND (NOT *NW*) (NOT *NW*)) (NOT *N*))))))))
+            (OR
+             (OR
+              (AND (NOT *NW*)
+               (OR (OR (NOT *NW*) (OR (AND (NOT *NW*) *N*) (NOT *N*)))
+                (AND *W*
+                 (OR (OR (NOT *SW*) (OR *W* (AND *W* (NOT *N*)))) (NOT *N*)))))
+              (NOT *N*))
+             (OR (AND (NOT *S*) (NOT *NW*))
+              (OR
+               (AND (NOT *N*)
+                (AND
+                 (OR
+                  (AND (AND (NOT *NW*) (AND (OR (NOT *N*) (NOT *NW*)) *N*))
+                   *N*)
+                  (NOT *N*))
+                 *N*))
+               (NOT *N*))))))
+          (NOT *N*))
+         *N*)
+        (NOT *NW*))
+       (NOT *N*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 79 100
+ (COND
+  ((OR
+    (AND
+     (OR (AND (AND *E* (OR (NOT *S*) (NOT *SE*))) (OR *NE* *N*))
+      (AND
+       (OR (NOT *S*)
+        (AND (NOT *S*)
+         (OR
+          (AND (NOT *S*)
+           (AND (OR *E* (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*))) *E*))
+          (AND (NOT *S*) *E*))))
+       (OR (NOT *S*) (NOT *SE*))))
+     *E*)
+    (OR (AND (NOT *SE*) *E*)
+     (AND (NOT *S*)
+      (AND (NOT *S*)
+       (AND *E* (OR (NOT *S*) (AND (NOT *S*) (AND (NOT *SE*) (NOT *S*)))))))))
+   #\e)
+  ((OR
+    (AND
+     (AND
+      (AND
+       (OR *E*
+        (OR
+         (AND (AND (NOT *W*) *S*)
+          (AND *S*
+           (AND (OR (AND *NE* (OR (NOT *W*) (NOT *W*))) (NOT *W*))
+            (OR
+             (AND
+              (OR (AND (NOT *W*) *SE*)
+               (OR
+                (AND
+                 (OR (NOT *W*)
+                  (OR (OR (NOT *SW*) (AND *S* (NOT *SW*)))
+                   (OR (NOT *W*)
+                    (AND (OR *E* (AND (NOT *SE*) (NOT *W*))) (NOT *SW*)))))
+                 *SE*)
+                (NOT *W*)))
+              (AND (NOT *SW*) *SE*))
+             (NOT *W*)))))
+         (AND *S*
+          (AND (OR (AND (NOT *W*) (AND *S* (NOT *W*))) (NOT *W*))
+           (OR *E* (NOT *W*))))))
+       (OR (NOT *W*) (NOT *SW*)))
+      (NOT *SW*))
+     (NOT *W*))
+    (OR (AND *S* (NOT *SW*)) (NOT *W*)))
+   #\s)
+  ((OR
+    (AND
+     (OR
+      (OR
+       (OR
+        (AND (NOT *S*)
+         (AND *S*
+          (OR
+           (OR
+            (OR
+             (AND (AND (OR (NOT *N*) (OR (NOT *NW*) (NOT *N*))) *E*)
+              (OR *E* *NW*))
+             (NOT *NW*))
+            (NOT *N*))
+           (NOT *NW*))))
+        (NOT *N*))
+       (OR (NOT *N*) (AND (NOT *NW*) (NOT *N*))))
+      (AND (OR (NOT *NW*) (AND *W* (OR (NOT *SW*) *SW*))) (NOT *N*)))
+     (NOT *N*))
+    (NOT *NW*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 80 100
+ (COND
+  ((OR
+    (AND (NOT *SE*)
+     (OR (AND (AND (NOT *SE*) *E*) *E*)
+      (AND (NOT *S*)
+       (OR (AND (NOT *SE*) *E*)
+        (AND (AND (NOT *S*) (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)))
+         (AND *E* *E*))))))
+    (AND
+     (AND
+      (AND (AND (OR *NE* *N*) (OR (NOT *S*) (AND (NOT *SE*) *E*)))
+       (OR
+        (OR (AND *E* (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) (OR *E* *SE*))))
+         (AND (NOT *S*) (AND *NE* (NOT *SE*))))
+        (OR (NOT *W*) *E*)))
+      *E*)
+     *E*))
+   #\e)
+  ((OR
+    (AND *SE*
+     (OR
+      (AND
+       (OR
+        (OR (AND (NOT *W*) (NOT *W*))
+         (AND
+          (AND
+           (AND (OR (AND (NOT *W*) *SE*) (NOT *W*))
+            (AND (NOT *E*)
+             (OR (AND (NOT *W*) (NOT *W*)) (AND (NOT *SW*) *SE*))))
+           (NOT *W*))
+          (NOT *SW*)))
+        (NOT *W*))
+       (OR (NOT *W*) (NOT *SW*)))
+      (AND
+       (AND
+        (OR
+         (OR (NOT *SW*)
+          (OR (AND (NOT *W*) (NOT *SW*))
+           (OR (AND (NOT *SW*) *SE*)
+            (AND (NOT *SW*) (OR (NOT *SW*) (NOT *W*))))))
+         (AND (NOT *W*) *SE*))
+        *SE*)
+       (NOT *SW*))))
+    (AND *E* (NOT *SW*)))
+   #\s)
+  ((OR (AND (OR (OR (NOT *N*) (NOT *N*)) (NOT *NW*)) (NOT *NW*))
+    (OR (NOT *N*) (AND *N* (OR (AND (NOT *NW*) *N*) (AND *W* (NOT *N*))))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 81 100
+ (COND
+  ((OR
+    (AND *E*
+     (OR (AND (AND (NOT *S*) *E*) *E*)
+      (AND
+       (AND *E*
+        (AND
+         (OR
+          (AND (NOT *SE*)
+           (AND (NOT *SE*)
+            (OR (AND (NOT *SE*) *E*)
+             (AND (AND *E* (NOT *S*)) (OR *NE* (NOT *SE*))))))
+          (AND (NOT *S*)
+           (OR (AND (OR (NOT *S*) (NOT *SE*)) *E*)
+            (AND (AND (OR (AND *NE* (NOT *SE*)) *E*) (NOT *S*))
+             (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *SE*) *E*)) (NOT *S*))))))
+         *E*))
+       *E*)))
+    (AND (NOT *S*) *E*))
+   #\e)
+  ((OR (NOT *W*)
+    (OR
+     (AND
+      (OR
+       (OR
+        (AND
+         (AND (NOT *SW*)
+          (OR
+           (AND
+            (OR (AND (AND (AND *E* *S*) (AND (NOT *W*) (NOT *W*))) *SE*)
+             (AND (OR (AND (NOT *W*) (NOT *W*)) (NOT *W*)) (NOT *W*)))
+            (AND *S* (AND (NOT *SE*) (NOT *W*))))
+           (NOT *W*)))
+         (AND
+          (OR (OR (AND (NOT *W*) *S*) (NOT *W*))
+           (AND
+            (OR
+             (OR (OR (OR (NOT *W*) (AND *S* (NOT *SW*))) (NOT *W*))
+              (AND (NOT *SW*)
+               (AND
+                (AND *SE*
+                 (OR (NOT *SW*)
+                  (AND
+                   (OR (AND *SE* *SE*)
+                    (OR (AND (NOT *W*) (NOT *W*)) (NOT *W*)))
+                   *S*)))
+                *E*)))
+             (NOT *W*))
+            (NOT *SW*)))
+          *SE*))
+        (AND *S* (NOT *SW*)))
+       (AND *SE* (OR (AND (AND (NOT *W*) (NOT *W*)) (NOT *SW*)) (NOT *W*))))
+      (AND (NOT *SW*) *SE*))
+     (AND (NOT *W*)
+      (OR (AND (OR (NOT *W*) (NOT *W*)) (AND (NOT *W*) (NOT *E*))) *SE*))))
+   #\s)
+  ((OR
+    (AND
+     (AND
+      (OR
+       (AND (NOT *N*)
+        (AND (NOT *NW*)
+         (OR
+          (AND
+           (OR
+            (AND (NOT *NW*)
+             (AND
+              (OR (AND (NOT *NW*) *E*)
+               (OR (NOT *NW*)
+                (AND
+                 (AND
+                  (OR
+                   (AND
+                    (AND (NOT *NW*)
+                     (AND (NOT *NW*)
+                      (OR (AND (NOT *NW*) (NOT *NW*))
+                       (OR
+                        (OR
+                         (AND (OR (AND (NOT *NW*) *N*) (AND *W* (NOT *N*)))
+                          *N*)
+                         (OR (NOT *NW*) (AND *N* *N*)))
+                        (AND *S* (OR (AND (NOT *N*) *E*) (NOT *N*)))))))
+                    *E*)
+                   (NOT *NW*))
+                  (OR (OR (OR (NOT *N*) (OR (NOT *NW*) (NOT *N*))) (NOT *NW*))
+                   (OR (AND *SW* (NOT *NW*)) (NOT *N*))))
+                 (OR (AND (AND (NOT *NW*) *N*) *E*) (AND (NOT *NW*) *SW*)))))
+              (NOT *NW*)))
+            (OR (NOT *N*) (OR (NOT *NW*) (NOT *NW*))))
+           (OR
+            (AND (AND (OR (AND (NOT *NW*) *S*) (NOT *N*)) *N*)
+             (OR (AND (OR (NOT *N*) (OR (AND *W* (NOT *N*)) (NOT *NW*))) *N*)
+              (OR (NOT *NW*)
+               (OR (OR (AND (NOT *NW*) *SW*) (OR (NOT *N*) (NOT *NW*)))
+                (AND (OR (AND (NOT *NW*) *N*) (NOT *N*)) (NOT *N*))))))
+            (NOT *N*)))
+          (OR (NOT *N*) (NOT *NW*)))))
+       (OR (OR (NOT *N*) (NOT *NW*)) (NOT *NW*)))
+      *N*)
+     (OR
+      (OR (AND (NOT *NW*) (OR (AND (NOT *NW*) *N*) (NOT *N*)))
+       (AND *S* (NOT *N*)))
+      (AND (NOT *NW*) (NOT *NW*))))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 82 100
+ (COND
+  ((OR
+    (AND
+     (OR
+      (AND
+       (AND (NOT *S*)
+        (OR (AND *NE* (NOT *SE*))
+         (AND (NOT *S*) (OR (AND *NE* *E*) (OR (NOT *S*) *SE*)))))
+       *E*)
+      (OR
+       (AND
+        (OR
+         (AND (NOT *SE*)
+          (AND
+           (AND (OR *E* (NOT *SE*))
+            (OR (NOT *S*)
+             (AND *E*
+              (AND
+               (OR
+                (AND
+                 (AND
+                  (OR (AND (NOT *SE*) (AND *NE* (NOT *SE*)))
+                   (AND *SE* (NOT *S*)))
+                  (AND *E*
+                   (OR (NOT *S*)
+                    (OR (AND (AND (AND *E* *E*) *E*) *E*)
+                     (AND
+                      (AND
+                       (AND (AND (NOT *SE*) *E*)
+                        (OR (OR (OR (AND (NOT *SE*) *E*) *E*) *NE*) *NE*))
+                       (AND (NOT *S*) (OR (NOT *S*) (AND (AND *E* *E*) *E*))))
+                      *E*)))))
+                 (NOT *S*))
+                (AND (OR (AND (NOT *S*) *E*) (AND (AND (NOT *S*) *E*) *E*))
+                 *E*))
+               (OR (OR (NOT *S*) (NOT *SE*)) *E*)))))
+           (OR *E*
+            (AND (NOT *S*) (OR (NOT *SE*) (AND (NOT *SE*) (NOT *SE*)))))))
+         (NOT *S*))
+        *E*)
+       (AND (NOT *S*) (AND (NOT *SE*) *E*))))
+     *E*)
+    (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)))
+   #\e)
+  ((OR (AND (NOT *W*) (NOT *W*))
+    (OR
+     (AND
+      (AND (OR *E* *SE*)
+       (AND
+        (OR
+         (AND *S*
+          (AND (NOT *W*)
+           (AND (AND (NOT *W*) (NOT *W*))
+            (OR
+             (AND
+              (AND
+               (AND
+                (OR
+                 (OR
+                  (OR (NOT *W*)
+                   (AND *E*
+                    (OR (OR (NOT *W*) (AND *S* (NOT *SW*)))
+                     (AND *S* (AND *E* (NOT *W*))))))
+                  (OR (AND (AND (NOT *W*) (NOT *W*)) (NOT *W*))
+                   (AND *E* (NOT *SW*))))
+                 (AND *E* (NOT *SW*)))
+                (AND *E* (OR (AND (NOT *SW*) *SE*) (NOT *W*))))
+               (NOT *SW*))
+              (NOT *SW*))
+             (NOT *W*)))))
+         (AND (OR (AND (NOT *W*) (NOT *W*)) (OR (NOT *W*) *S*)) *SE*))
+        (AND (OR (NOT *SW*) (NOT *W*)) *SE*)))
+      (NOT *SW*))
+     (AND
+      (OR (AND (AND (NOT *W*) (NOT *W*)) (AND (AND *E* *S*) *E*)) (NOT *SW*))
+      (NOT *W*))))
+   #\s)
+  ((OR
+    (AND
+     (OR
+      (OR (OR (AND (NOT *S*) (NOT *NW*)) (NOT *N*))
+       (AND (NOT *NW*) (NOT *NW*)))
+      (NOT *N*))
+     (NOT *N*))
+    (NOT *NW*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 83 100
+ (COND
+  ((AND *E*
+    (AND
+     (OR *NE*
+      (AND
+       (AND
+        (AND
+         (AND
+          (OR
+           (AND
+            (OR
+             (AND (AND (NOT *SE*) *E*)
+              (AND *E*
+               (OR (NOT *S*) (AND (NOT *S*) (OR *E* (AND (NOT *SE*) *E*))))))
+             (NOT *S*))
+            *E*)
+           (AND (NOT *S*)
+            (AND
+             (OR (AND (NOT *SE*) *E*)
+              (AND
+               (OR
+                (AND
+                 (AND (OR (AND (NOT *S*) *E*) (NOT *SE*))
+                  (OR
+                   (AND (NOT *SE*)
+                    (OR (AND (NOT *SE*) *E*)
+                     (AND (NOT *SE*) (AND *E* (NOT *S*)))))
+                   (NOT *SE*)))
+                 *E*)
+                (AND (NOT *S*) (OR (NOT *S*) (NOT *SE*))))
+               (AND (NOT *S*) *NE*)))
+             *E*)))
+          (AND
+           (OR (OR (AND (NOT *SE*) *E*) (NOT *SE*))
+            (AND (OR (NOT *S*) (NOT *SE*)) *E*))
+           *E*))
+         *E*)
+        (AND (OR (NOT *SE*) (NOT *S*)) (OR (NOT *SW*) (NOT *SE*))))
+       (OR (AND (AND (NOT *SE*) *E*) (AND *E* *NE*))
+        (AND *E* (OR (NOT *S*) (NOT *SE*))))))
+     (OR (NOT *S*) (NOT *SE*))))
+   #\e)
+  ((OR
+    (OR
+     (AND (OR (AND (NOT *W*) (NOT *W*)) (AND (NOT *SW*) *SE*))
+      (OR
+       (OR (NOT *W*)
+        (AND (AND (AND (AND *SE* (NOT *SW*)) (NOT *SW*)) *S*) *E*))
+       (OR (AND (NOT *W*) (OR (NOT *SW*) (NOT *W*)))
+        (OR
+         (AND (OR (NOT *SW*) (AND (NOT *W*) (NOT *W*)))
+          (OR
+           (OR
+            (AND (NOT *SW*)
+             (OR
+              (AND (AND (NOT *W*) (NOT *W*))
+               (AND (NOT *W*)
+                (OR (NOT *SE*)
+                 (AND
+                  (AND *E*
+                   (AND
+                    (OR *SE*
+                     (OR (AND (AND (NOT *SW*) (NOT *SW*)) (NOT *W*)) *S*))
+                    (AND (NOT *W*) (NOT *W*))))
+                  (NOT *W*)))))
+              (NOT *W*)))
+            (OR
+             (OR (AND (NOT *SW*) *SE*)
+              (AND (NOT *W*) (OR (NOT *W*) (NOT *SW*))))
+             *NE*))
+           (NOT *W*)))
+         (OR (AND (NOT *SW*) *SE*) (NOT *W*))))))
+     (AND *E* (NOT *SW*)))
+    (NOT *W*))
+   #\s)
+  ((OR (OR (NOT *N*) (AND (NOT *N*) (AND (NOT *NW*) (NOT *NW*))))
+    (AND (NOT *NW*)
+     (OR (NOT *NW*)
+      (OR
+       (OR
+        (OR (OR (NOT *NW*) (AND (NOT *N*) (NOT *NW*)))
+         (OR (NOT *N*) (NOT *NW*)))
+        (NOT *N*))
+       (AND (OR (NOT *N*) (AND (AND (NOT *NW*) *N*) (OR (NOT *N*) (NOT *N*))))
+        (OR (NOT *NW*) (AND *W* (NOT *NW*))))))))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 84 100
+ (COND
+  ((OR
+    (AND
+     (AND
+      (OR *NE*
+       (AND (AND (NOT *S*) *E*)
+        (AND
+         (OR (AND (AND (NOT *SE*) (NOT *SE*)) (NOT *SE*)) (AND (NOT *S*) *E*))
+         *E*)))
+      (AND (NOT *SE*) *E*))
+     *E*)
+    (AND
+     (AND
+      (OR *NE*
+       (AND
+        (AND (AND *E* (OR *E* (AND (AND (AND (NOT *SE*) *E*) *E*) *E*)))
+         (AND (OR (NOT *SE*) (NOT *S*)) (AND (NOT *SE*) *E*)))
+        (OR *NE* (AND (NOT *S*) (AND (NOT *SE*) *E*)))))
+      (OR (NOT *S*) (AND (NOT *S*) *E*)))
+     *E*))
+   #\e)
+  ((OR (AND (NOT *W*) (OR *N* (NOT *W*)))
+    (OR
+     (AND (NOT *SW*)
+      (AND *S*
+       (OR
+        (OR (OR *SE* (OR (AND (NOT *SW*) *SE*) (NOT *W*)))
+         (AND *E* (NOT *SW*)))
+        (AND (AND (NOT *W*) (NOT *SW*))
+         (OR
+          (AND
+           (OR
+            (AND (AND *S* (OR *SE* (NOT *SW*)))
+             (OR (AND (AND (AND (NOT *SW*) *S*) *E*) (NOT *SW*)) (NOT *W*)))
+            (AND
+             (OR (NOT *SW*)
+              (AND (NOT *W*)
+               (OR
+                (AND
+                 (AND
+                  (OR *E*
+                   (OR
+                    (OR (NOT *E*)
+                     (AND
+                      (OR
+                       (AND
+                        (OR (NOT *W*)
+                         (OR (AND (NOT *W*) (NOT *SW*))
+                          (OR (AND (NOT *SW*) *SE*) (NOT *W*))))
+                        (AND *S*
+                         (AND (OR (NOT *NE*) (AND (NOT *W*) (NOT *W*)))
+                          (AND (AND (OR (NOT *SW*) (NOT *W*)) *SE*)
+                           (OR (NOT *SW*)
+                            (AND
+                             (OR (OR (AND (NOT *SW*) *SE*) (NOT *W*))
+                              (AND (OR (AND *SE* *SE*) (AND *SE* (NOT *W*)))
+                               (OR
+                                (OR
+                                 (OR
+                                  (OR
+                                   (AND (NOT *W*)
+                                    (OR (AND *S* (AND *S* (NOT *SW*)))
+                                     (OR (NOT *SW*) (NOT *SW*))))
+                                   (AND *S*
+                                    (AND (OR (NOT *SW*) (NOT *W*))
+                                     (OR (NOT *SW*) (OR (NOT *SE*) *E*)))))
+                                  (AND (NOT *W*) (NOT *W*)))
+                                 (NOT *W*))
+                                (AND (NOT *W*) (NOT *W*)))))
+                             (NOT *SW*)))))))
+                       (AND
+                        (OR
+                         (AND (NOT *SW*) (AND *S* (OR (NOT *SW*) (NOT *W*))))
+                         (NOT *W*))
+                        (NOT *SW*)))
+                      *S*))
+                    (NOT *SE*)))
+                  (NOT *W*))
+                 (AND (NOT *SW*) (NOT *SW*)))
+                (OR (AND (NOT *SW*) (AND (NOT *SW*) *SE*))
+                 (OR (NOT *W*)
+                  (AND
+                   (OR
+                    (AND *E*
+                     (OR
+                      (OR
+                       (OR (AND (NOT *W*) *SE*)
+                        (OR (AND (AND (NOT *W*) (NOT *W*)) (NOT *W*))
+                         (OR
+                          (AND
+                           (AND (OR *E* (OR (NOT *W*) *E*))
+                            (OR (NOT *W*) (NOT *SW*)))
+                           *E*)
+                          (AND (OR (NOT *SW*) (NOT *W*))
+                           (AND (AND (AND (NOT *SW*) *SE*) *SE*) (NOT *W*))))))
+                       (AND *E*
+                        (OR
+                         (AND
+                          (OR
+                           (OR (AND *SE* *SE*)
+                            (AND (OR (NOT *SW*) (NOT *W*)) *SE*))
+                           (NOT *SW*))
+                          (NOT *W*))
+                         (AND (AND (NOT *SW*) *E*) (NOT *SW*)))))
+                      (OR
+                       (OR
+                        (AND (NOT *W*)
+                         (AND
+                          (OR (NOT *SW*)
+                           (AND
+                            (OR (AND (OR (NOT *SW*) (NOT *W*)) *SE*)
+                             (OR (NOT *W*) (AND (NOT *W*) (NOT *W*))))
+                            (NOT *W*)))
+                          *SE*))
+                        (NOT *W*))
+                       (AND *S* (OR (NOT *SW*) (NOT *W*))))))
+                    (NOT *W*))
+                   (OR
+                    (AND
+                     (OR
+                      (AND
+                       (AND (OR *E* *S*)
+                        (OR (OR (NOT *W*) (NOT *W*)) (NOT *SW*)))
+                       *E*)
+                      (AND
+                       (OR (NOT *SW*)
+                        (OR
+                         (AND (NOT *W*)
+                          (AND (NOT *W*)
+                           (OR
+                            (OR (AND *S* (OR (NOT *SW*) (NOT *W*)))
+                             (AND *NE* *E*))
+                            *E*)))
+                         (AND *SE* (NOT *SW*))))
+                       (OR (AND (AND (NOT *SW*) *SE*) *SE*) (NOT *W*))))
+                     *E*)
+                    (AND *S* (NOT *SW*)))))))))
+             (OR (NOT *W*) (NOT *W*))))
+           (NOT *W*))
+          (AND *S* (NOT *W*)))))))
+     (NOT *W*)))
+   #\s)
+  ((OR
+    (AND
+     (OR
+      (AND
+       (OR (AND (NOT *NW*) *E*)
+        (AND (NOT *N*) (AND (NOT *NW*) (OR (NOT *NW*) (NOT *NW*)))))
+       *N*)
+      (NOT *N*))
+     (OR
+      (AND (NOT *NW*)
+       (OR
+        (AND
+         (OR (AND (NOT *N*) (NOT *N*))
+          (OR
+           (AND
+            (OR
+             (AND (NOT *NW*)
+              (OR *N*
+               (AND
+                (OR (AND (NOT *N*) (OR (AND *N* *N*) (AND (NOT *SE*) *S*)))
+                 (OR
+                  (OR (OR (OR (OR (NOT *NW*) (NOT *N*)) (NOT *NW*)) (NOT *N*))
+                   (NOT *NW*))
+                  (AND *W* (NOT *N*))))
+                (NOT *N*))))
+             (NOT *N*))
+            *N*)
+           (NOT *N*)))
+         (NOT *N*))
+        *E*))
+      (NOT *N*)))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-10 15:15:05" 85 100
+ (COND
+  ((OR (AND (AND (NOT *SE*) *E*) *E*)
+    (AND
+     (AND
+      (OR (AND (NOT *S*) *E*)
+       (OR (AND (NOT *SE*) *E*)
+        (AND (AND *E* (AND (OR *NW* *NE*) (AND (NOT *NW*) *E*)))
+         (OR (NOT *S*)
+          (AND
+           (AND
+            (OR
+             (AND (NOT *S*)
+              (AND
+               (OR
+                (AND
+                 (AND (AND (OR (AND (NOT *S*) *E*) (NOT *S*)) (NOT *S*))
+                  (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)))
+                 (AND
+                  (OR (AND (NOT *SE*) *E*)
+                   (AND (NOT *SE*)
+                    (OR (AND (AND *E* *E*) (NOT *N*))
+                     (OR *SE*
+                      (OR (AND (NOT *SE*) *E*)
+                       (AND (NOT *S*)
+                        (AND (AND (AND (NOT *S*) (AND (NOT *S*) *E*)) *E*)
+                         (OR *E*
+                          (AND
+                           (AND (NOT *S*) (AND (NOT *S*) (OR (NOT *S*) *N*)))
+                           *E*)))))))))
+                  *E*))
+                (AND
+                 (OR (AND (NOT *SE*) *E*)
+                  (AND
+                   (OR (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*))
+                    (AND *E*
+                     (AND
+                      (AND (NOT *S*)
+                       (AND (OR (OR (AND (AND *E* (NOT *S*)) *E*) *N*) *N*)
+                        (OR (NOT *S*) (NOT *SE*))))
+                      *N*)))
+                   *E*))
+                 *E*))
+               *E*))
+             *SE*)
+            (AND (AND (AND (AND (NOT *S*) (AND (NOT *S*) *E*)) *E*) *E*) *E*))
+           (OR (AND (NOT *NW*) (NOT *E*)) (AND *S* (NOT *NE*))))))))
+      (AND (AND *E* (OR (AND (NOT *SE*) *E*) *NE*))
+       (OR (AND (NOT *SE*) *E*)
+        (AND (NOT *S*)
+         (OR
+          (AND (NOT *SE*)
+           (OR
+            (OR
+             (OR
+              (AND (AND (OR *NE* *N*) (AND (AND (NOT *S*) *E*) *E*)) (NOT *S*))
+              (AND
+               (OR
+                (AND
+                 (AND (AND (AND (NOT *S*) (AND (NOT *S*) (AND *E* *N*))) *E*)
+                  *E*)
+                 *SE*)
+                (OR (AND (NOT *SE*) *E*)
+                 (AND (NOT *SE*) (AND (NOT *S*) (NOT *SE*)))))
+               *E*))
+             (OR *SE* (OR (NOT *S*) (NOT *SE*))))
+            *E*))
+          (AND (NOT *S*) *E*))))))
+     (AND (OR (NOT *S*) *SW*)
+      (OR (NOT *SE*)
+       (AND (OR (AND (NOT *SE*) *E*) (AND (AND (NOT *S*) *E*) *E*)) *E*)))))
+   #\e)
+  ((AND *S*
+    (OR (NOT *SW*)
+     (AND
+      (OR
+       (AND
+        (OR
+         (OR (AND (AND (NOT *W*) (AND (NOT *SW*) *SE*)) (NOT *W*))
+          (AND (OR *S* (NOT *NW*)) (OR *NW* *S*)))
+         *E*)
+        (NOT *SW*))
+       (NOT *W*))
+      (OR (NOT *W*) *E*))))
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*))
+    (AND *N*
+     (OR (AND (NOT *NW*) *N*)
+      (OR
+       (AND
+        (AND (OR (AND (NOT *NW*) (NOT *N*)) (NOT *N*))
+         (AND (AND *W* *E*) (AND (NOT *N*) (NOT *NW*))))
+        (OR (OR (AND *W* (NOT *N*)) (NOT *S*)) (AND (NOT *E*) (NOT *NE*))))
+       (NOT *N*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 11 100
+ (COND ((AND (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) *E*) (OR *N* *NW*)) #\e)
+  ((OR (AND *E* (OR (AND *S* (NOT *W*)) (AND *N* (NOT *SW*))))
+    (AND (NOT *SW*) (OR *SW* *S*)))
+   #\s)
+  ((OR (AND (NOT *NW*) *E*) (NOT *N*)) #\w) (T #\n)))
+
+("2008-03-14 14:46:55" 12 100
+ (COND ((AND (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) *E*) (OR *N* *NW*)) #\e)
+  ((OR (AND *E* (OR (AND *S* (NOT *W*)) (AND *N* (NOT *SW*))))
+    (AND (NOT *SW*) (OR *SW* *S*)))
+   #\s)
+  ((OR (NOT *W*) (OR (OR (AND (NOT *NW*) *E*) (NOT *N*)) (NOT *N*))) #\w) (T #\n)))
+
+("2008-03-14 14:46:55" 13 100
+ (COND
+  ((AND
+    (AND (OR (AND (AND (NOT *N*) *E*) *E*) *E*)
+     (AND (OR *SE* *NE*) (OR (NOT *S*) (NOT *SE*))))
+    *E*)
+   #\e)
+  ((OR
+    (OR (AND (OR (AND (NOT *W*) *S*) (AND (AND *S* (NOT *SW*)) (NOT *SW*))) *S*)
+     (AND *S* (NOT *SW*)))
+    (NOT *W*))
+   #\s)
+  ((OR (AND (NOT *S*) (NOT *NW*)) (OR (OR (AND (NOT *NW*) *E*) (NOT *N*)) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 14 100
+ (COND
+  ((AND (AND (AND (OR (AND (NOT *SE*) (OR *SE* *NE*)) (NOT *S*)) *E*) *E*) (OR *N* *NW*))
+   #\e)
+  ((OR (AND (NOT *W*) (NOT *W*)) (AND (NOT *SW*) (AND (OR *SE* (NOT *NW*)) *E*))) #\s)
+  ((OR (NOT *NW*) (NOT *N*)) #\w) (T #\n)))
+
+("2008-03-14 14:46:55" 15 100
+ (COND
+  ((AND
+    (AND
+     (OR
+      (AND
+       (AND (NOT *S*) (OR (AND (AND *NE* (NOT *SE*)) *E*) (AND (AND *E* (NOT *S*)) *E*)))
+       *N*)
+      (NOT *SE*))
+     *NE*)
+    (OR (AND (AND *NE* (NOT *SE*)) *E*) (AND (AND *E* (NOT *S*)) *E*)))
+   #\e)
+  ((OR (AND (NOT *W*) (NOT *W*))
+    (AND *N* (AND (OR (AND (NOT *W*) (NOT *W*)) (AND *N* (NOT *SW*))) *SE*)))
+   #\s)
+  ((OR (NOT *N*) (OR (NOT *N*) (AND (NOT *NW*) *E*))) #\w) (T #\n)))
+
+("2008-03-14 14:46:55" 16 100
+ (COND ((OR (AND (NOT *E*) *E*) (AND (OR (AND (NOT *SE*) *E*) (NOT *S*)) *E*)) #\e)
+  ((OR (AND (AND *SE* (NOT *W*)) *SE*) (AND *S* (NOT *SW*))) #\s)
+  ((OR (NOT *NW*) (OR (NOT *N*) (OR (NOT *N*) (NOT *NW*)))) #\w) (T #\n)))
+
+("2008-03-14 14:46:55" 17 100
+ (COND
+  ((AND (OR *NE* *E*)
+    (AND (OR (AND (AND *NE* (NOT *SE*)) *E*) (AND (AND *E* (NOT *S*)) *E*)) *E*))
+   #\e)
+  ((AND
+    (OR
+     (AND (OR (OR (NOT *E*) *E*) (AND (NOT *NE*) (AND (NOT *W*) (NOT *W*)))) (NOT *W*))
+     (AND *N* (NOT *SW*)))
+    *SE*)
+   #\s)
+  ((OR (AND (OR (AND (NOT *SW*) (NOT *SE*)) (AND (NOT *S*) (NOT *S*))) (NOT *NW*))
+    (OR (AND (NOT *NW*) (AND (NOT *NW*) (NOT *NW*))) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 18 100
+ (COND
+  ((AND
+    (AND
+     (OR (AND (AND (NOT *N*) *E*) (OR (AND (NOT *S*) *E*) (AND (OR *NE* *SE*) *E*))) *E*)
+     (AND (OR *SE* *NE*) (OR (NOT *S*) (NOT *SE*))))
+    *E*)
+   #\e)
+  ((OR
+    (OR
+     (AND
+      (OR (AND (NOT *W*) *S*)
+       (AND *S*
+        (OR (OR (NOT *SW*) (NOT *W*))
+         (AND (NOT *E*) (AND (AND *E* (NOT *NW*)) (OR (NOT *N*) (NOT *N*)))))))
+      *S*)
+     (AND *S* (NOT *SW*)))
+    (NOT *W*))
+   #\s)
+  ((OR (AND (NOT *S*) (NOT *NW*)) (OR (OR (AND (NOT *NW*) *E*) (NOT *N*)) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 19 100
+ (COND ((AND (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) *E*) (OR *N* *NW*)) #\e)
+  ((OR
+    (AND *E*
+     (OR
+      (AND
+       (AND (OR *SE* (NOT *NW*))
+        (OR (AND *N* (NOT *SW*)) (OR (NOT *W*) (AND *SE* (OR *SE* (NOT *NW*))))))
+       (NOT *W*))
+      (AND *N* (NOT *SW*))))
+    (AND *S*
+     (OR (OR (NOT *SW*) (NOT *W*))
+      (AND *SE* (AND (AND *S* (NOT *SW*)) (AND (NOT *W*) (AND *N* (NOT *SW*))))))))
+   #\s)
+  ((OR (AND (NOT *NW*) *E*) (NOT *N*)) #\w) (T #\n)))
+
+("2008-03-14 14:46:55" 20 100
+ (COND
+  ((OR (AND (AND *NE* (NOT *SE*)) *E*)
+    (AND
+     (OR (AND (AND *NE* (NOT *SE*)) (AND (NOT *N*) *E*)) (AND (AND *E* (NOT *S*)) *E*))
+     *SE*))
+   #\e)
+  ((AND (AND (OR (NOT *SW*) (NOT *W*)) *E*) (OR (AND *E* *SE*) (AND *N* (NOT *SW*))))
+   #\s)
+  ((OR (AND (AND (NOT *NW*) *E*) (OR (NOT *NW*) (NOT *N*))) (NOT *N*)) #\w) (T #\n)))
+
+("2008-03-14 14:46:55" 21 100
+ (COND ((OR (AND (NOT *S*) *E*) (AND (NOT *SE*) *E*)) #\e)
+  ((OR (AND *E* (OR (AND *S* (NOT *W*)) (AND *N* (NOT *SW*))))
+    (AND (NOT *SW*) (NOT *W*)))
+   #\s)
+  ((OR (NOT *W*)
+    (OR
+     (OR (AND *N* (NOT *NW*))
+      (OR
+       (AND (NOT *N*)
+        (OR
+         (AND
+          (AND (OR (NOT *N*) (NOT *NW*))
+           (OR (OR (NOT *N*) (NOT *NW*)) (AND *S* (NOT *S*))))
+          *N*)
+         (NOT *NW*)))
+       (NOT *N*)))
+     (NOT *NW*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 22 100
+ (COND
+  ((OR
+    (AND
+     (AND
+      (AND (AND *E* (OR *NE* (OR (AND (OR *N* *NW*) *E*) (AND (AND *E* (NOT *S*)) *E*))))
+       (AND (OR (NOT *S*) *NE*) (OR (NOT *S*) (NOT *SE*))))
+      *E*)
+     (NOT *SE*))
+    (AND *SE* (NOT *S*)))
+   #\e)
+  ((AND *S*
+    (OR (OR (NOT *SW*) (AND (NOT *W*) *SE*))
+     (AND (NOT *E*) (AND (AND *E* (NOT *NW*)) *S*))))
+   #\s)
+  ((OR
+    (OR (NOT *N*)
+     (OR
+      (OR (AND (NOT *NW*) (OR (OR (NOT *N*) (NOT *NW*)) (OR (NOT *N*) (NOT *NW*))))
+       (NOT *N*))
+      (NOT *N*)))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 23 100
+ (COND
+  ((AND (OR *NE* *SE*)
+    (AND
+     (OR
+      (AND (AND (AND *E* (OR (AND (NOT *SE*) (OR *E* (NOT *S*))) (NOT *S*))) (NOT *SE*))
+       *E*)
+      (NOT *S*))
+     *E*))
+   #\e)
+  ((AND
+    (OR (AND (OR (OR (AND (NOT *NE*) *S*) *E*) (AND (NOT *NE*) *S*)) (NOT *W*))
+     (AND (OR (AND (NOT *W*) (NOT *W*)) (AND *N* (AND *E* (NOT *SW*)))) *SE*))
+    (OR (AND (NOT *W*) *SE*) (AND *N* (NOT *SW*))))
+   #\s)
+  ((OR (NOT *NW*) (NOT *N*)) #\w) (T #\n)))
+
+("2008-03-14 14:46:55" 24 100
+ (COND
+  ((AND (AND (OR (AND (NOT *SE*) *E*) (NOT *S*)) *E*)
+    (OR *N* (AND (NOT *SE*) (AND *N* *S*))))
+   #\e)
+  ((OR (OR (AND (NOT *W*) (NOT *W*)) (AND (NOT *SW*) (NOT *W*)))
+    (AND (OR (AND *E* (OR (NOT *W*) (NOT *S*))) (AND (NOT *SW*) *S*)) (OR *SW* *S*)))
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *N*)) (OR (OR (NOT *N*) (NOT *NW*)) (NOT *N*))) #\w) (T #\n)))
+
+("2008-03-14 14:46:55" 25 100
+ (COND
+  ((AND
+    (AND
+     (OR (AND (NOT *SE*) *E*)
+      (AND (NOT *S*) (AND (OR (AND (NOT *SE*) (AND (NOT *SE*) *E*)) (NOT *S*)) *E*)))
+     *E*)
+    (OR (AND (NOT *SE*) *E*) (NOT *S*)))
+   #\e)
+  ((OR
+    (OR (AND (NOT *W*) *SE*)
+     (OR
+      (AND (OR (OR (OR (NOT *W*) (AND (NOT *SW*) (NOT *SW*))) *E*) (AND (NOT *W*) *S*))
+       (NOT *W*))
+      (AND (OR (AND (NOT *W*) (NOT *W*)) (AND *N* (AND *E* (NOT *SW*))))
+       (AND (OR *SE* (NOT *NW*))
+        (OR (OR (AND (AND (NOT *W*) *N*) *SE*) (AND *S* (NOT *SW*))) (NOT *W*))))))
+    (AND (NOT *SW*) *E*))
+   #\s)
+  ((OR (AND (NOT *NW*) *E*) (NOT *N*)) #\w) (T #\n)))
+
+("2008-03-14 14:46:55" 26 100
+ (COND
+  ((AND (OR (NOT *W*) *E*)
+    (AND
+     (OR
+      (AND (OR (AND (OR (NOT *SE*) (AND (NOT *S*) *E*)) (NOT *SE*)) (AND *N* *S*))
+       (AND *E*
+        (OR (NOT *S*)
+         (AND (OR (AND (AND *E* *E*) (OR (AND *E* (NOT *SE*)) (AND *N* *S*))) *E*)
+          (AND (OR *NW* *E*) (OR (NOT *S*) (NOT *SE*)))))))
+      (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) *E*))
+     *E*))
+   #\e)
+  ((AND
+    (AND (OR (AND (OR (NOT *W*) *N*) *SE*) (OR (NOT *W*) (AND *N* (NOT *SW*))))
+     (AND (OR (NOT *SW*) (NOT *W*)) (OR *E* *E*)))
+    *SE*)
+   #\s)
+  ((OR (AND (NOT *NW*) (OR (OR (NOT *N*) (NOT *NW*)) (AND (NOT *N*) (NOT *NW*))))
+    (AND *W* (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 27 100
+ (COND
+  ((AND
+    (AND
+     (OR (AND (NOT *SE*) *E*)
+      (AND (NOT *S*)
+       (AND
+        (AND (NOT *S*)
+         (OR (AND (AND (OR (NOT *S*) (AND (NOT *SE*) *E*)) *E*) *E*)
+          (AND (OR (AND (NOT *SE*) *E*) (NOT *S*)) *E*)))
+        (AND (NOT *S*) (NOT *S*)))))
+     *E*)
+    (OR *N* *E*))
+   #\e)
+  ((OR
+    (AND
+     (AND
+      (OR
+       (AND
+        (OR (OR (NOT *E*) *E*)
+         (AND (NOT *NE*) (OR (AND *E* *SE*) (AND (NOT *SW*) (NOT *N*)))))
+        (NOT *W*))
+       (AND *N* (NOT *SW*)))
+      *SE*)
+     (OR (AND (NOT *W*) (NOT *W*)) (AND *N* (NOT *SW*))))
+    (NOT *W*))
+   #\s)
+  ((OR (NOT *N*) (NOT *NW*)) #\w) (T #\n)))
+
+("2008-03-14 14:46:55" 28 100
+ (COND
+  ((AND
+    (AND
+     (AND (AND (OR (AND (NOT *SE*) *E*) (NOT *S*)) (AND (OR *E* *NW*) *E*))
+      (OR *N* (NOT *S*)))
+     *NE*)
+    *E*)
+   #\e)
+  ((OR
+    (AND (NOT *W*)
+     (OR
+      (AND
+       (OR (OR (NOT *E*) *E*)
+        (AND (NOT *NE*)
+         (OR *SE* (OR (OR (NOT *SW*) (NOT *W*)) (AND *N* (AND *N* (NOT *SW*)))))))
+       (NOT *W*))
+      *N*))
+    (OR (AND (NOT *W*) *S*) (AND *S* (NOT *SW*))))
+   #\s)
+  ((OR (OR (OR (AND (NOT *NW*) (NOT *N*)) (NOT *N*)) (NOT *N*))
+    (OR (NOT *NW*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 29 100
+ (COND
+  ((AND
+    (AND (OR (AND (AND (NOT *N*) *E*) *E*) (OR (AND (NOT *SE*) *E*) (NOT *S*)))
+     (AND (OR *SE* *NE*) (OR (NOT *S*) (NOT *SE*))))
+    *E*)
+   #\e)
+  ((OR
+    (OR
+     (AND
+      (OR (AND *E* (OR (AND *S* (NOT *W*)) (AND *S* (NOT *SW*)))) (AND *S* (NOT *W*)))
+      *S*)
+     (AND *S* (NOT *SW*)))
+    (NOT *W*))
+   #\s)
+  ((OR (AND (NOT *N*) (NOT *NW*))
+    (OR (OR (AND (OR (NOT *NW*) (NOT *N*)) *E*) (NOT *N*))
+     (OR (AND (NOT *NW*) *E*) (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 30 100
+ (COND
+  ((AND
+    (AND
+     (OR
+      (AND
+       (OR (AND (NOT *E*) *NE*) (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) *E*))
+       *E*)
+      (AND (NOT *S*)
+       (AND (AND (NOT *S*) *E*) (AND (NOT *S*) (OR (NOT *S*) (NOT *SE*))))))
+     *E*)
+    (OR *N* *E*))
+   #\e)
+  ((OR (AND *E* (OR (AND (NOT *W*) (NOT *W*)) (AND *N* (OR (NOT *SW*) (NOT *W*)))))
+    (AND (NOT *SW*) *SE*))
+   #\s)
+  ((OR (OR (NOT *NW*) (NOT *NW*)) (NOT *N*)) #\w) (T #\n)))
+
+("2008-03-14 14:46:55" 31 100
+ (COND
+  ((AND
+    (OR
+     (AND (NOT *SE*) (AND (OR *E* *E*) (AND (OR (AND (NOT *SE*) *E*) (NOT *S*)) *NE*)))
+     (AND (NOT *S*) *E*))
+    *E*)
+   #\e)
+  ((OR
+    (OR
+     (AND
+      (OR (AND (NOT *W*) *S*)
+       (AND *S*
+        (OR (OR (NOT *SW*) (NOT *W*))
+         (AND (NOT *E*)
+          (AND
+           (AND *E*
+            (OR (AND *E* (OR (AND *S* (NOT *W*)) (AND (NOT *W*) (NOT *SW*))))
+             (AND (NOT *SW*) (OR *SW* *S*))))
+           (OR (NOT *N*) (NOT *N*)))))))
+      *S*)
+     (AND (AND *N* (NOT *SW*)) (NOT *W*)))
+    (NOT *W*))
+   #\s)
+  ((OR
+    (AND
+     (OR (AND (NOT *NW*) *E*)
+      (OR (OR (AND (NOT *NW*) (NOT *NW*)) (NOT *N*))
+       (OR (AND (NOT *NW*) (AND (NOT *NW*) *NE*)) *E*)))
+     (NOT *N*))
+    (OR (OR (OR (OR (NOT *N*) (AND (NOT *NW*) *E*)) (AND *W* (NOT *N*))) (NOT *N*))
+     (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 32 100
+ (COND
+  ((AND
+    (AND
+     (OR
+      (AND (AND (NOT *N*) *E*)
+       (AND (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) *E*) (OR *N* *NW*)))
+      *E*)
+     (AND (OR *SE* *NE*) (OR (AND (NOT *S*) *E*) (NOT *SE*))))
+    *E*)
+   #\e)
+  ((OR
+    (OR
+     (OR (NOT *W*)
+      (OR (AND (OR (NOT *SW*) (AND *N* (NOT *SW*))) *SE*)
+       (AND *E*
+        (AND (OR (NOT *W*) (AND *S* (NOT *SW*)))
+         (AND
+          (AND (AND (AND (OR (NOT *SW*) (NOT *W*)) (OR (NOT *SW*) (NOT *W*))) *SE*) *S*)
+          (NOT *SW*))))))
+     (NOT *W*))
+    (NOT *W*))
+   #\s)
+  ((OR (NOT *NW*) (OR (NOT *NW*) (OR (OR (NOT *N*) (NOT *NW*)) (NOT *N*)))) #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 33 100
+ (COND
+  ((AND (OR *NE* *NE*)
+    (AND *E*
+     (AND
+      (AND *E*
+       (AND (AND *E* (AND (OR (AND (NOT *SE*) *E*) (NOT *S*)) *E*))
+        (OR (OR (AND (NOT *SE*) *NE*) (AND (NOT *S*) *E*)) (NOT *SE*))))
+      *E*)))
+   #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*)) (OR *SW* *S*)) #\s)
+  ((OR
+    (AND (NOT *S*)
+     (OR
+      (AND (NOT *NW*)
+       (AND (NOT *NW*)
+        (OR
+         (OR
+          (AND (NOT *NW*) (OR (NOT *NW*) (OR (AND (NOT *NW*) *N*) (AND *W* (NOT *N*)))))
+          (OR (AND (NOT *NW*) (AND (NOT *NW*) (NOT *NW*))) (NOT *N*)))
+         (NOT *NW*))))
+      (OR (OR (NOT *NW*) (NOT *N*)) (NOT *N*))))
+    (OR
+     (AND
+      (OR
+       (AND (OR (NOT *N*) (NOT *NW*))
+        (AND (NOT *NW*)
+         (AND (NOT *NW*)
+          (AND
+           (OR
+            (OR (NOT *N*)
+             (AND
+              (OR (OR (NOT *N*) (NOT *NW*))
+               (OR (NOT *W*) (OR (OR (AND (NOT *NW*) *N*) (NOT *NW*)) (NOT *NW*))))
+              (OR (OR (AND (NOT *NW*) (OR (NOT *N*) (NOT *NW*))) (AND *W* (NOT *N*)))
+               (OR (AND (NOT *NW*) *W*) (NOT *N*)))))
+            (NOT *N*))
+           *NE*))))
+       (NOT *NW*))
+      *N*)
+     (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 34 100
+ (COND
+  ((AND
+    (OR
+     (AND
+      (AND (OR *E* (AND *E* *E*))
+       (OR (AND (NOT *SE*) *E*)
+        (AND (NOT *S*)
+         (OR
+          (AND
+           (AND
+            (AND (OR (AND *N* *E*) *E*)
+             (OR (AND (AND (NOT *S*) (NOT *S*)) *N*) (NOT *SE*)))
+            *N*)
+           (OR (AND (OR *NE* (NOT *SW*)) (AND *NE* *E*)) (AND *N* *NE*)))
+          *E*))))
+      (AND *N* *E*))
+     (AND (NOT *S*) *E*))
+    (AND (OR (NOT *SE*) (NOT *S*)) *E*))
+   #\e)
+  ((AND
+    (OR (NOT *SW*)
+     (OR
+      (AND (NOT *W*)
+       (AND
+        (OR
+         (AND (AND *SE* (NOT *W*))
+          (AND (OR (AND (OR (AND *S* (NOT *W*)) (AND (NOT *SW*) (NOT *SW*))) *SE*) *SE*)
+           (OR *S* (NOT *W*))))
+         (AND (NOT *W*) (NOT *W*)))
+        *SE*))
+      (AND *E* (NOT *SW*))))
+    (OR *S* (NOT *W*)))
+   #\s)
+  ((OR
+    (OR (OR (OR (NOT *N*) (NOT *NW*)) (NOT *N*))
+     (OR (AND (OR (AND *N* (NOT *NW*)) (NOT *N*)) (NOT *NW*))
+      (OR (NOT *N*) (AND (NOT *N*) (OR (NOT *N*) (NOT *N*))))))
+    (OR (NOT *N*) (OR (NOT *N*) (AND *NE* (NOT *NW*)))))
+   #\w)
+  (T #\n)))
+
+("2008-03-14 14:46:55" 35 100
+ (COND
+  ((AND (AND *E* (AND (AND (OR (AND (NOT *SE*) *E*) (AND (NOT *S*) *E*)) *E*) *N*))
+    (OR
+     (AND (OR (AND (OR *SE* *NE*) (OR (NOT *S*) (NOT *SE*))) *NE*)
+      (OR (NOT *S*) (NOT *SE*)))
+     (NOT *SE*)))
+   #\e)
+  ((AND
+    (OR
+     (AND
+      (OR (OR (AND (AND *SE* (NOT *W*)) (NOT *W*)) (AND *S* (AND *SE* (NOT *W*))))
+       (AND (OR (AND (OR (NOT *SW*) (NOT *W*)) *SE*) (NOT *W*)) (OR *E* (NOT *W*))))
+      (NOT *W*))
+     (AND *N* (NOT *SW*)))
+    (OR (AND (NOT *W*) *SE*) (AND *E* (OR (NOT *E*) (AND *S* (NOT *SW*))))))
+   #\s)
+  ((OR (AND (NOT *NW*) (OR (NOT *NW*) (AND *W* (NOT *N*)))) (NOT *N*)) #\w) (T #\n)))
+
+("2008-04-07 12:44:26" 9 100
+ (COND ((AND *E* (AND (OR (AND (NOT *SE*) *E*) (NOT *S*)) *E*)) #\e)
+  ((AND (OR (NOT *NW*) *N*)
+    (AND
+     (OR (AND *S* (NOT *SE*))
+      (AND (OR (AND (NOT *W*) (NOT *W*)) (AND *N* (NOT *SW*))) *SE*))
+     *E*))
+   #\s)
+  ((OR (NOT *N*) (AND *E* (AND (NOT *NW*) *E*))) #\w) (T #\n)))
+
+("2008-04-07 12:44:26" 10 100
+ (COND ((AND *E* (AND (OR (AND (NOT *SE*) *E*) (NOT *S*)) *E*)) #\e)
+  ((AND (OR (NOT *NW*) *N*)
+    (AND
+     (OR (AND *S* (NOT *SE*))
+      (AND (OR (AND (NOT *W*) (NOT *W*)) (AND *N* (NOT *SW*))) *SE*))
+     *E*))
+   #\s)
+  ((OR (NOT *N*)
+    (OR (AND (NOT *NW*) (OR (AND (NOT *NW*) *W*) (NOT *N*))) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-04-07 12:44:26" 11 100
+ (COND ((AND *E* (AND (OR (AND (NOT *SE*) *E*) (NOT *S*)) *E*)) #\e)
+  ((AND (OR (NOT *NW*) *N*)
+    (AND
+     (OR (NOT *SW*)
+      (AND (OR (AND (NOT *W*) (NOT *W*)) (AND *N* (NOT *SW*))) *SE*))
+     *SE*))
+   #\s)
+  ((OR (NOT *N*) (AND *E* (AND (NOT *NW*) *E*))) #\w) (T #\n)))
+
+("2008-04-18 17:37:41" 9 100
+ (COND ((OR (AND (NOT *SE*) *E*) (AND *SE* (NOT *S*))) #\e)
+  ((AND (OR (AND (NOT *W*) *SE*) (AND (NOT *SW*) (NOT *SW*))) (OR *S* *S*))
+   #\s)
+  ((OR (AND (NOT *S*) (NOT *NW*)) (OR (AND (NOT *NW*) *E*) (NOT *N*))) #\w)
+  (T #\n)))
+
+("2008-04-18 17:37:41" 10 100
+ (COND
+  ((AND (OR (AND (OR *NE* *SE*) (AND (NOT *S*) *E*)) *N*)
+    (AND *E*
+     (AND (OR (AND (NOT *SE*) *N*) (AND (AND (NOT *S*) *E*) (NOT *S*))) *N*)))
+   #\e)
+  ((AND (OR (AND (NOT *W*) *SE*) (AND (NOT *SW*) (NOT *SW*))) (OR *S* *S*))
+   #\s)
+  ((OR (NOT *N*) (NOT *NW*)) #\w) (T #\n)))
+
+("2008-04-18 17:37:41" 11 100
+ (COND
+  ((AND
+    (AND
+     (AND (OR (AND (NOT *SE*) *E*) (AND (OR *W* *E*) (AND (NOT *S*) *NE*)))
+      (OR *N* *NW*))
+     *E*)
+    (AND *E* *NE*))
+   #\e)
+  ((OR (AND (AND (NOT *N*) *SE*) (AND (NOT *SE*) *E*))
+    (OR (NOT *W*)
+     (AND (OR (OR (NOT *SW*) (NOT *W*)) (AND (NOT *E*) (NOT *W*))) *SE*)))
+   #\s)
+  ((OR (AND (NOT *NW*) *E*) (NOT *N*)) #\w) (T #\n)))
+
+("2008-04-18 17:37:41" 12 100
+ (COND
+  ((AND
+    (AND
+     (AND
+      (OR (AND (NOT *SE*) *SE*)
+       (AND
+        (AND *NE*
+         (OR (AND (NOT *SE*) *N*)
+          (AND (AND *NE* (NOT *S*)) (OR (NOT *S*) *SW*))))
+        *E*))
+      (OR (NOT *S*) *NW*))
+     *N*)
+    (AND *E* *NE*))
+   #\e)
+  ((OR (AND (AND (NOT *N*) *SE*) (AND (NOT *SE*) *E*))
+    (OR (NOT *W*)
+     (AND (OR (OR (NOT *SW*) (NOT *W*)) (AND (NOT *E*) (NOT *W*))) *SE*)))
+   #\s)
+  ((OR (AND (NOT *NW*) *E*) (NOT *N*)) #\w) (T #\n)))
+
+("2008-04-18 17:37:41" 13 100
+ (COND
+  ((AND (AND *E* (OR (NOT *S*) (NOT *SE*))) (OR *N* (AND (OR *NE* *SW*) *E*)))
+   #\e)
+  ((OR (AND (AND *E* (NOT *SW*)) (OR (OR *SE* *W*) (AND *W* *W*)))
+    (AND (OR (OR (NOT *W*) (AND *N* (NOT *SW*))) (NOT *W*)) (NOT *W*)))
+   #\s)
+  ((OR (AND (OR (NOT *N*) (NOT *NW*)) (NOT *NW*)) (NOT *N*)) #\w) (T #\n)))
+
+("2008-04-18 17:37:41" 14 100
+ (COND
+  ((OR (AND (AND (OR (NOT *SE*) (NOT *S*)) (OR *E* (NOT *NW*))) *E*)
+    (AND *SE* (NOT *S*)))
+   #\e)
+  ((AND (OR (AND (NOT *W*) *SE*) (AND (NOT *SW*) (NOT *SW*))) (OR *S* *S*))
+   #\s)
+  ((OR (NOT *N*)
+    (OR (OR (AND (NOT *S*) (NOT *NW*)) (OR (NOT *NW*) (NOT *NW*))) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2008-04-18 17:37:41" 15 100
+ (COND
+  ((AND (AND *E* (OR (NOT *S*) (NOT *SE*)))
+    (OR *N*
+     (AND (OR *NE* *SW*) (AND (AND (NOT *S*) (AND (NOT *S*) *E*)) *NE*))))
+   #\e)
+  ((OR (AND (AND *E* (NOT *SW*)) (OR (OR *SE* *W*) (AND *W* *W*))) (NOT *W*))
+   #\s)
+  ((OR
+    (AND (OR (NOT *N*) (NOT *NW*))
+     (AND (NOT *NW*)
+      (OR (AND (NOT *S*) (NOT *NW*)) (OR (AND (NOT *NW*) *E*) (NOT *N*)))))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-04-18 17:37:41" 16 100
+ (COND
+  ((AND
+    (AND
+     (AND
+      (OR (AND (NOT *SE*) *SE*)
+       (AND
+        (AND *NE*
+         (OR (AND (NOT *SE*) *N*)
+          (AND (AND *NE* (NOT *S*)) (OR (NOT *S*) *SW*))))
+        *E*))
+      (OR (NOT *S*) *NW*))
+     *N*)
+    (AND *E* *NE*))
+   #\e)
+  ((OR (AND (AND (NOT *N*) *SE*) (AND (NOT *W*) *E*))
+    (OR (NOT *W*)
+     (AND (OR (OR (NOT *SW*) (NOT *W*)) (AND (NOT *W*) (NOT *W*))) *SE*)))
+   #\s)
+  ((OR
+    (AND (NOT *NW*) (OR (AND (OR (NOT *N*) (NOT *NW*)) (NOT *NW*)) (NOT *N*)))
+    (NOT *N*))
+   #\w)
+  (T #\n)))
+
+("2008-04-18 17:37:41" 17 100
+ (COND
+  ((AND
+    (AND
+     (OR (AND (NOT *E*) *E*)
+      (AND
+       (AND
+        (AND (OR (AND (NOT *SE*) *E*) (AND (OR *W* *E*) (AND (NOT *S*) *NE*)))
+         (OR (NOT *S*) *NW*))
+        *N*)
+       (AND *E* *NE*)))
+     (OR (AND (NOT *SE*) *N*) (AND (AND *NE* (NOT *S*)) (OR (NOT *S*) *SW*))))
+    *E*)
+   #\e)
+  ((OR (AND *E* (NOT *SW*)) (NOT *W*)) #\s)
+  ((OR (AND (NOT *S*) *SE*)
+    (OR (OR (OR (NOT *N*) (NOT *NW*)) (NOT *N*))
+     (OR (NOT *N*)
+      (AND
+       (OR (AND (OR (OR (NOT *NW*) (NOT *N*)) (NOT *NW*)) (NOT *NW*))
+        (NOT *N*))
+       (NOT *NW*)))))
+   #\w)
+  (T #\n)))
+
+("2008-04-18 17:37:41" 18 100
+ (COND
+  ((AND
+    (AND
+     (AND
+      (OR (AND (NOT *SE*) *N*) (AND (AND *NE* (NOT *S*)) (OR (NOT *S*) *SW*)))
+      (OR *E* *NW*))
+     *N*)
+    (AND *E* (AND (AND *E* (OR (NOT *S*) (NOT *SE*))) (OR *N* *SW*))))
+   #\e)
+  ((OR (OR (AND (NOT *NW*) (NOT *W*)) (NOT *W*))
+    (OR (NOT *W*)
+     (AND (OR (OR (NOT *SW*) (NOT *W*)) (AND (NOT *E*) (NOT *W*))) *SE*)))
+   #\s)
+  ((OR (NOT *NW*) (NOT *N*)) #\w) (T #\n)))
+
+("2008-04-18 17:41:12" 7 100
+ (COND ((OR (AND (NOT *S*) *E*) (AND *E* (NOT *SE*))) #\e)
+  ((AND (OR (NOT *W*) (NOT *SW*)) (OR *S* (NOT *NW*))) #\s)
+  ((OR (AND (NOT *N*) (NOT *NE*)) (AND *E* *NE*)) #\w) (T #\n)))
+
+("2008-04-18 17:41:12" 8 100
+ (COND ((OR (AND (NOT *S*) *E*) (AND *E* (NOT *SE*))) #\e)
+  ((AND (OR (NOT *W*) (NOT *SW*)) (OR *S* (NOT *NW*))) #\s)
+  ((OR (AND (NOT *N*) (NOT *NE*)) (AND *E* *NE*)) #\w) (T #\n)))
+
+("2008-04-18 17:41:12" 9 100
+ (COND ((OR (AND (NOT *S*) *E*) (AND *E* (NOT *SE*))) #\e)
+  ((AND (OR (NOT *W*) (NOT *SW*)) (OR *S* (AND (NOT *SE*) (NOT *W*)))) #\s)
+  ((OR (AND (NOT *N*) (NOT *NE*)) (AND *E* *NE*)) #\w) (T #\n)))
+
+("2008-04-18 17:41:12" 10 100
+ (COND
+  ((AND (OR (AND (OR (NOT *S*) (NOT *E*)) (OR (NOT *N*) (NOT *S*))) (NOT *SE*))
+    *E*)
+   #\e)
+  ((AND (AND (OR (NOT *W*) (NOT *SW*)) (OR *S* (NOT *NW*)))
+    (OR (NOT *NW*) *N*))
+   #\s)
+  ((OR (NOT *N*) (NOT *NW*)) #\w) (T #\n)))
+
+("2008-04-18 17:41:12" 11 100
+ (COND
+  ((OR (AND (AND (OR (AND *E* (NOT *SE*)) *E*) (NOT *S*)) (NOT *S*))
+    (AND *E* (NOT *SE*)))
+   #\e)
+  ((AND (OR (NOT *W*) (NOT *SW*)) (OR *S* (NOT *NW*))) #\s)
+  ((OR (AND (NOT *N*) (NOT *NE*)) (AND *E* *NE*)) #\w) (T #\n)))
+
+("2008-04-18 17:41:12" 12 100
+ (COND
+  ((AND
+    (OR (AND (OR (NOT *S*) (NOT *E*)) (OR (NOT *SW*) (NOT *S*))) (NOT *SE*))
+    *E*)
+   #\e)
+  ((AND (OR (NOT *W*) (AND (NOT *SW*) (AND *SE* *NE*))) (OR *E* (NOT *W*)))
+   #\s)
+  ((OR (NOT *N*) (NOT *NW*)) #\w) (T #\n)))
+
+("2008-04-18 17:41:12" 13 100
+ (COND ((OR (AND (NOT *S*) *E*) (AND *E* (NOT *SE*))) #\e)
+  ((AND (OR (NOT *W*) (NOT *SW*)) (OR *S* (NOT *NW*))) #\s)
+  ((OR (OR (AND (NOT *N*) (NOT *NE*)) (AND *E* (NOT *NW*))) (AND *E* *NE*))
+   #\w)
+  (T #\n)))
+
+("2008-04-18 17:41:12" 14 100
+ (COND ((OR (AND (NOT *S*) *E*) (AND *E* (NOT *SE*))) #\e)
+  ((AND (OR (NOT *W*) (NOT *SW*)) (OR *S* (NOT *NW*))) #\s)
+  ((OR (OR (AND (NOT *N*) (NOT *NE*)) (AND (AND (NOT *N*) (NOT *NE*)) *NE*))
+    (AND *E* *NE*))
+   #\w)
+  (T #\n)))
+
+("2008-04-18 17:41:12" 15 100
+ (COND ((OR (AND (NOT *S*) (OR (AND *E* *N*) *E*)) (AND (NOT *SE*) *E*)) #\e)
+  ((AND (OR (AND (NOT *W*) (NOT *W*)) (NOT *SW*))
+    (OR *S*
+     (AND (NOT *NW*)
+      (OR *S*
+       (AND (OR (AND *NE* (OR (NOT *SE*) (NOT *N*))) (OR *E* *S*))
+        (NOT *W*))))))
+   #\s)
+  ((OR (AND (NOT *N*) (NOT *NE*))
+    (OR (AND (NOT *N*) (NOT *NE*)) (AND *E* *NE*)))
+   #\w)
+  (T #\n)))
+
+("2008-04-18 17:41:12" 16 100
+ (COND
+  ((AND
+    (OR (AND (OR (NOT *S*) (NOT *E*)) (OR (NOT *SW*) (NOT *S*))) (NOT *SE*))
+    *E*)
+   #\e)
+  ((AND
+    (OR
+     (AND
+      (AND (OR (NOT *W*) (NOT *SW*))
+       (OR *S*
+        (AND (OR (AND *NE* (OR (NOT *SE*) (NOT *N*))) (OR *E* *S*))
+         (NOT *W*))))
+      (OR *SE* (NOT *NW*)))
+     (AND (NOT *SW*) (AND *SE* *NE*)))
+    (OR *E* (AND *SE* *NE*)))
+   #\s)
+  ((OR (NOT *N*) (NOT *NW*)) #\w) (T #\n)))
+
+("2008-09-24 11:03:18" 9 100
+ (COND ((AND (OR (AND (NOT *SE*) *N*) (NOT *S*)) *E*) #\e) ((AND (OR (NOT *SW*) (NOT *W*)) *S*) #\s)
+  ((OR (AND (NOT *N*) (NOT *N*)) (NOT *NW*)) #\w) (T #\n)))
+
+("2008-09-24 11:03:18" 10 100
+ (COND ((AND (OR (AND (NOT *SE*) *N*) (NOT *S*)) *E*) #\e) ((AND (OR (NOT *SW*) (NOT *W*)) *S*) #\s)
+  ((OR (AND (NOT *N*) (NOT *N*)) (NOT *NW*)) #\w) (T #\n)))
+
+("2008-09-24 11:03:18" 11 100
+ (COND ((AND (AND *E* *E*) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((OR (AND (NOT *W*) *SE*) (AND (NOT *SW*) (OR *SW* *S*))) #\s) ((OR (NOT *NW*) (NOT *N*)) #\w)
+  (T #\n)))
+
+("2008-09-24 11:03:18" 12 100
+ (COND ((AND (AND (OR (AND (NOT *SE*) *E*) (AND *SE* (NOT *S*))) *NE*) (OR *NE* *SW*)) #\e)
+  ((OR (AND (AND (NOT *SW*) (OR *SW* *S*)) (OR (NOT *SW*) (NOT *W*))) (NOT *W*)) #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*)) (AND *S* (NOT *S*))) #\w) (T #\n)))
+
+("2008-09-24 11:03:18" 13 100
+ (COND
+  ((OR (AND (AND (NOT *S*) *E*) (AND (NOT *S*) *E*))
+    (OR (OR (AND (NOT *E*) *E*) (AND (OR (AND (NOT *SE*) *NE*) (NOT *S*)) *E*))
+     (AND (AND *E* (NOT *S*)) *E*)))
+   #\e)
+  ((OR (AND (NOT *W*) *SE*) (AND (NOT *SW*) (OR *SW* *S*))) #\s)
+  ((OR (NOT *NW*) (OR (AND (NOT *NW*) *N*) (NOT *N*))) #\w) (T #\n)))
+
+("2008-09-24 11:03:18" 14 100
+ (COND
+  ((AND
+    (AND (AND (OR (AND (NOT *E*) *E*) (AND (OR (AND (NOT *SE*) *NE*) (NOT *S*)) *E*)) *NE*)
+     (AND (OR *SE* *E*) *NE*))
+    (OR (NOT *SE*) (NOT *S*)))
+   #\e)
+  ((OR (AND *S* (OR (AND (AND *SE* *NE*) (OR (AND *N* (NOT *SW*)) (NOT *NE*))) (NOT *W*)))
+    (NOT *W*))
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*)) (OR (AND (NOT *N*) *SW*) (AND *W* (NOT *NW*)))) #\w) (T #\n)))
+
+("2011-02-03 10:10:21" 11 100
+ (COND ((AND (AND *N* *E*) (OR (NOT *SE*) (NOT *S*))) #\e)
+  ((AND *E*
+    (OR (NOT *W*) (OR (AND *NE* (NOT *SW*)) (AND (NOT *W*) (NOT *W*)))))
+   #\s)
+  ((OR
+    (AND
+     (OR *NE*
+      (OR (NOT *NW*)
+       (OR (OR (NOT *N*) (AND (NOT *N*) (AND (NOT *N*) (NOT *N*))))
+        (NOT *NW*))))
+     *E*)
+    (AND (NOT *N*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2011-02-03 10:10:21" 12 100
+ (COND ((AND (AND *N* *E*) (OR (NOT *SE*) (NOT *S*))) #\e)
+  ((AND *E*
+    (OR (NOT *W*) (OR (AND *NE* (NOT *SW*)) (AND (NOT *W*) (NOT *W*)))))
+   #\s)
+  ((OR
+    (AND (OR *NE* (OR (OR (NOT *N*) (NOT *N*)) (OR (NOT *W*) (NOT *N*)))) *E*)
+    (AND (NOT *N*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2011-02-03 10:10:21" 13 100
+ (COND ((AND (OR (NOT *E*) (AND *NE* (OR (NOT *SE*) (NOT *S*)))) *E*) #\e)
+  ((OR
+    (AND *E*
+     (AND (OR (OR (NOT *W*) (NOT *SW*)) (NOT *SW*))
+      (OR *E* (AND (NOT *W*) (NOT *E*)))))
+    (AND (AND *E* (NOT *W*)) (NOT *S*)))
+   #\s)
+  ((OR (AND (NOT *N*) *W*) (NOT *NW*)) #\w) (T #\n)))
+
+("2011-02-03 10:10:21" 14 100
+ (COND ((AND (OR (NOT *E*) (AND *NE* (OR (NOT *SE*) (NOT *S*)))) *E*) #\e)
+  ((OR
+    (AND (OR (AND *E* (NOT *W*)) (AND (NOT *N*) (NOT *S*)))
+     (OR (OR (NOT *W*) (NOT *SW*)) (NOT *W*)))
+    (AND *SE* (NOT *SW*)))
+   #\s)
+  ((OR (OR (OR (NOT *W*) (NOT *N*)) (AND (NOT *N*) (NOT *SE*))) (NOT *NW*))
+   #\w)
+  (T #\n)))
+
+("2011-02-03 10:10:21" 15 100
+ (COND
+  ((AND
+    (AND
+     (OR (NOT *SE*)
+      (AND (AND (AND (OR (NOT *S*) (NOT *S*)) *E*) (OR (NOT *S*) (NOT *S*)))
+       (NOT *S*)))
+     *E*)
+    *E*)
+   #\e)
+  ((OR (AND *E* (NOT *W*))
+    (OR (AND (OR (OR (NOT *W*) (NOT *SW*)) (NOT *SW*)) (OR *E* (NOT *NW*)))
+     (NOT *W*)))
+   #\s)
+  ((OR (OR (OR (NOT *W*) (OR (NOT *W*) (NOT *N*))) (NOT *N*)) (NOT *NW*)) #\w)
+  (T #\n)))
+
+("2011-02-03 10:10:21" 16 100
+ (COND
+  ((AND (OR (NOT *E*) (OR (NOT *SE*) (AND (OR (NOT *E*) (NOT *S*)) (NOT *S*))))
+    *E*)
+   #\e)
+  ((AND (OR (NOT *W*) (NOT *SW*)) *E*) #\s)
+  ((OR (OR (OR (NOT *W*) (NOT *N*)) (OR (NOT *W*) (NOT *N*))) (NOT *NW*)) #\w)
+  (T #\n)))
+
+("2011-02-04 13:04:21" 10 100
+ (COND
+  ((AND
+    (AND
+     (OR (NOT *S*)
+      (AND *NE* (AND (AND (AND *N* *E*) *E*) (OR (NOT *SE*) (NOT *S*)))))
+     *E*)
+    *E*)
+   #\e)
+  ((OR
+    (OR (OR (NOT *W*) (AND (OR *E* *W*) (AND *E* (NOT *SW*))))
+     (AND (NOT *W*) *E*))
+    (AND *S* (NOT *S*)))
+   #\s)
+  ((OR (OR (OR (NOT *W*) (NOT *N*)) (AND (NOT *N*) (NOT *SE*))) (NOT *NW*))
+   #\w)
+  (T #\n)))
+
+("2011-02-04 13:04:21" 11 100
+ (COND
+  ((AND (AND (AND (OR (NOT *S*) (NOT *SE*)) *E*) (OR (NOT *S*) *W*)) *E*) #\e)
+  ((AND (OR (OR (NOT *W*) (NOT *SW*)) (NOT *SW*)) (OR *E* (NOT *NW*))) #\s)
+  ((AND
+    (OR
+     (AND
+      (OR (AND (NOT *E*) (NOT *E*)) (OR (OR (NOT *N*) (NOT *N*)) (NOT *NW*)))
+      *E*)
+     (AND (NOT *N*) (NOT *N*)))
+    *W*)
+   #\w)
+  (T #\n)))
+
+("2011-02-04 13:04:21" 12 100
+ (COND ((AND (AND *N* *E*) (OR (NOT *SE*) (NOT *S*))) #\e)
+  ((OR (AND *E* (OR (NOT *SW*) (NOT *W*))) (NOT *W*)) #\s)
+  ((OR (AND (OR (OR (OR (NOT *NW*) (NOT *N*)) (NOT *N*)) (NOT *NW*)) *E*)
+    (AND (NOT *N*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2011-02-04 13:04:21" 13 100
+ (COND
+  ((AND (AND (OR (NOT *S*) (NOT *SE*)) *E*)
+    (OR (OR (NOT *E*) (AND *NE* (NOT *S*))) *W*))
+   #\e)
+  ((OR (NOT *W*) (AND *E* (NOT *SW*))) #\s)
+  ((OR
+    (OR (OR (NOT *N*) (NOT *N*))
+     (AND
+      (OR (NOT *NW*) (OR (OR (NOT *W*) (NOT *N*)) (AND (NOT *N*) (NOT *SE*))))
+      *SW*))
+    (NOT *NW*))
+   #\w)
+  (T #\n)))
+
+("2011-02-04 13:04:21" 14 100
+ (COND ((AND (AND (AND (OR (NOT *S*) (NOT *SE*)) *E*) *E*) *E*) #\e)
+  ((OR
+    (OR (OR (NOT *W*) (AND (OR *E* (AND *E* (NOT *SW*))) (AND *E* (NOT *SW*))))
+     (AND (NOT *W*) *E*))
+    (AND *S* (NOT *S*)))
+   #\s)
+  ((OR
+    (OR (OR (OR (OR (NOT *NW*) (NOT *N*)) (AND (NOT *N*) (NOT *N*))) (NOT *N*))
+     (AND (NOT *N*) (NOT *SE*)))
+    (NOT *NW*))
+   #\w)
+  (T #\n)))
+
+("2011-02-04 13:04:21" 15 100
+ (COND
+  ((AND (AND *N* *E*) (OR (AND *E* (OR (NOT *SE*) (NOT *S*))) (NOT *S*))) #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*))
+    (OR (OR (OR (NOT *W*) *E*) (AND (AND *NE* *NW*) (NOT *NW*))) *E*))
+   #\s)
+  ((OR (OR (OR (NOT *W*) (NOT *N*)) (NOT *NW*)) (OR (NOT *N*) (NOT *NW*))) #\w)
+  (T #\n)))
+
+("2011-02-04 13:04:21" 16 100
+ (COND
+  ((AND
+    (AND
+     (OR (NOT *S*)
+      (AND *NE* (AND (AND (AND *N* *E*) *E*) (OR (NOT *SE*) (NOT *S*)))))
+     *E*)
+    *E*)
+   #\e)
+  ((OR
+    (OR (OR (NOT *W*) (AND (OR *E* *W*) (AND *E* (NOT *SW*))))
+     (AND (NOT *W*) *E*))
+    (AND *S* (OR (NOT *W*) (NOT *W*))))
+   #\s)
+  ((OR
+    (OR
+     (OR
+      (OR (OR (AND (NOT *N*) (NOT *N*)) (AND (NOT *N*) (NOT *N*))) (NOT *NW*))
+      (NOT *N*))
+     (AND (NOT *N*) (NOT *SE*)))
+    (NOT *NW*))
+   #\w)
+  (T #\n)))
+
+("2013-02-13 17:16:26" 8 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (AND (AND *E* *N*) *N*)) #\e)
+  ((OR (AND (NOT *S*) (NOT *NW*)) (OR (NOT *W*) (AND (NOT *SW*) *E*))) #\s)
+  ((OR (AND (NOT *N*) *S*) (OR (NOT *NW*) (AND (NOT *N*) *W*))) #\w) (T #\n)))
+
+("2013-02-13 17:16:26" 9 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (AND (AND *E* *N*) *N*)) #\e)
+  ((OR (NOT *W*) (OR (NOT *W*) (AND (NOT *SW*) *E*))) #\s)
+  ((OR (AND (NOT *N*) *S*) (OR (NOT *NW*) (AND (NOT *N*) *W*))) #\w) (T #\n)))
+
+("2013-02-13 17:16:26" 10 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (AND (AND *E* *N*) *N*)) #\e)
+  ((OR (AND (NOT *S*) (NOT *NW*)) (OR (NOT *W*) (AND (NOT *SW*) *E*))) #\s)
+  ((OR (NOT *N*) (OR (NOT *NW*) (AND *S* (NOT *N*)))) #\w) (T #\n)))
+
+("2013-02-13 17:16:26" 11 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (AND (AND (OR *SE* *E*) *N*) *N*)) #\e)
+  ((OR (NOT *W*) (OR (NOT *W*) (AND (NOT *SW*) *E*))) #\s)
+  ((OR (AND (NOT *N*) *S*) (OR (NOT *NW*) (AND (NOT *W*) *W*))) #\w) (T #\n)))
+
+("2013-02-13 17:16:26" 12 100
+ (COND
+  ((AND (OR (OR (NOT *SE*) (NOT *S*)) (NOT *S*))
+    (AND *E* (OR (NOT *S*) (NOT *SE*))))
+   #\e)
+  ((AND (OR (AND (AND *SE* (NOT *SW*)) *E*) (NOT *W*)) (AND *SE* *E*)) #\s)
+  ((OR (AND *S* (NOT *N*)) (AND (OR (NOT *N*) (NOT *NW*)) (OR *W* *SW*))) #\w)
+  (T #\n)))
+
+("2013-02-13 17:16:26" 13 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (AND *N* *E*)) #\e)
+  ((OR (NOT *W*) (AND (NOT *SW*) (AND *SE* *N*))) #\s)
+  ((OR (NOT *N*) (AND *S* (OR (AND (NOT *N*) *S*) (OR (NOT *NW*) (NOT *N*)))))
+   #\w)
+  (T #\n)))
+
+("2013-02-13 17:16:26" 14 100
+ (COND
+  ((AND
+    (OR
+     (AND (AND (OR (NOT *S*) (NOT *SE*)) (AND (AND (OR *SE* *E*) *N*) *N*))
+      (NOT *SE*))
+     (NOT *S*))
+    (AND *E* *N*))
+   #\e)
+  ((AND (OR (AND (OR *N* *E*) (AND (NOT *SW*) *SE*)) (NOT *W*))
+    (OR (OR (NOT *W*) *NE*) *E*))
+   #\s)
+  ((OR (AND (NOT *N*) *W*)
+    (OR (AND (OR *SW* (NOT *N*)) (OR (NOT *N*) (NOT *NW*)))
+     (AND (NOT *S*)
+      (AND (OR (NOT *NW*) (OR *SE* (OR (NOT *N*) *E*))) (OR (NOT *N*) *NE*)))))
+   #\w)
+  (T #\n)))
+
+("2013-02-13 17:16:26" 15 100
+ (COND
+  ((AND
+    (AND (OR (OR (NOT *N*) *E*) (NOT *S*)) (AND *E* (OR (NOT *S*) (NOT *SE*))))
+    (OR (NOT *S*) (NOT *SE*)))
+   #\e)
+  ((OR (OR (NOT *W*) (AND (AND (NOT *SW*) *E*) *E*))
+    (AND (NOT *SW*) (AND (NOT *SW*) *E*)))
+   #\s)
+  ((OR (AND (OR (NOT *NW*) (AND (NOT *N*) *W*)) (NOT *N*))
+    (AND
+     (OR (AND (NOT *N*) *S*)
+      (OR (NOT *NW*) (AND (NOT *W*) (AND *S* (NOT *N*)))))
+     (NOT *NW*)))
+   #\w)
+  (T #\n)))
+
+("2013-02-13 17:16:26" 16 100
+ (COND ((AND (AND (OR (NOT *S*) (NOT *SE*)) *E*) (AND *E* *N*)) #\e)
+  ((AND (AND *S* *SE*)
+    (AND (OR (AND (OR *N* (AND *SE* *E*)) (AND (NOT *SW*) *SE*)) (NOT *W*))
+     (OR *N* *E*)))
+   #\s)
+  ((OR
+    (AND
+     (OR (OR (NOT *NW*) (NOT *N*))
+      (AND (OR (NOT *N*) (NOT *NW*))
+       (OR *W* (OR (OR *W* (NOT *N*)) (NOT *N*)))))
+     (OR *W* (OR *NW* (OR (OR *NW* (NOT *S*)) *SE*))))
+    (AND (NOT *W*) *W*))
+   #\w)
+  (T #\n)))
+
+("2013-02-13 17:16:26" 17 100
+ (COND
+  ((AND (AND *E* (OR (AND (AND (OR *SE* *E*) *N*) *N*) (NOT *SE*)))
+    (OR (NOT *S*) (NOT *SE*)))
+   #\e)
+  ((AND (AND *S* *SE*)
+    (AND (OR (AND (OR *N* *E*) (AND (NOT *SW*) *SE*)) (NOT *W*)) (OR *N* *E*)))
+   #\s)
+  ((OR
+    (AND
+     (OR (AND (NOT *N*) (OR (OR *W* *NW*) (OR *NW* (NOT *S*))))
+      (AND (OR (NOT *N*) (NOT *NW*))
+       (OR *W* (OR (OR *W* (NOT *N*)) (NOT *N*)))))
+     (OR (OR *W* *NW*) (OR *NW* (OR (NOT *N*) *SE*))))
+    (AND (NOT *NW*) *W*))
+   #\w)
+  (T #\n)))
+
+("2013-02-13 17:16:26" 18 100
+ (COND
+  ((AND (AND (AND *E* (AND (AND *E* *N*) *N*)) *E*) (OR (NOT *SE*) (NOT *S*)))
+   #\e)
+  ((OR (AND (NOT *W*) *SE*) (AND (NOT *SW*) *E*)) #\s)
+  ((AND (OR (NOT *NW*) (NOT *N*))
+    (OR (NOT *NW*)
+     (AND (AND (OR (NOT *N*) (OR (NOT *NW*) (NOT *N*))) (OR *SW* (NOT *N*)))
+      (OR (AND (NOT *N*) *S*) *SE*))))
+   #\w)
+  (T #\n)))
+
+("2013-02-13 17:16:26" 19 100
+ (COND ((AND (AND (OR (NOT *S*) (NOT *SE*)) *NE*) (AND *E* (AND *E* *N*))) #\e)
+  ((AND (AND *S* (OR (NOT *W*) (AND (NOT *SW*) *E*)))
+    (AND (OR (AND (OR *N* *E*) (AND (NOT *SW*) *SE*)) (NOT *W*)) (OR *N* *E*)))
+   #\s)
+  ((OR
+    (AND
+     (OR
+      (AND (OR (AND *S* (NOT *N*)) (AND *W* (NOT *NW*)))
+       (OR (OR *W* *NW*) (OR *NW* (NOT *S*))))
+      (AND (OR (NOT *N*) (NOT *NW*)) (OR *W* (AND *W* (NOT *S*)))))
+     (OR (OR *W* *NW*) (OR *NW* (OR (OR *NW* (NOT *S*)) *SE*))))
+    (AND (NOT *W*) *W*))
+   #\w)
+  (T #\n)))
+
+("2013-02-13 17:16:26" 20 100
+ (COND
+  ((AND *E*
+    (OR (OR (AND *E* (OR (NOT *S*) (NOT *SE*))) (AND *E* (NOT *S*)))
+     (AND (AND (NOT *E*) *S*) (OR (NOT *W*) *NW*))))
+   #\e)
+  ((OR
+    (AND
+     (OR (AND (NOT *S*) (AND (NOT *SW*) *E*))
+      (OR (NOT *W*) (AND (NOT *SW*) *E*)))
+     (NOT *W*))
+    (AND (NOT *SW*) *E*))
+   #\s)
+  ((OR (NOT *NW*) (NOT *N*)) #\w) (T #\n)))
+
+("2013-02-13 17:16:26" 21 100
+ (COND
+  ((AND (OR (NOT *S*) (NOT *SE*))
+    (AND (AND (OR (OR (NOT *S*) (NOT *SE*)) *N*) (OR *NW* *NE*)) *E*))
+   #\e)
+  ((OR (NOT *W*) (AND (NOT *SW*) (AND *E* (NOT *SW*)))) #\s)
+  ((OR (OR (NOT *W*) (AND *S* (NOT *N*))) (AND *S* (NOT *NW*))) #\w) (T #\n)))
+
+("2013-02-13 17:16:26" 22 100
+ (COND
+  ((AND
+    (AND
+     (AND (OR (OR (NOT *SE*) *E*) (NOT *S*))
+      (AND *E* (OR (NOT *S*) (NOT *SE*))))
+     (OR (NOT *S*) (NOT *SE*)))
+    (OR (NOT *S*) (NOT *SE*)))
+   #\e)
+  ((OR (OR (NOT *W*) (OR (NOT *W*) (AND (NOT *SW*) *E*)))
+    (AND (NOT *SW*) (OR (NOT *W*) (OR (NOT *W*) (AND (NOT *SW*) *E*)))))
+   #\s)
+  ((AND (OR *W* (NOT *W*))
+    (OR (NOT *NW*)
+     (AND (AND (AND *S* (NOT *N*)) *S*) (OR (NOT *N*) (NOT *NW*)))))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 08:43:11" 9 100
+ (COND ((AND *E* (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((OR (AND (NOT *W*) *SE*) (AND (NOT *SW*) *SE*)) #\s)
+  ((OR (AND (OR (NOT *NE*) *W*) (NOT *N*)) (OR (NOT *NW*) (NOT *N*))) #\w)
+  (T #\n)))
+
+("2015-04-17 08:43:11" 10 100
+ (COND ((AND *E* (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((OR (AND (NOT *W*) *SE*) (AND (NOT *SW*) *SE*)) #\s)
+  ((OR (AND (OR (NOT *NE*) *W*) (NOT *N*)) (OR (NOT *NW*) (NOT *N*))) #\w)
+  (T #\n)))
+
+("2015-04-17 08:43:11" 11 100
+ (COND ((AND *E* (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*)) (AND *SE* *S*)) #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*)) (AND (NOT *W*) (NOT *S*))) #\w) (T #\n)))
+
+("2015-04-17 08:43:11" 12 100
+ (COND
+  ((AND (OR *E* (AND (OR *E* (NOT *NE*)) (AND *S* *E*)))
+    (AND (OR (NOT *S*) (NOT *SE*)) (OR *E* (NOT *NW*))))
+   #\e)
+  ((AND (AND (AND (OR (NOT *SW*) (NOT *W*)) (AND *SE* *S*)) (AND *SE* *S*))
+    (OR *N* (NOT *W*)))
+   #\s)
+  ((OR (NOT *NW*) (NOT *N*)) #\w) (T #\n)))
+
+("2015-04-17 08:43:11" 13 100
+ (COND
+  ((AND
+    (OR
+     (AND
+      (AND (NOT *S*)
+       (OR *E* (AND (OR (NOT *S*) (NOT *NW*)) (AND (NOT *N*) (OR *E* *W*)))))
+      (NOT *S*))
+     (AND *NW* (NOT *SE*)))
+    *E*)
+   #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*)) (AND *SE* *S*)) #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*)) (AND (NOT *W*) (OR (NOT *NW*) (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 08:43:11" 14 100
+ (COND ((AND (OR (AND (NOT *S*) (OR *E* *E*)) (NOT *SE*)) (OR *E* *E*)) #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*))
+    (AND *SE* (AND (OR (NOT *SW*) (NOT *W*)) (AND *SE* *S*))))
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *W*)) (OR (NOT *N*) (OR (NOT *NW*) (NOT *N*)))) #\w)
+  (T #\n)))
+
+("2015-04-17 08:43:11" 15 100
+ (COND
+  ((AND (AND *E* (OR (NOT *S*) (NOT *SE*)))
+    (OR *E* (AND (NOT *S*) (AND (NOT *N*) *NW*))))
+   #\e)
+  ((AND
+    (OR
+     (AND (OR (NOT *SW*) (NOT *W*))
+      (AND (OR *NW* (NOT *W*)) (OR *SE* (OR (NOT *SW*) (NOT *W*)))))
+     (NOT *W*))
+    (AND *SE* *S*))
+   #\s)
+  ((OR (OR (NOT *NW*) (NOT *N*)) (NOT *N*)) #\w) (T #\n)))
+
+("2015-04-17 09:37:09" 9 100
+ (COND ((AND *E* (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*)) *S*) #\s)
+  ((OR (AND (NOT *W*) (AND (AND *S* (NOT *W*)) (AND (NOT *SW*) *N*)))
+    (OR (NOT *NW*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 09:37:09" 10 100
+ (COND ((AND *E* (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*)) (AND *SE* *S*)) #\s)
+  ((OR (AND *S* (AND (AND *S* (NOT *W*)) (AND (NOT *N*) *N*)))
+    (OR (NOT *NW*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 09:37:09" 11 100
+ (COND ((AND *E* (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*)) (AND (OR *S* *S*) *S*)) #\s)
+  ((OR (AND *S* (AND (AND *S* (NOT *W*)) (AND (NOT *N*) *N*)))
+    (OR (NOT *NW*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 09:37:09" 12 100
+ (COND ((AND *E* (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*)) (AND *SE* *S*)) #\s)
+  ((OR (AND (NOT *W*) (AND (AND *S* (NOT *NW*)) (AND (NOT *SW*) *N*)))
+    (OR (NOT *NW*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 09:37:09" 13 100
+ (COND
+  ((AND (OR (AND (NOT *S*) (NOT *W*)) (AND *N* *E*))
+    (OR (NOT *S*) (OR (NOT *S*) (NOT *SE*))))
+   #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*))
+    (AND (OR (AND (AND *NW* *S*) (OR (NOT *SE*) (AND (NOT *W*) *E*))) *S*)
+     *S*))
+   #\s)
+  ((OR (OR (OR (NOT *NW*) (NOT *N*)) (OR (NOT *NW*) (NOT *N*)))
+    (AND (NOT *W*) (NOT *S*)))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 09:37:09" 14 100
+ (COND
+  ((AND
+    (OR (AND (NOT *SE*) (AND (AND *E* (NOT *S*)) (OR *E* (NOT *SE*))))
+     (AND *N* *E*))
+    (OR (NOT *S*) (NOT *SE*)))
+   #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*)) (AND *SE* *S*)) #\s)
+  ((OR (AND (NOT *NW*) (OR (NOT *NW*) (NOT *N*))) (OR (NOT *NW*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 09:37:09" 15 100
+ (COND
+  ((AND
+    (AND (OR (AND (NOT *SE*) (NOT *W*)) (AND *N* *E*))
+     (OR (NOT *S*) (NOT *SE*)))
+    (OR *E* (AND (OR (NOT *N*) (NOT *NW*)) (AND (NOT *N*) *NW*))))
+   #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*))
+    (AND
+     (OR
+      (AND (NOT *W*)
+       (OR
+        (AND (OR (AND (NOT *SW*) *NW*) (NOT *W*))
+         (AND (OR (AND (AND *NW* *S*) (OR (NOT *SE*) (NOT *NE*))) *S*) *S*))
+        (NOT *NE*)))
+      (AND *SE* (OR (NOT *SW*) (AND *S* (NOT *W*)))))
+     *S*))
+   #\s)
+  ((OR
+    (OR (AND *S* (AND (AND *S* (NOT *W*)) (AND (NOT *SW*) *N*)))
+     (OR (NOT *NW*) (NOT *N*)))
+    (AND (NOT *W*) (NOT *S*)))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 09:37:09" 16 100
+ (COND ((AND *E* (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND *S*
+    (AND (OR (NOT *SW*) (NOT *W*)) (AND *SE* (OR (NOT *SW*) (NOT *W*)))))
+   #\s)
+  ((OR
+    (AND (OR (NOT *W*) (NOT *SE*))
+     (AND (AND *S* (NOT *W*))
+      (AND (NOT *SW*) (AND (OR (NOT *NW*) (NOT *N*)) (AND *W* (NOT *N*))))))
+    (OR (OR (NOT *NW*) (NOT *N*)) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 09:37:09" 17 100
+ (COND ((AND *E* (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND (AND (OR (NOT *SW*) (NOT *W*)) (AND *SE* *S*)) (OR *E* (NOT *S*))) #\s)
+  ((OR
+    (AND
+     (OR (NOT *NE*)
+      (OR (NOT *SW*) (AND (AND *S* (NOT *W*)) (OR (NOT *NW*) (NOT *N*)))))
+     (AND (AND (AND (AND (NOT *N*) (NOT *N*)) (NOT *N*)) (NOT *SW*))
+      (AND (NOT *N*) *N*)))
+    (OR (OR (NOT *N*) (AND (NOT *NW*) *W*)) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 09:37:09" 18 100
+ (COND ((AND *E* (OR (AND *E* (OR (NOT *S*) (NOT *SE*))) (NOT *SE*))) #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*))
+    (AND
+     (AND
+      (AND (OR (NOT *SW*) (NOT *W*))
+       (AND *SE* (OR (AND (AND *NW* *S*) *S*) *S*)))
+      (OR *E* (AND (NOT *S*) *S*)))
+     *S*))
+   #\s)
+  ((OR
+    (AND (OR (OR (NOT *NW*) (OR (NOT *NW*) (NOT *N*))) (NOT *SE*))
+     (AND (AND *S* (NOT *SW*))
+      (AND (AND (AND (NOT *E*) *SW*) *S*) (NOT *NW*))))
+    (OR (NOT *NW*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 09:37:09" 19 100
+ (COND
+  ((AND (AND (AND *E* (AND (AND *E* *E*) *E*)) *NE*) (OR (NOT *S*) (NOT *SE*)))
+   #\e)
+  ((AND
+    (AND (OR (NOT *SW*) (NOT *W*))
+     (AND (OR (AND (AND *NW* *S*) (OR (NOT *SE*) (NOT *NE*))) *S*) *S*))
+    *E*)
+   #\s)
+  ((OR (AND (NOT *NW*) (NOT *N*))
+    (OR (OR (AND (NOT *NW*) (NOT *NW*)) (NOT *N*)) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2015-04-17 09:37:09" 20 100
+ (COND ((AND *E* (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((AND
+    (AND *SE*
+     (OR (NOT *SW*)
+      (AND *S*
+       (AND (NOT *W*)
+        (AND (AND (OR (NOT *SW*) (OR (NOT *W*) (NOT *SW*))) *SE*) *S*)))))
+    (AND (OR (NOT *SW*) (NOT *W*)) (AND *SE* *S*)))
+   #\s)
+  ((OR (AND (NOT *N*) (NOT *N*)) (OR (NOT *NW*) (NOT *N*))) #\w) (T #\n)))
+
+("2015-04-17 09:37:09" 21 100
+ (COND
+  ((AND *E*
+    (OR (NOT *S*)
+     (OR (OR (AND *E* (OR (NOT *S*) (NOT *SE*))) (NOT *SE*)) (NOT *SE*))))
+   #\e)
+  ((AND *SE*
+    (OR (NOT *SW*)
+     (AND (OR *S* (NOT *S*))
+      (AND (OR (NOT *SW*) (NOT *W*))
+       (OR (NOT *SW*) (AND (AND *SE* *S*) (NOT *W*)))))))
+   #\s)
+  ((OR (NOT *NW*)
+    (OR (NOT *NW*)
+     (OR (AND (NOT *NW*) (NOT *N*))
+      (OR
+       (OR
+        (OR (AND *S* (AND (AND *S* (NOT *W*)) (AND (NOT *SW*) *N*)))
+         (OR (NOT *NW*) (NOT *N*)))
+        (AND (OR (AND *E* *W*) (AND (NOT *NE*) *S*)) (NOT *S*)))
+       (NOT *N*)))))
+   #\w)
+  (T #\n)))
+
+("2022-05-17 18:28:58" 8 100
+ (COND ((OR (AND (NOT *S*) *SE*) (AND (NOT *SE*) *E*)) #\e)
+  ((AND (AND *E* (OR (NOT *W*) *SE*)) (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((AND (OR *S* *NE*)
+    (OR (AND (AND *SW* (OR *N* *SW*)) (AND (NOT *N*) *SW*)) (NOT *NW*)))
+   #\w)
+  (T #\n)))
+
+("2022-05-17 18:28:58" 9 100
+ (COND
+  ((AND (OR *E* (NOT *W*))
+    (AND (AND (OR (NOT *S*) (AND (NOT *SE*) *N*)) (OR *E* (NOT *SW*))) *N*))
+   #\e)
+  ((AND (OR *S* *SE*) (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR (OR (NOT *W*) (NOT *N*)) (AND (OR *E* *S*) (NOT *NW*))) #\w) (T #\n)))
+
+("2022-05-17 18:28:58" 10 100
+ (COND ((AND (AND (AND *E* *N*) (OR (NOT *SE*) (NOT *S*))) *E*) #\e)
+  ((AND (OR *N* (OR (AND (NOT *SE*) *NE*) (OR (NOT *W*) (NOT *W*))))
+    (AND *E* (OR (NOT *W*) (NOT *SW*))))
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*)) (AND (NOT *SE*) *SE*)) #\w) (T #\n)))
+
+("2022-05-17 18:28:58" 11 100
+ (COND
+  ((OR
+    (AND
+     (OR
+      (AND
+       (OR (NOT *S*)
+        (AND (NOT *SE*)
+         (AND (OR (NOT *S*) (AND (NOT *SE*) *N*)) (OR *E* (NOT *W*)))))
+       (OR *E* (NOT *W*)))
+      (NOT *S*))
+     (OR *E* (NOT *N*)))
+    (AND (NOT *S*) *E*))
+   #\e)
+  ((AND (AND *E* (OR (NOT *W*) *SE*)) (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((AND (OR *S* *NE*) (OR (NOT *N*) (NOT *NW*))) #\w) (T #\n)))
+
+("2022-05-17 18:28:58" 12 100
+ (COND ((OR (AND (NOT *S*) *SE*) (AND (NOT *SE*) *E*)) #\e)
+  ((AND (AND *E* (OR (NOT *W*) *SE*)) (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((AND (OR *S* (NOT *N*))
+    (OR (OR (NOT *N*) (NOT *NW*))
+     (OR (OR (NOT *N*) (NOT *NW*)) (AND (NOT *SE*) *SE*))))
+   #\w)
+  (T #\n)))
+
+("2022-05-17 18:28:58" 13 100
+ (COND
+  ((AND
+    (AND
+     (AND
+      (AND (AND (OR (NOT *S*) (AND (NOT *SE*) *N*)) (OR *E* (NOT *SW*)))
+       (OR (NOT *W*) (OR *E* (NOT *SW*))))
+      (AND
+       (AND *E* (AND (OR (NOT *S*) (NOT *SE*)) (OR *E* (AND (NOT *N*) *SE*))))
+       *N*))
+     *N*)
+    (OR (NOT *N*) *E*))
+   #\e)
+  ((OR (AND (OR (AND (OR (NOT *W*) (NOT *SW*)) *E*) (NOT *W*)) (NOT *SW*))
+    (NOT *W*))
+   #\s)
+  ((OR (OR (NOT *W*) (NOT *N*)) (AND (AND *SE* (NOT *NW*)) *NE*)) #\w)
+  (T #\n)))
+
+("2022-05-17 18:28:58" 14 100
+ (COND
+  ((AND
+    (OR
+     (OR (NOT *S*)
+      (AND (NOT *SE*)
+       (AND (OR (NOT *S*) (AND (NOT *SE*) *N*)) (OR *E* (NOT *W*)))))
+     (NOT *S*))
+    (OR *E* *E*))
+   #\e)
+  ((AND (AND *E* (OR (NOT *W*) *SE*)) (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((AND (OR *S* *NE*)
+    (OR (AND (AND *SW* (OR *N* *SW*)) (AND (NOT *N*) *SW*))
+     (OR (OR (NOT *N*) (OR (OR (NOT *N*) (NOT *NW*)) (AND (NOT *N*) *SE*)))
+      (AND (NOT *SE*) *SE*))))
+   #\w)
+  (T #\n)))
+
+("2022-05-17 18:28:58" 15 100
+ (COND
+  ((AND
+    (OR (OR (NOT *SE*) (NOT *S*))
+     (AND (NOT *SE*)
+      (AND
+       (OR (NOT *S*)
+        (AND (AND (NOT *S*) (AND (OR (NOT *S*) *SE*) (OR *E* (NOT *N*)))) *N*))
+       (OR *E* (NOT *W*)))))
+    (OR *E* (NOT *W*)))
+   #\e)
+  ((AND (OR (NOT *SW*) (NOT *W*)) *SE*) #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*)) (NOT *N*)) #\w) (T #\n)))
+
+("2022-05-17 18:28:58" 16 100
+ (COND
+  ((AND (OR (AND (NOT *S*) *E*) (AND (NOT *SE*) *N*))
+    (OR
+     (OR *E*
+      (AND (NOT *N*) (AND (OR (NOT *S*) (AND (NOT *SE*) *N*)) (OR *E* *E*))))
+     (NOT *W*)))
+   #\e)
+  ((AND
+    (OR
+     (AND
+      (OR (OR (NOT *NW*) *SE*)
+       (OR (AND (NOT *SE*) *NE*) (OR (NOT *W*) (NOT *W*))))
+      (AND *E* (OR (NOT *W*) (NOT *SW*))))
+     *SE*)
+    (OR (NOT *W*) (NOT *SW*)))
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*)) (AND (NOT *SE*) *SE*)) #\w) (T #\n)))
+
+("2022-05-17 18:28:58" 17 100
+ (COND
+  ((OR (AND (NOT *S*) *SE*)
+    (AND (NOT *SE*) (AND *E* (OR *E* (AND (NOT *E*) (NOT *NE*))))))
+   #\e)
+  ((AND (AND *E* (OR *SE* *SE*)) (OR (NOT *W*) (OR (NOT *SW*) (NOT *W*)))) #\s)
+  ((AND (OR *S* *NE*)
+    (OR
+     (AND (OR (OR (NOT *N*) (AND *SE* (NOT *NW*))) (AND (NOT *SE*) *SE*))
+      (AND *SW* *SW*))
+     (NOT *NW*)))
+   #\w)
+  (T #\n)))
+
+("2022-05-17 18:28:58" 18 100
+ (COND
+  ((AND (AND *E* *E*)
+    (OR (AND *E* (AND (OR (NOT *S*) (AND (NOT *S*) *SE*)) (OR *E* (NOT *W*))))
+     (NOT *SE*)))
+   #\e)
+  ((AND
+    (OR
+     (OR
+      (AND
+       (OR (AND (AND (NOT *NW*) (OR (NOT *W*) *SE*)) (OR (NOT *W*) (NOT *SW*)))
+        (NOT *SW*))
+       *E*)
+      (NOT *W*))
+     (NOT *W*))
+    *SE*)
+   #\s)
+  ((OR (NOT *N*) (OR (AND (AND *S* (NOT *N*)) (NOT *N*)) (NOT *NW*))) #\w)
+  (T #\n)))
+
+("2022-05-17 18:28:58" 19 100
+ (COND
+  ((AND (AND *E* *N*)
+    (AND (OR (NOT *S*) (AND (NOT *SE*) *N*)) (OR *E* (NOT *SE*))))
+   #\e)
+  ((OR
+    (AND
+     (AND (OR (NOT *SW*) (AND (OR *E* (NOT *SE*)) (AND *SE* (NOT *W*)))) *SE*)
+     *S*)
+    (NOT *W*))
+   #\s)
+  ((OR (AND *SW* (NOT *NW*))
+    (OR (AND (OR (OR (NOT *N*) (AND *S* (NOT *N*))) (NOT *W*)) (NOT *NW*))
+     (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2022-05-17 18:28:58" 20 100
+ (COND
+  ((AND
+    (OR (NOT *S*)
+     (AND (AND (AND (AND *E* *N*) (OR (NOT *SE*) (NOT *S*))) *E*)
+      (AND (AND *E* *N*) (OR (NOT *SE*) (NOT *S*)))))
+    (OR *E* (NOT *N*)))
+   #\e)
+  ((AND
+    (AND (OR (NOT *NW*) (OR (NOT *W*) (NOT *SW*))) (OR (NOT *W*) (NOT *SW*)))
+    *E*)
+   #\s)
+  ((OR (OR (NOT *N*) (NOT *NW*)) (AND (NOT *SE*) (OR (NOT *NW*) (NOT *N*))))
+   #\w)
+  (T #\n)))
+
+("2022-05-17 18:28:58" 21 100
+ (COND
+  ((OR
+    (AND
+     (OR
+      (AND
+       (OR (NOT *S*)
+        (AND (NOT *SE*)
+         (AND (OR (NOT *S*) (AND (NOT *SE*) *N*)) (OR *E* (NOT *W*)))))
+       (OR *E* (NOT *W*)))
+      (NOT *S*))
+     (OR *E* (NOT *N*)))
+    (AND
+     (OR (NOT *S*)
+      (AND (AND (NOT *SE*) *E*)
+       (AND (OR (NOT *S*) (AND (NOT *SE*) *N*)) (OR *E* (NOT *W*)))))
+     (OR *E* (NOT *W*))))
+   #\e)
+  ((AND (AND *E* (OR (NOT *W*) (NOT *SW*))) (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((AND (OR *S* *NE*)
+    (OR (OR (NOT *N*) (NOT *NW*))
+     (OR
+      (AND (OR (OR (NOT *N*) (NOT *NW*)) (NOT *N*))
+       (OR (AND (AND *W* (NOT *N*)) (AND (NOT *N*) *SW*)) (NOT *NW*)))
+      (AND (NOT *SE*) *SE*))))
+   #\w)
+  (T #\n)))
+
+("2022-05-18 07:52:07" 8 100
+ (COND ((AND (OR (OR *E* *SE*) *E*) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((OR (AND (NOT *S*) (AND (AND (NOT *SE*) (NOT *S*)) (AND *SE* (NOT *S*))))
+    (AND (OR (NOT *SW*) (NOT *W*)) (OR *E* (NOT *NW*))))
+   #\s)
+  ((OR (NOT *NW*) (NOT *N*)) #\w) (T #\n)))
+
+("2022-05-18 07:52:07" 9 100
+ (COND ((AND (OR (OR *E* *SE*) *E*) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((OR (AND (NOT *S*) (AND (AND *W* (NOT *S*)) (NOT *W*)))
+    (AND (OR (NOT *SW*) (NOT *W*)) (OR *E* (NOT *NW*))))
+   #\s)
+  ((OR (NOT *NW*) (AND (NOT *N*) (NOT *N*))) #\w) (T #\n)))
+
+("2022-05-18 07:52:07" 10 100
+ (COND ((AND (OR *E* *E*) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((OR (AND (OR *S* *S*) (OR (NOT *SW*) (NOT *W*))) (AND (NOT *W*) (NOT *W*)))
+   #\s)
+  ((OR (NOT *NW*) (AND *SW* (NOT *N*))) #\w) (T #\n)))
+
+("2022-05-18 07:52:07" 11 100
+ (COND ((AND (OR (OR *E* *SE*) *E*) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((OR (AND (NOT *S*) (AND (AND *W* (NOT *S*)) (AND *SE* (NOT *S*))))
+    (AND (OR (NOT *SW*) (OR (AND (AND (NOT *SW*) *W*) (NOT *W*)) (NOT *W*)))
+     (OR *E* (NOT *NW*))))
+   #\s)
+  ((OR (NOT *NW*) (AND (NOT *N*) (NOT *N*))) #\w) (T #\n)))
+
+("2022-05-18 07:52:07" 12 100
+ (COND
+  ((AND (OR (OR *E* (AND *E* (NOT *N*))) *E*) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((OR (AND (NOT *S*) (AND *W* (AND *SE* (NOT *S*))))
+    (AND (OR (NOT *SW*) (NOT *W*)) (OR *E* (NOT *NW*))))
+   #\s)
+  ((OR (NOT *NW*) (NOT *N*)) #\w) (T #\n)))
+
+("2022-05-18 08:29:16" 8 100
+ (COND ((AND (OR (OR *E* *SE*) *E*) (OR (NOT *S*) (NOT *SE*))) #\e)
+  ((OR (AND (NOT *S*) (AND (AND (NOT *SE*) (NOT *S*)) (AND *SE* (NOT *S*))))
+    (AND (OR (NOT *SW*) (NOT *W*)) (OR *E* (NOT *NW*))))
+   #\s)
+  ((OR (NOT *NW*) (NOT *N*)) #\w) (T #\n)))
+
+("2022-05-18 11:58:22" 9 100
+ (COND
+  ((AND (AND (AND (OR (NOT *N*) (NOT *NE*)) (OR *SE* (NOT *SW*))) *SE*)
+    (OR *E* (NOT *SE*)))
+   #\e)
+  ((AND *S*
+    (OR
+     (AND
+      (AND (AND (OR (AND (AND *W* *SW*) (AND *N* *W*)) *S*) (AND *W* *SW*))
+       *S*)
+      (NOT *SE*))
+     (OR (NOT *NE*) (NOT *E*))))
+   #\s)
+  ((AND (OR *W* (NOT *E*)) (OR (NOT *N*) *NW*)) #\w) (T #\n)))
+
+("2022-05-18 11:58:22" 10 100
+ (COND
+  ((AND (AND (AND (OR (NOT *N*) (NOT *NE*)) (OR *SE* (NOT *SW*))) *SE*)
+    (OR *E* (NOT *SE*)))
+   #\e)
+  ((AND *S*
+    (OR (AND (AND (AND (OR *S* *S*) (AND *W* *SW*)) *S*) (NOT *SE*))
+     (OR (NOT *NE*) (NOT *E*))))
+   #\s)
+  ((AND (OR *W* (NOT *E*)) (OR (NOT *N*) *NW*)) #\w) (T #\n)))
+
+("2022-05-18 11:58:22" 11 100
+ (COND
+  ((AND (AND (AND (OR (NOT *N*) (NOT *NE*)) (OR *SE* (NOT *SW*))) *E*)
+    (OR *E* (NOT *SE*)))
+   #\e)
+  ((AND *S* (OR (AND *S* (NOT *SE*)) (OR (NOT *NE*) (NOT *E*)))) #\s)
+  ((AND (OR *W* (NOT *E*)) (OR (NOT *N*) *NW*)) #\w) (T #\n)))
+
+("2022-05-18 11:58:22" 12 100
+ (COND
+  ((AND
+    (AND
+     (AND *E*
+      (AND (AND (AND (OR (NOT *N*) (NOT *NE*)) (OR *SE* (NOT *SW*))) *SE*)
+       (OR *E* (NOT *SE*))))
+     (OR *E* *N*))
+    (OR *E* (NOT *SE*)))
+   #\e)
+  ((AND *S* (OR (AND *S* (NOT *SE*)) (OR (NOT *NE*) (NOT *E*)))) #\s)
+  ((AND (OR *W* (NOT *E*)) (OR (NOT *N*) *NW*)) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 7 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (OR *SE* *E*)) #\e)
+  ((AND (AND *E* *S*) (OR (AND *N* (NOT *SW*)) (AND (NOT *W*) (NOT *W*)))) #\s)
+  ((OR (NOT *N*) (NOT *NW*)) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 8 100
+ (COND
+  ((AND (AND *E* *N*) (OR (AND (NOT *SE*) *E*) (OR (NOT *S*) (NOT *SE*)))) #\e)
+  ((AND *SE* (AND (AND *E* *SE*) (OR (NOT *W*) (NOT *SW*)))) #\s)
+  ((OR (AND *SE* (NOT *NW*)) (AND (NOT *N*) (NOT *N*))) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 9 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (OR *SE* *E*)) #\e)
+  ((AND (AND *E* (OR (OR (NOT *W*) *W*) (AND *SE* (NOT *W*))))
+    (OR (NOT *SW*) (NOT *W*)))
+   #\s)
+  ((OR (AND (NOT *NW*) (NOT *NW*)) (NOT *N*)) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 10 100
+ (COND ((AND (AND *E* *N*) (OR (NOT *SE*) (NOT *S*))) #\e)
+  ((AND (AND *E* *SE*) (OR (NOT *W*) (NOT *SW*))) #\s)
+  ((OR (AND (NOT *NW*) (NOT *NW*)) (NOT *N*)) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 11 100
+ (COND
+  ((AND (AND *E* *N*) (OR (AND (NOT *SE*) *E*) (OR (NOT *S*) (NOT *SE*)))) #\e)
+  ((AND *SE* (AND (AND *E* *SE*) (OR (NOT *W*) (NOT *SW*)))) #\s)
+  ((OR (AND *SE* (NOT *NW*))
+    (OR (NOT *NW*) (OR (AND (NOT *NW*) (NOT *NW*)) (AND (NOT *N*) (NOT *N*)))))
+   #\w)
+  (T #\n)))
+
+("2022-05-18 12:13:02" 12 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (OR *SE* *E*)) #\e)
+  ((AND (AND *E* *S*)
+    (OR (AND (AND *E* *S*) (OR (AND *N* (NOT *SW*)) (NOT *W*)))
+     (AND (NOT *W*) (NOT *W*))))
+   #\s)
+  ((OR (NOT *N*) (NOT *NW*)) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 13 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (OR *SE* *E*)) #\e)
+  ((AND
+    (AND *E*
+     (OR (OR *W* *W*)
+      (AND (OR (OR (AND *N* (NOT *SW*)) (NOT *W*)) (AND *SE* (NOT *W*)))
+       (NOT *W*))))
+    (OR (NOT *SW*) (NOT *W*)))
+   #\s)
+  ((OR (AND (NOT *NW*) (OR (NOT *N*) (NOT *NW*))) (AND (NOT *N*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2022-05-18 12:13:02" 14 100
+ (COND
+  ((AND (OR (NOT *S*) (NOT *SE*)) (OR (AND *N* (AND (NOT *N*) *E*)) *E*)) #\e)
+  ((AND (AND *E* *S*) (AND (AND *E* (AND *E* *S*)) (OR (NOT *SW*) (NOT *W*))))
+   #\s)
+  ((OR (NOT *N*) (NOT *NW*)) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 15 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (OR *SE* *E*)) #\e)
+  ((AND (AND *E* (OR (OR *W* *W*) (AND *SE* (NOT *W*))))
+    (OR (NOT *SW*) (NOT *W*)))
+   #\s)
+  ((OR (AND (NOT *NW*) (NOT *NW*)) (OR (NOT *N*) (NOT *N*))) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 16 100
+ (COND ((AND (AND *E* (OR *SE* *E*)) (OR (NOT *SE*) (NOT *S*))) #\e)
+  ((AND *E*
+    (AND (OR (NOT *SW*) (NOT *W*))
+     (OR (NOT *SW*) (AND *E* (OR (OR *W* *W*) (AND *SE* (NOT *W*)))))))
+   #\s)
+  ((OR (AND *E* (NOT *NW*)) (AND (NOT *N*) (NOT *N*))) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 17 100
+ (COND
+  ((AND (OR (NOT *S*) (NOT *SE*))
+    (OR
+     (AND (OR (NOT *S*) (NOT *SE*))
+      (OR *SE* (AND (OR (NOT *S*) (NOT *SE*)) (OR (AND *E* (NOT *S*)) *E*))))
+     *E*))
+   #\e)
+  ((AND (AND *E* *S*) (OR (AND (NOT *SW*) *W*) (AND (NOT *W*) (NOT *W*)))) #\s)
+  ((OR (NOT *N*) (OR (AND *SW* (NOT *N*)) (NOT *NW*))) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 18 100
+ (COND
+  ((AND
+    (OR (NOT *S*)
+     (OR *SE*
+      (AND (AND *E* *N*)
+       (OR (OR (NOT *SE*) (NOT *S*)) (OR (NOT *S*) (NOT *SE*))))))
+    (AND (AND *E* *N*) (OR (NOT *S*) (NOT *SE*))))
+   #\e)
+  ((AND
+    (AND *E*
+     (OR (OR *W* *W*)
+      (AND (AND (NOT *W*) (NOT *W*))
+       (OR (OR (OR *W* *W*) (AND *SE* (NOT *W*))) *N*))))
+    (OR (NOT *SW*) (NOT *W*)))
+   #\s)
+  ((OR (NOT *N*) (OR (NOT *NW*) (AND (NOT *N*) (NOT *N*)))) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 19 100
+ (COND
+  ((AND (AND *E* *N*) (OR (NOT *SE*) (AND (AND *SE* (NOT *S*)) (OR *N* *SE*))))
+   #\e)
+  ((AND *SE*
+    (OR (AND *E* (OR (OR (NOT *SW*) (NOT *W*)) (AND (NOT *S*) *W*)))
+     (AND *SE* (OR (NOT *W*) (OR (NOT *SW*) (AND (NOT *W*) (NOT *W*)))))))
+   #\s)
+  ((AND (OR (NOT *N*) (NOT *NW*)) *SW*) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 20 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (AND *E* (OR *SE* *E*))) #\e)
+  ((AND (AND *E* (OR (OR (NOT *W*) *W*) (AND *SE* (NOT *W*))))
+    (OR (AND *SE* (AND (AND *E* *SE*) (OR (NOT *W*) (NOT *SW*)))) (NOT *W*)))
+   #\s)
+  ((OR (AND (NOT *NW*) (OR (NOT *SE*) (NOT *NW*))) (AND (NOT *N*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2022-05-18 12:13:02" 21 100
+ (COND
+  ((AND (OR (NOT *S*) (NOT *SE*))
+    (AND (AND *E* *N*)
+     (OR
+      (OR *SE*
+       (AND (OR *E* *SE*)
+        (AND (OR (NOT *S*) (NOT *SE*))
+         (OR (AND (AND (NOT *SE*) (NOT *SE*)) *W*) *N*))))
+      *E*)))
+   #\e)
+  ((AND (AND *E* (OR (OR (NOT *W*) *W*) (AND *SE* (NOT *W*))))
+    (OR (OR (AND (NOT *SW*) *W*) (AND (NOT *W*) (NOT *W*))) (NOT *W*)))
+   #\s)
+  ((OR (AND (NOT *NW*) (OR (NOT *N*) (NOT *NW*))) (NOT *N*)) #\w) (T #\n)))
+
+("2022-05-18 12:13:02" 22 100
+ (COND ((AND (AND *E* *N*) (OR (NOT *S*) (OR (NOT *S*) (NOT *SE*)))) #\e)
+  ((AND *SE* (AND (AND *E* (OR (NOT *SW*) (AND *SE* (NOT *W*)))) *E*)) #\s)
+  ((OR (AND (NOT *NW*) (NOT *NW*))
+    (AND
+     (OR
+      (AND (NOT *NW*)
+       (OR (OR (NOT *NW*) (AND (NOT *N*) (NOT *N*))) (NOT *NW*)))
+      (AND (NOT *N*) (NOT *N*)))
+     (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2022-05-18 12:13:02" 23 100
+ (COND
+  ((AND
+    (OR (NOT *S*)
+     (AND (AND *E* (NOT *SE*))
+      (OR
+       (AND (OR *SE* (NOT *S*))
+        (OR *E* (OR (OR (NOT *S*) (NOT *SE*)) (NOT *SE*))))
+       *E*)))
+    (OR *SE* *E*))
+   #\e)
+  ((AND (AND *SE* (OR (OR *W* (NOT *SW*)) (AND *SE* (NOT *W*))))
+    (OR (NOT *SW*) (NOT *W*)))
+   #\s)
+  ((OR (AND (NOT *NW*) (OR (NOT *SE*) (NOT *NW*))) (AND (NOT *N*) (NOT *N*)))
+   #\w)
+  (T #\n)))
+
+("2022-05-18 12:13:02" 24 100
+ (COND ((AND (OR (OR (NOT *S*) (NOT *SE*)) (NOT *SE*)) (OR *SE* *E*)) #\e)
+  ((AND (AND *E* *S*)
+    (AND
+     (AND *E*
+      (OR (OR (NOT *W*) (OR (NOT *SW*) (AND (OR (NOT *SW*) (NOT *W*)) *E*)))
+       *E*))
+     (OR (NOT *SW*) (NOT *W*))))
+   #\s)
+  ((OR (NOT *NW*) (OR (AND (NOT *NW*) (NOT *NW*)) (OR (NOT *N*) (NOT *NW*))))
+   #\w)
+  (T #\n)))
+
+("2022-05-18 12:13:02" 25 100
+ (COND ((AND (OR (NOT *S*) (NOT *SE*)) (OR *SE* *E*)) #\e)
+  ((AND (AND *E* (OR (OR *W* *W*) (AND *SE* (NOT *W*))))
+    (OR (NOT *SW*)
+     (AND
+      (AND
+       (OR (AND (NOT *W*) (NOT *W*))
+        (OR
+         (OR (AND *SE* (OR (NOT *SW*) (OR (NOT *SW*) (AND (NOT *W*) *E*))))
+          (OR *W* *W*))
+         (AND *SE* (NOT *W*))))
+       (OR (OR (NOT *W*) *W*) (AND *SE* (NOT *W*))))
+      (OR (NOT *SW*) (NOT *W*)))))
+   #\s)
+  ((OR
+    (AND (NOT *NW*)
+     (OR (NOT *SE*)
+      (OR (AND *SE* (OR (AND (NOT *NW*) (AND (NOT *NW*) (NOT *N*))) (NOT *N*)))
+       (OR (NOT *NW*) (NOT *N*)))))
+    (NOT *N*))
+   #\w)
+  (T #\n)))

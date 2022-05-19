@@ -1,0 +1,10 @@
+#!/bin/csh -f
+
+# Evolutionary programming in LISP - educational materials inspired by Nils. J. Nilsson
+# March 23, 2000
+# https://github.com/plazajan
+# (c) 2000 Jan A. Plaza
+# Use under Creative Commons Attribution Share-Alike International License 4.0
+
+clisp -i main.lsp
+
