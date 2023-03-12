@@ -1,6 +1,6 @@
 ;; evaluate.lsp
 ;; Evolutionary programming in LISP 
-;; educational materials inspired by Nils. J. Nilsson
+;; educational software inspired by Nils. J. Nilsson
 ;; March 20, 2000
 ;; https://github.com/plazajan
 ;; (c) 2000 Jan A. Plaza
