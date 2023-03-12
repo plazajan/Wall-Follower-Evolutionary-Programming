@@ -1,4 +1,4 @@
-# LISP-Evolutionary-Programming-Wall-Following
+# LISP-Evolutionary-Programming-Wall-Follower
 
 ;; Evolutionary programming in LISP
 ;; educational materials inspired by Nils. J. Nilsson
