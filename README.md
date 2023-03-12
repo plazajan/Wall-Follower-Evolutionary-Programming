@@ -1,7 +1,7 @@
 # LISP-Evolutionary-Programming-Wall-Follower
 
 Evolutionary programming in LISP  
-educational software inspired by Nils. J. Nilsson 
+educational software inspired by Nils. J. Nilsson  
 March 16, 2000  
 https://github.com/plazajan  
 (c) 2000 Jan A. Plaza 
@@ -55,24 +55,25 @@ and performs a step in one of the 4 cardinal directions.
 Goal: evolve an agent which finds a wall and continues moving
 following the wall.
 
-More informtion in README.md and in messages the program prints while runing.
+More informtion in README.md and in the messages the program prints while 
+runing.
 
 -------------------------------------------------------------------------------
 
 Here is a sample session.
 
-linux$ start
+    linux$ start
 
-   EVOLUTIONARY PROGRAMMING EXPERIMENT
-   An agent in a grid world repeatedly senses its immediate surroundings,
-   has no memory of earlier positions, and makes a step. This program tries to 
-   evolve an agent which finds a wall and continues moving along the wall.
+    EVOLUTIONARY PROGRAMMING EXPERIMENT  
+    An agent in a grid world repeatedly senses its immediate surroundings,  
+    has no memory of earlier positions, and makes a step. This program tries to   
+    evolve an agent which finds a wall and continues moving along the wall.  
 
 
-  To change the evolutionary process parameters, edit parameters.lsp - type: (e)
-  To start the evolution, type: (start)
+    To change the evolutionary process parameters, edit parameters.lsp - type: (e)  
+    To start the evolution, type: (start)
 
-[1]> (start)
+    [1]> (start)
 
 ================================================================================
 NEW EXPERIMENT
