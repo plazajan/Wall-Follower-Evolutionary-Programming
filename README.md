@@ -1,9 +1,9 @@
 # LISP-Evolutionary-Programming-Wall-Follower
 
-Evolutionary programming in LISP
-educational software inspired by Nils. J. Nilsson
-March 16, 2000
-https://github.com/plazajan
+Evolutionary programming in LISP  
+educational software inspired by Nils. J. Nilsson 
+March 16, 2000  
+https://github.com/plazajan  
 (c) 2000 Jan A. Plaza 
 
 This file is part of LISP-Evolutionary-Programming-Wall-Follower. 
