@@ -151,7 +151,7 @@
 ;; *max-perfect-agents-saved*  
 
 ;; Notice that different evaluation functions may disagree on what agent
-;; desrves the score of 100, so the meaning of "perfect" is relative.
+;; deserves the score of 100, so the meaning of "perfect" is relative.
 
 ;;=============================================================================
 
