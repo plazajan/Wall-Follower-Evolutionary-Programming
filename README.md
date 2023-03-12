@@ -56,7 +56,7 @@ Goal: evolve an agent which finds a wall and continues moving
 following the wall.
 
 More informtion in README.md and in the messages the program prints while 
-runing.
+running.
 
 -------------------------------------------------------------------------------
 
@@ -326,6 +326,6 @@ runing.
     ;; *max-perfect-agents-saved*  
 
     ;; Notice that different evaluation functions may disagree on what agent
-    ;; desrves the score of 100, so the meaning of "perfect" is relative.
+    ;; deserves the score of 100, so the meaning of "perfect" is relative.
 
     ;;=========================================================================
