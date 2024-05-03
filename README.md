@@ -55,7 +55,7 @@ and performs a step in one of the 4 cardinal directions.
 Goal: evolve an agent which finds a wall and continues moving
 following the wall.
 
-More informtion in README.md and in the messages the program prints while 
+More information in README.md and in the messages the program prints while 
 running.
 
 -------------------------------------------------------------------------------
